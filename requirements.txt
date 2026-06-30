@@ -1,0 +1,59 @@
+# Whale Acoustic Library — pinned runtime dependencies.
+#
+# Tested with Python 3.11 in a Miniconda env. Many of these have native
+# binaries; conda-forge install is recommended for numpy/scipy/matplotlib/
+# soundfile before `pip install -r requirements.txt` for the rest.
+#
+# System dependency NOT installable via pip: `ffmpeg` (used for HLS audio
+# conversion). On Debian/Ubuntu: `sudo apt-get install ffmpeg`.
+
+# --- core scientific stack ---------------------------------------------------
+numpy==2.4.5
+scipy==1.17.1
+matplotlib==3.10.9
+soundfile==0.13.1
+pandas==2.3.3
+
+# --- OrcaHello (SRKW detector) — Hugging Face + PyTorch ---------------------
+# Hugging Face hub auto-downloads the model on first use; no token required.
+torch==2.9.1+cpu
+# torchaudio + torchvision are pulled in transitively; pin them too:
+torchaudio==2.9.1+cpu
+torchvision==0.24.1+cpu
+librosa==0.11.0
+huggingface_hub==1.3.1
+safetensors==0.7.0
+pydub==0.25.1
+
+# --- Google Multispecies Whale Model — TensorFlow + Kaggle ------------------
+# Anonymous Kaggle download works via kagglehub (no API token needed).
+tensorflow_cpu==2.21.0
+# perch-hoplite requires kagglehub<0.4
+kagglehub==0.3.13
+
+# --- Google Perch 2.0 — bioacoustics foundation model -----------------------
+perch-hoplite==1.0.1
+
+# --- HLS audio + Orcasound S3 pipeline --------------------------------------
+ffmpeg-python==0.2.0     # ffmpeg wrapper; needs system ffmpeg
+m3u8==6.0.0              # HLS playlist parser
+boto3==1.43.9            # AWS S3 (Orcasound bucket is public, anon access)
+
+# --- review dashboard --------------------------------------------------------
+Flask==3.1.3
+
+# --- classifier training + visualisation ------------------------------------
+scikit-learn==1.8.0
+joblib==1.5.3
+
+# --- misc utilities ---------------------------------------------------------
+opencv-python-headless==4.13.0.92   # used by InferenceSystem helpers
+pytz==2026.2
+python-dotenv==1.2.2
+
+# --- install notes for the OrcaHello InferenceSystem -------------------------
+# OrcaHello is loaded as a sister checkout, not a pip package. Clone:
+#   git clone https://github.com/orcasound/aifororcas-livesystem \
+#       models/aifororcas-livesystem
+# The pilot/detect.py module sys.path-prepends models/aifororcas-livesystem/
+# InferenceSystem/src/.

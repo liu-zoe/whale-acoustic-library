@@ -1,0 +1,4565 @@
+{
+  "meta": [
+    {
+      "clip_id": "orcasound_lab_20250714T225009Z_n1",
+      "start_utc": "2025-07-14T22:49:55.504817+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225009Z_n1.wav",
+      "peak_confidence": 0.6913628578186035,
+      "n_segments": 1,
+      "window_start_s": 5.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225041Z_n1",
+      "start_utc": "2025-07-14T22:50:27.515939+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225041Z_n1.wav",
+      "peak_confidence": 0.8140583038330078,
+      "n_segments": 1,
+      "window_start_s": 17.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225157Z_n1",
+      "start_utc": "2025-07-14T22:51:43.505739+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225157Z_n1.wav",
+      "peak_confidence": 0.7783284783363342,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225209Z_n2",
+      "start_utc": "2025-07-14T22:51:56.505739+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225209Z_n2.wav",
+      "peak_confidence": 0.782639741897583,
+      "n_segments": 2,
+      "window_start_s": 16.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225233Z_n6",
+      "start_utc": "2025-07-14T22:52:27.516839+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225233Z_n6.wav",
+      "peak_confidence": 0.9625496864318848,
+      "n_segments": 6,
+      "window_start_s": 18.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225259Z_n10",
+      "start_utc": "2025-07-14T22:53:04.511712+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225259Z_n10.wav",
+      "peak_confidence": 0.9469214081764221,
+      "n_segments": 10,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225349Z_n4",
+      "start_utc": "2025-07-14T22:53:38.506584+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225349Z_n4.wav",
+      "peak_confidence": 0.9066681265830994,
+      "n_segments": 4,
+      "window_start_s": 8.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225411Z_n5",
+      "start_utc": "2025-07-14T22:54:02.506584+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225411Z_n5.wav",
+      "peak_confidence": 0.9765143394470215,
+      "n_segments": 5,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225433Z_n5",
+      "start_utc": "2025-07-14T22:54:30.517717+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225433Z_n5.wav",
+      "peak_confidence": 0.9318671822547913,
+      "n_segments": 5,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225521Z_n1",
+      "start_utc": "2025-07-14T22:55:07.517717+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225521Z_n1.wav",
+      "peak_confidence": 0.5343962907791138,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225635Z_n9",
+      "start_utc": "2025-07-14T22:56:37.518584+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225635Z_n9.wav",
+      "peak_confidence": 0.92636638879776,
+      "n_segments": 9,
+      "window_start_s": 19.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225721Z_n1",
+      "start_utc": "2025-07-14T22:57:07.518584+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225721Z_n1.wav",
+      "peak_confidence": 0.7738799452781677,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225735Z_n2",
+      "start_utc": "2025-07-14T22:57:23.508362+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225735Z_n2.wav",
+      "peak_confidence": 0.9514131546020508,
+      "n_segments": 2,
+      "window_start_s": 18.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225809Z_n2",
+      "start_utc": "2025-07-14T22:57:56.508362+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225809Z_n2.wav",
+      "peak_confidence": 0.8843706250190735,
+      "n_segments": 2,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225823Z_n1",
+      "start_utc": "2025-07-14T22:58:09.508362+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225823Z_n1.wav",
+      "peak_confidence": 0.8685627579689026,
+      "n_segments": 1,
+      "window_start_s": 4.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225839Z_n8",
+      "start_utc": "2025-07-14T22:58:42.519451+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225839Z_n8.wav",
+      "peak_confidence": 0.9275946021080017,
+      "n_segments": 8,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T225937Z_n13",
+      "start_utc": "2025-07-14T22:59:41.509218+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T225937Z_n13.wav",
+      "peak_confidence": 0.8409496545791626,
+      "n_segments": 13,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T230023Z_n2",
+      "start_utc": "2025-07-14T23:00:12.514773+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T230023Z_n2.wav",
+      "peak_confidence": 0.7829347252845764,
+      "n_segments": 2,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T230049Z_n3",
+      "start_utc": "2025-07-14T23:00:43.520329+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T230049Z_n3.wav",
+      "peak_confidence": 0.9265590310096741,
+      "n_segments": 3,
+      "window_start_s": 7.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T230117Z_n1",
+      "start_utc": "2025-07-14T23:01:03.520329+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T230117Z_n1.wav",
+      "peak_confidence": 0.9085846543312073,
+      "n_segments": 1,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T230131Z_n1",
+      "start_utc": "2025-07-14T23:01:17.510118+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T230131Z_n1.wav",
+      "peak_confidence": 0.957061767578125,
+      "n_segments": 1,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T230143Z_n1",
+      "start_utc": "2025-07-14T23:01:29.510118+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T230143Z_n1.wav",
+      "peak_confidence": 0.6348192691802979,
+      "n_segments": 1,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T230427Z_n1",
+      "start_utc": "2025-07-14T23:04:13.500785+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T230427Z_n1.wav",
+      "peak_confidence": 0.8644825220108032,
+      "n_segments": 1,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T230443Z_n1",
+      "start_utc": "2025-07-14T23:04:29.500785+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T230443Z_n1.wav",
+      "peak_confidence": 0.7692146897315979,
+      "n_segments": 1,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T230819Z_n2",
+      "start_utc": "2025-07-14T23:08:09.507586+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T230819Z_n2.wav",
+      "peak_confidence": 0.9650838375091553,
+      "n_segments": 2,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T230851Z_n2",
+      "start_utc": "2025-07-14T23:08:38.502475+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T230851Z_n2.wav",
+      "peak_confidence": 0.6483845710754395,
+      "n_segments": 2,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T230911Z_n1",
+      "start_utc": "2025-07-14T23:08:57.502475+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T230911Z_n1.wav",
+      "peak_confidence": 0.9599003791809082,
+      "n_segments": 1,
+      "window_start_s": 3.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T230955Z_n4",
+      "start_utc": "2025-07-14T23:09:46.513575+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T230955Z_n4.wav",
+      "peak_confidence": 0.9342268705368042,
+      "n_segments": 4,
+      "window_start_s": 8.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T231021Z_n3",
+      "start_utc": "2025-07-14T23:10:12.508464+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T231021Z_n3.wav",
+      "peak_confidence": 0.8366049528121948,
+      "n_segments": 3,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T231041Z_n1",
+      "start_utc": "2025-07-14T23:10:27.503353+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T231041Z_n1.wav",
+      "peak_confidence": 0.7673183679580688,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T231057Z_n4",
+      "start_utc": "2025-07-14T23:10:50.503353+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T231057Z_n4.wav",
+      "peak_confidence": 0.8556807637214661,
+      "n_segments": 4,
+      "window_start_s": 19.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T231129Z_n16",
+      "start_utc": "2025-07-14T23:11:41.514453+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T231129Z_n16.wav",
+      "peak_confidence": 0.9600073099136353,
+      "n_segments": 16,
+      "window_start_s": 1.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T231237Z_n5",
+      "start_utc": "2025-07-14T23:12:28.504242+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T231237Z_n5.wav",
+      "peak_confidence": 0.8259679079055786,
+      "n_segments": 5,
+      "window_start_s": 1.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250714T231307Z_n1",
+      "start_utc": "2025-07-14T23:12:53.504242+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250714T231307Z_n1.wav",
+      "peak_confidence": 0.7811194062232971,
+      "n_segments": 1,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T032222Z_n1",
+      "start_utc": "2025-07-16T03:22:08.512373+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T032222Z_n1.wav",
+      "peak_confidence": 0.5363455414772034,
+      "n_segments": 1,
+      "window_start_s": 20.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T032318Z_n2",
+      "start_utc": "2025-07-16T03:23:08.502085+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T032318Z_n2.wav",
+      "peak_confidence": 0.9613328576087952,
+      "n_segments": 2,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T032340Z_n2",
+      "start_utc": "2025-07-16T03:23:27.502085+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T032340Z_n2.wav",
+      "peak_confidence": 0.8826547861099243,
+      "n_segments": 2,
+      "window_start_s": 20.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T032404Z_n3",
+      "start_utc": "2025-07-16T03:23:52.513130+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T032404Z_n3.wav",
+      "peak_confidence": 0.9148121476173401,
+      "n_segments": 3,
+      "window_start_s": 19.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T032420Z_n1",
+      "start_utc": "2025-07-16T03:24:06.513130+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T032420Z_n1.wav",
+      "peak_confidence": 0.667715847492218,
+      "n_segments": 1,
+      "window_start_s": 19.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T032914Z_n1",
+      "start_utc": "2025-07-16T03:29:00.504806+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T032914Z_n1.wav",
+      "peak_confidence": 0.5173301696777344,
+      "n_segments": 1,
+      "window_start_s": 18.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T033646Z_n1",
+      "start_utc": "2025-07-16T03:36:32.519035+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T033646Z_n1.wav",
+      "peak_confidence": 0.9231645464897156,
+      "n_segments": 1,
+      "window_start_s": 4.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T033700Z_n1",
+      "start_utc": "2025-07-16T03:36:46.508846+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T033700Z_n1.wav",
+      "peak_confidence": 0.7861771583557129,
+      "n_segments": 1,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T043526Z_n1",
+      "start_utc": "2025-07-16T04:35:12.509647+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T043526Z_n1.wav",
+      "peak_confidence": 0.5178148746490479,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T045324Z_n1",
+      "start_utc": "2025-07-16T04:53:10.518811+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T045324Z_n1.wav",
+      "peak_confidence": 0.8529335260391235,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T050050Z_n1",
+      "start_utc": "2025-07-16T05:00:36.510164+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T050050Z_n1.wav",
+      "peak_confidence": 0.8368951082229614,
+      "n_segments": 1,
+      "window_start_s": 5.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T050816Z_n1",
+      "start_utc": "2025-07-16T05:08:02.518833+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T050816Z_n1.wav",
+      "peak_confidence": 0.9053975343704224,
+      "n_segments": 1,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T050834Z_n1",
+      "start_utc": "2025-07-16T05:08:20.518833+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T050834Z_n1.wav",
+      "peak_confidence": 0.7378371953964233,
+      "n_segments": 1,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T050846Z_n3",
+      "start_utc": "2025-07-16T05:08:37.513466+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T050846Z_n3.wav",
+      "peak_confidence": 0.8981189727783203,
+      "n_segments": 3,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T050930Z_n7",
+      "start_utc": "2025-07-16T05:09:31.513421+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T050930Z_n7.wav",
+      "peak_confidence": 0.9582631587982178,
+      "n_segments": 7,
+      "window_start_s": 18.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T051010Z_n1",
+      "start_utc": "2025-07-16T05:09:56.518742+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T051010Z_n1.wav",
+      "peak_confidence": 0.6695736050605774,
+      "n_segments": 1,
+      "window_start_s": 23.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T051026Z_n3",
+      "start_utc": "2025-07-16T05:10:20.518742+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T051026Z_n3.wav",
+      "peak_confidence": 0.6597743034362793,
+      "n_segments": 3,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T051056Z_n3",
+      "start_utc": "2025-07-16T05:10:45.508075+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T051056Z_n3.wav",
+      "peak_confidence": 0.8228633403778076,
+      "n_segments": 3,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T051154Z_n2",
+      "start_utc": "2025-07-16T05:11:42.518786+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T051154Z_n2.wav",
+      "peak_confidence": 0.9141287803649902,
+      "n_segments": 2,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T051210Z_n1",
+      "start_utc": "2025-07-16T05:11:56.518786+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T051210Z_n1.wav",
+      "peak_confidence": 0.7294628024101257,
+      "n_segments": 1,
+      "window_start_s": 16.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T051346Z_n1",
+      "start_utc": "2025-07-16T05:13:32.508152+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T051346Z_n1.wav",
+      "peak_confidence": 0.8619955778121948,
+      "n_segments": 1,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T051414Z_n1",
+      "start_utc": "2025-07-16T05:14:00.518907+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T051414Z_n1.wav",
+      "peak_confidence": 0.5102437138557434,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T051758Z_n2",
+      "start_utc": "2025-07-16T05:17:48.519389+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T051758Z_n2.wav",
+      "peak_confidence": 0.5988051295280457,
+      "n_segments": 2,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T051818Z_n3",
+      "start_utc": "2025-07-16T05:18:08.519389+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T051818Z_n3.wav",
+      "peak_confidence": 0.7043223977088928,
+      "n_segments": 3,
+      "window_start_s": 8.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T051904Z_n1",
+      "start_utc": "2025-07-16T05:18:50.508890+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T051904Z_n1.wav",
+      "peak_confidence": 0.7274670004844666,
+      "n_segments": 1,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T051928Z_n1",
+      "start_utc": "2025-07-16T05:19:14.508890+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T051928Z_n1.wav",
+      "peak_confidence": 0.6065254807472229,
+      "n_segments": 1,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T052044Z_n1",
+      "start_utc": "2025-07-16T05:20:30.519725+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T052044Z_n1.wav",
+      "peak_confidence": 0.7610229849815369,
+      "n_segments": 1,
+      "window_start_s": 23.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T052106Z_n1",
+      "start_utc": "2025-07-16T05:20:52.509248+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T052106Z_n1.wav",
+      "peak_confidence": 0.6510561108589172,
+      "n_segments": 1,
+      "window_start_s": 1.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T052140Z_n1",
+      "start_utc": "2025-07-16T05:21:26.509248+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T052140Z_n1.wav",
+      "peak_confidence": 0.6860756278038025,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T052252Z_n1",
+      "start_utc": "2025-07-16T05:22:38.509650+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T052252Z_n1.wav",
+      "peak_confidence": 0.5008990168571472,
+      "n_segments": 1,
+      "window_start_s": 1.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T052340Z_n3",
+      "start_utc": "2025-07-16T05:23:28.509650+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T052340Z_n3.wav",
+      "peak_confidence": 0.7116155624389648,
+      "n_segments": 3,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T052421Z_n1",
+      "start_utc": "2025-07-16T05:24:08.499184+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T052421Z_n1.wav",
+      "peak_confidence": 0.743588387966156,
+      "n_segments": 1,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T052433Z_n2",
+      "start_utc": "2025-07-16T05:24:21.499184+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T052433Z_n2.wav",
+      "peak_confidence": 0.786065936088562,
+      "n_segments": 2,
+      "window_start_s": 21.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T053354Z_n1",
+      "start_utc": "2025-07-16T05:33:40.505920+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T053354Z_n1.wav",
+      "peak_confidence": 0.5727332830429077,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T053412Z_n1",
+      "start_utc": "2025-07-16T05:33:58.505920+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T053412Z_n1.wav",
+      "peak_confidence": 0.5733684301376343,
+      "n_segments": 1,
+      "window_start_s": 8.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T053430Z_n1",
+      "start_utc": "2025-07-16T05:34:16.505920+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T053430Z_n1.wav",
+      "peak_confidence": 0.556390643119812,
+      "n_segments": 1,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T053504Z_n1",
+      "start_utc": "2025-07-16T05:34:50.517230+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T053504Z_n1.wav",
+      "peak_confidence": 0.6784965991973877,
+      "n_segments": 1,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T053542Z_n1",
+      "start_utc": "2025-07-16T05:35:28.517230+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T053542Z_n1.wav",
+      "peak_confidence": 0.5112333297729492,
+      "n_segments": 1,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T053620Z_n1",
+      "start_utc": "2025-07-16T05:36:06.507118+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T053620Z_n1.wav",
+      "peak_confidence": 0.5703670978546143,
+      "n_segments": 1,
+      "window_start_s": 8.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T053656Z_n2",
+      "start_utc": "2025-07-16T05:36:45.518350+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T053656Z_n2.wav",
+      "peak_confidence": 0.71858811378479,
+      "n_segments": 2,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T053712Z_n2",
+      "start_utc": "2025-07-16T05:37:00.518350+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T053712Z_n2.wav",
+      "peak_confidence": 0.6194364428520203,
+      "n_segments": 2,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T053758Z_n1",
+      "start_utc": "2025-07-16T05:37:44.508227+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T053758Z_n1.wav",
+      "peak_confidence": 0.5384160876274109,
+      "n_segments": 1,
+      "window_start_s": 16.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T054032Z_n1",
+      "start_utc": "2025-07-16T05:40:18.509259+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T054032Z_n1.wav",
+      "peak_confidence": 0.8730649352073669,
+      "n_segments": 1,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T054340Z_n1",
+      "start_utc": "2025-07-16T05:43:26.500080+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T054340Z_n1.wav",
+      "peak_confidence": 0.6638944745063782,
+      "n_segments": 1,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T060610Z_n1",
+      "start_utc": "2025-07-16T06:05:56.516130+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T060610Z_n1.wav",
+      "peak_confidence": 0.6397334337234497,
+      "n_segments": 1,
+      "window_start_s": 17.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T061516Z_n1",
+      "start_utc": "2025-07-16T06:15:02.518585+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T061516Z_n1.wav",
+      "peak_confidence": 0.9251950979232788,
+      "n_segments": 1,
+      "window_start_s": 16.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250716T063800Z_n1",
+      "start_utc": "2025-07-16T06:37:46.514825+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250716T063800Z_n1.wav",
+      "peak_confidence": 0.767662763595581,
+      "n_segments": 1,
+      "window_start_s": 21.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250724T173725Z_n1",
+      "start_utc": "2025-07-24T17:37:11.506699+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250724T173725Z_n1.wav",
+      "peak_confidence": 0.56645667552948,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250724T173739Z_n1",
+      "start_utc": "2025-07-24T17:37:25.506699+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250724T173739Z_n1.wav",
+      "peak_confidence": 0.8379354476928711,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250724T173919Z_n1",
+      "start_utc": "2025-07-24T17:39:05.517199+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250724T173919Z_n1.wav",
+      "peak_confidence": 0.6571794152259827,
+      "n_segments": 1,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250724T173935Z_n1",
+      "start_utc": "2025-07-24T17:39:21.506344+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250724T173935Z_n1.wav",
+      "peak_confidence": 0.5150620937347412,
+      "n_segments": 1,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250724T174031Z_n1",
+      "start_utc": "2025-07-24T17:40:17.516811+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250724T174031Z_n1.wav",
+      "peak_confidence": 0.6115965247154236,
+      "n_segments": 1,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250724T174445Z_n1",
+      "start_utc": "2025-07-24T17:44:31.503324+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250724T174445Z_n1.wav",
+      "peak_confidence": 0.8074270486831665,
+      "n_segments": 1,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250724T174455Z_n1",
+      "start_utc": "2025-07-24T17:44:41.503324+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250724T174455Z_n1.wav",
+      "peak_confidence": 0.9521773457527161,
+      "n_segments": 1,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250730T005225Z_n1",
+      "start_utc": "2025-07-30T00:52:11.517216+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250730T005225Z_n1.wav",
+      "peak_confidence": 0.8668092489242554,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T082509Z_n3",
+      "start_utc": "2025-08-01T08:24:59.517116+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T082509Z_n3.wav",
+      "peak_confidence": 0.7595691084861755,
+      "n_segments": 3,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T082743Z_n1",
+      "start_utc": "2025-08-01T08:27:29.507849+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T082743Z_n1.wav",
+      "peak_confidence": 0.6074643135070801,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T082815Z_n1",
+      "start_utc": "2025-08-01T08:28:01.507849+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T082815Z_n1.wav",
+      "peak_confidence": 0.7644005417823792,
+      "n_segments": 1,
+      "window_start_s": 9.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T082913Z_n1",
+      "start_utc": "2025-08-01T08:28:59.518960+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T082913Z_n1.wav",
+      "peak_confidence": 0.5946792364120483,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T083143Z_n1",
+      "start_utc": "2025-08-01T08:31:29.509649+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T083143Z_n1.wav",
+      "peak_confidence": 0.9044607877731323,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T083309Z_n1",
+      "start_utc": "2025-08-01T08:32:55.520749+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T083309Z_n1.wav",
+      "peak_confidence": 0.7662807703018188,
+      "n_segments": 1,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T083341Z_n2",
+      "start_utc": "2025-08-01T08:33:29.510516+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T083341Z_n2.wav",
+      "peak_confidence": 0.7647971510887146,
+      "n_segments": 2,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T083423Z_n4",
+      "start_utc": "2025-08-01T08:34:16.500305+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T083423Z_n4.wav",
+      "peak_confidence": 0.7946280837059021,
+      "n_segments": 4,
+      "window_start_s": 19.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T083457Z_n1",
+      "start_utc": "2025-08-01T08:34:43.500305+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T083457Z_n1.wav",
+      "peak_confidence": 0.7395158410072327,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T083529Z_n1",
+      "start_utc": "2025-08-01T08:35:15.511416+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T083529Z_n1.wav",
+      "peak_confidence": 0.9726529121398926,
+      "n_segments": 1,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T083709Z_n1",
+      "start_utc": "2025-08-01T08:36:55.501205+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T083709Z_n1.wav",
+      "peak_confidence": 0.6074087619781494,
+      "n_segments": 1,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T083739Z_n1",
+      "start_utc": "2025-08-01T08:37:25.512349+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T083739Z_n1.wav",
+      "peak_confidence": 0.9573302268981934,
+      "n_segments": 1,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T083905Z_n9",
+      "start_utc": "2025-08-01T08:39:10.507732+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T083905Z_n9.wav",
+      "peak_confidence": 0.9964430928230286,
+      "n_segments": 9,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T083959Z_n1",
+      "start_utc": "2025-08-01T08:39:45.513304+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T083959Z_n1.wav",
+      "peak_confidence": 0.9805210828781128,
+      "n_segments": 1,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T084017Z_n5",
+      "start_utc": "2025-08-01T08:40:12.508221+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T084017Z_n5.wav",
+      "peak_confidence": 0.9543861746788025,
+      "n_segments": 5,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T084045Z_n2",
+      "start_utc": "2025-08-01T08:40:32.503137+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T084045Z_n2.wav",
+      "peak_confidence": 0.7996124029159546,
+      "n_segments": 2,
+      "window_start_s": 9.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T084057Z_n3",
+      "start_utc": "2025-08-01T08:40:48.503137+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T084057Z_n3.wav",
+      "peak_confidence": 0.7830938696861267,
+      "n_segments": 3,
+      "window_start_s": 9.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T084121Z_n1",
+      "start_utc": "2025-08-01T08:41:07.514303+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T084121Z_n1.wav",
+      "peak_confidence": 0.7456420063972473,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T084135Z_n9",
+      "start_utc": "2025-08-01T08:41:39.514303+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T084135Z_n9.wav",
+      "peak_confidence": 0.9953445792198181,
+      "n_segments": 9,
+      "window_start_s": 21.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T084625Z_n2",
+      "start_utc": "2025-08-01T08:46:12.505969+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T084625Z_n2.wav",
+      "peak_confidence": 0.8855366110801697,
+      "n_segments": 2,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T084729Z_n1",
+      "start_utc": "2025-08-01T08:47:15.517113+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T084729Z_n1.wav",
+      "peak_confidence": 0.7973107695579529,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T084739Z_n1",
+      "start_utc": "2025-08-01T08:47:25.517113+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T084739Z_n1.wav",
+      "peak_confidence": 0.501018762588501,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T085009Z_n1",
+      "start_utc": "2025-08-01T08:49:55.518046+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T085009Z_n1.wav",
+      "peak_confidence": 0.7137918472290039,
+      "n_segments": 1,
+      "window_start_s": 18.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T085055Z_n1",
+      "start_utc": "2025-08-01T08:50:41.507857+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T085055Z_n1.wav",
+      "peak_confidence": 0.9565100073814392,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T085115Z_n1",
+      "start_utc": "2025-08-01T08:51:01.507857+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T085115Z_n1.wav",
+      "peak_confidence": 0.9362733960151672,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T085429Z_n1",
+      "start_utc": "2025-08-01T08:54:15.509756+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T085429Z_n1.wav",
+      "peak_confidence": 0.5087519288063049,
+      "n_segments": 1,
+      "window_start_s": 3.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250801T090257Z_n1",
+      "start_utc": "2025-08-01T09:02:43.513521+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250801T090257Z_n1.wav",
+      "peak_confidence": 0.7485637664794922,
+      "n_segments": 1,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250823T153010Z_n1",
+      "start_utc": "2025-08-23T15:29:56.516256+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250823T153010Z_n1.wav",
+      "peak_confidence": 0.9312816858291626,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250826T174651Z_n1",
+      "start_utc": "2025-08-26T17:46:37.502917+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250826T174651Z_n1.wav",
+      "peak_confidence": 0.8212184906005859,
+      "n_segments": 1,
+      "window_start_s": 8.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250827T005945Z_n1",
+      "start_utc": "2025-08-27T00:59:31.515982+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250827T005945Z_n1.wav",
+      "peak_confidence": 0.5063499212265015,
+      "n_segments": 1,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250827T152328Z_n15",
+      "start_utc": "2025-08-27T15:23:37.511237+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250827T152328Z_n15.wav",
+      "peak_confidence": 0.9091708064079285,
+      "n_segments": 15,
+      "window_start_s": 3.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250827T152426Z_n3",
+      "start_utc": "2025-08-27T15:24:14.501048+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250827T152426Z_n3.wav",
+      "peak_confidence": 0.8995159864425659,
+      "n_segments": 3,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250827T152440Z_n6",
+      "start_utc": "2025-08-27T15:24:35.501048+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250827T152440Z_n6.wav",
+      "peak_confidence": 0.8499451279640198,
+      "n_segments": 6,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250827T152508Z_n2",
+      "start_utc": "2025-08-27T15:24:56.501048+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250827T152508Z_n2.wav",
+      "peak_confidence": 0.8278965353965759,
+      "n_segments": 2,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250827T152522Z_n10",
+      "start_utc": "2025-08-27T15:25:26.512170+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250827T152522Z_n10.wav",
+      "peak_confidence": 0.8502393960952759,
+      "n_segments": 10,
+      "window_start_s": 19.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250827T152612Z_n1",
+      "start_utc": "2025-08-27T15:25:58.512170+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250827T152612Z_n1.wav",
+      "peak_confidence": 0.8552297353744507,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250827T152654Z_n2",
+      "start_utc": "2025-08-27T15:26:44.501959+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250827T152654Z_n2.wav",
+      "peak_confidence": 0.7019630074501038,
+      "n_segments": 2,
+      "window_start_s": 8.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T065737Z_n1",
+      "start_utc": "2025-09-04T06:57:23.519534+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T065737Z_n1.wav",
+      "peak_confidence": 0.5974048972129822,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T072044Z_n1",
+      "start_utc": "2025-09-04T07:20:30.509937+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T072044Z_n1.wav",
+      "peak_confidence": 0.541908860206604,
+      "n_segments": 1,
+      "window_start_s": 20.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T162244Z_n1",
+      "start_utc": "2025-09-04T16:22:30.513860+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T162244Z_n1.wav",
+      "peak_confidence": 0.7824628949165344,
+      "n_segments": 1,
+      "window_start_s": 4.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T162258Z_n1",
+      "start_utc": "2025-09-04T16:22:44.513860+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T162258Z_n1.wav",
+      "peak_confidence": 0.954376220703125,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T232050Z_n1",
+      "start_utc": "2025-09-04T23:20:36.500168+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T232050Z_n1.wav",
+      "peak_confidence": 0.5252848863601685,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T232714Z_n1",
+      "start_utc": "2025-09-04T23:27:00.503011+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T232714Z_n1.wav",
+      "peak_confidence": 0.7864729762077332,
+      "n_segments": 1,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T232816Z_n1",
+      "start_utc": "2025-09-04T23:28:02.514155+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T232816Z_n1.wav",
+      "peak_confidence": 0.8303035497665405,
+      "n_segments": 1,
+      "window_start_s": 19.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T232828Z_n1",
+      "start_utc": "2025-09-04T23:28:14.503977+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T232828Z_n1.wav",
+      "peak_confidence": 0.6308258771896362,
+      "n_segments": 1,
+      "window_start_s": 7.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T232954Z_n1",
+      "start_utc": "2025-09-04T23:29:40.515121+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T232954Z_n1.wav",
+      "peak_confidence": 0.5058071613311768,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T233138Z_n2",
+      "start_utc": "2025-09-04T23:31:27.516076+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T233138Z_n2.wav",
+      "peak_confidence": 0.8582923412322998,
+      "n_segments": 2,
+      "window_start_s": 9.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T233716Z_n1",
+      "start_utc": "2025-09-04T23:37:02.507841+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T233716Z_n1.wav",
+      "peak_confidence": 0.6288725733757019,
+      "n_segments": 1,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T233738Z_n3",
+      "start_utc": "2025-09-04T23:37:26.518996+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T233738Z_n3.wav",
+      "peak_confidence": 0.9480140209197998,
+      "n_segments": 3,
+      "window_start_s": 17.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T233822Z_n5",
+      "start_utc": "2025-09-04T23:38:17.508829+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T233822Z_n5.wav",
+      "peak_confidence": 0.9678401350975037,
+      "n_segments": 5,
+      "window_start_s": 9.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T233906Z_n3",
+      "start_utc": "2025-09-04T23:38:56.508829+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T233906Z_n3.wav",
+      "peak_confidence": 0.9803453087806702,
+      "n_segments": 3,
+      "window_start_s": 16.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T234012Z_n1",
+      "start_utc": "2025-09-04T23:39:58.519973+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T234012Z_n1.wav",
+      "peak_confidence": 0.9133689403533936,
+      "n_segments": 1,
+      "window_start_s": 17.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T234026Z_n1",
+      "start_utc": "2025-09-04T23:40:12.509806+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T234026Z_n1.wav",
+      "peak_confidence": 0.843244731426239,
+      "n_segments": 1,
+      "window_start_s": 1.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T234400Z_n1",
+      "start_utc": "2025-09-04T23:43:46.500638+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T234400Z_n1.wav",
+      "peak_confidence": 0.581403911113739,
+      "n_segments": 1,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T234622Z_n2",
+      "start_utc": "2025-09-04T23:46:11.512803+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T234622Z_n2.wav",
+      "peak_confidence": 0.7635077238082886,
+      "n_segments": 2,
+      "window_start_s": 23.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T234658Z_n2",
+      "start_utc": "2025-09-04T23:46:45.512803+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T234658Z_n2.wav",
+      "peak_confidence": 0.8776683211326599,
+      "n_segments": 2,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T234710Z_n1",
+      "start_utc": "2025-09-04T23:46:56.512803+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T234710Z_n1.wav",
+      "peak_confidence": 0.5810310244560242,
+      "n_segments": 1,
+      "window_start_s": 1.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250904T235134Z_n1",
+      "start_utc": "2025-09-04T23:51:20.504612+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250904T235134Z_n1.wav",
+      "peak_confidence": 0.5335009098052979,
+      "n_segments": 1,
+      "window_start_s": 18.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250905T000256Z_n1",
+      "start_utc": "2025-09-05T00:02:42.515640+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250905T000256Z_n1.wav",
+      "peak_confidence": 0.9050042033195496,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250905T001912Z_n1",
+      "start_utc": "2025-09-05T00:18:58.501991+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250905T001912Z_n1.wav",
+      "peak_confidence": 0.6661506295204163,
+      "n_segments": 1,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250905T002822Z_n1",
+      "start_utc": "2025-09-05T00:28:08.516812+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250905T002822Z_n1.wav",
+      "peak_confidence": 0.7724248766899109,
+      "n_segments": 1,
+      "window_start_s": 4.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250905T003038Z_n4",
+      "start_utc": "2025-09-05T00:30:28.517778+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250905T003038Z_n4.wav",
+      "peak_confidence": 0.9605614542961121,
+      "n_segments": 4,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250905T003134Z_n1",
+      "start_utc": "2025-09-05T00:31:20.507589+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250905T003134Z_n1.wav",
+      "peak_confidence": 0.9781981706619263,
+      "n_segments": 1,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250905T003240Z_n1",
+      "start_utc": "2025-09-05T00:32:26.518755+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250905T003240Z_n1.wav",
+      "peak_confidence": 0.5921948552131653,
+      "n_segments": 1,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250905T003342Z_n1",
+      "start_utc": "2025-09-05T00:33:28.508544+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250905T003342Z_n1.wav",
+      "peak_confidence": 0.5913495421409607,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250905T003514Z_n1",
+      "start_utc": "2025-09-05T00:35:00.509477+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250905T003514Z_n1.wav",
+      "peak_confidence": 0.5745849609375,
+      "n_segments": 1,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250905T005858Z_n2",
+      "start_utc": "2025-09-05T00:58:45.500839+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250905T005858Z_n2.wav",
+      "peak_confidence": 0.9621914029121399,
+      "n_segments": 2,
+      "window_start_s": 16.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250905T005912Z_n1",
+      "start_utc": "2025-09-05T00:58:58.500839+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250905T005912Z_n1.wav",
+      "peak_confidence": 0.9408263564109802,
+      "n_segments": 1,
+      "window_start_s": 3.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250905T010042Z_n2",
+      "start_utc": "2025-09-05T01:00:29.513172+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250905T010042Z_n2.wav",
+      "peak_confidence": 0.8453725576400757,
+      "n_segments": 2,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004009Z_n1",
+      "start_utc": "2025-09-10T00:39:55.504860+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004009Z_n1.wav",
+      "peak_confidence": 0.6629329919815063,
+      "n_segments": 1,
+      "window_start_s": 20.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004207Z_n1",
+      "start_utc": "2025-09-10T00:41:53.505826+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004207Z_n1.wav",
+      "peak_confidence": 0.5206971168518066,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004223Z_n13",
+      "start_utc": "2025-09-10T00:42:26.511387+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004223Z_n13.wav",
+      "peak_confidence": 0.9537820816040039,
+      "n_segments": 13,
+      "window_start_s": 23.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004309Z_n30",
+      "start_utc": "2025-09-10T00:43:41.511853+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004309Z_n30.wav",
+      "peak_confidence": 0.9276626110076904,
+      "n_segments": 30,
+      "window_start_s": 9.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004613Z_n1",
+      "start_utc": "2025-09-10T00:45:59.507692+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004613Z_n1.wav",
+      "peak_confidence": 0.5784951448440552,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004627Z_n16",
+      "start_utc": "2025-09-10T00:46:38.513258+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004627Z_n16.wav",
+      "peak_confidence": 0.9652497172355652,
+      "n_segments": 16,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004729Z_n1",
+      "start_utc": "2025-09-10T00:47:15.518825+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004729Z_n1.wav",
+      "peak_confidence": 0.7362351417541504,
+      "n_segments": 1,
+      "window_start_s": 1.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004759Z_n1",
+      "start_utc": "2025-09-10T00:47:45.508658+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004759Z_n1.wav",
+      "peak_confidence": 0.5008081793785095,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004819Z_n5",
+      "start_utc": "2025-09-10T00:48:12.508658+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004819Z_n5.wav",
+      "peak_confidence": 0.8877355456352234,
+      "n_segments": 5,
+      "window_start_s": 18.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004855Z_n5",
+      "start_utc": "2025-09-10T00:48:47.518925+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004855Z_n5.wav",
+      "peak_confidence": 0.8731071949005127,
+      "n_segments": 5,
+      "window_start_s": 20.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004925Z_n2",
+      "start_utc": "2025-09-10T00:49:14.518925+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004925Z_n2.wav",
+      "peak_confidence": 0.7688961625099182,
+      "n_segments": 2,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T004951Z_n6",
+      "start_utc": "2025-09-10T00:49:51.511857+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T004951Z_n6.wav",
+      "peak_confidence": 0.8106463551521301,
+      "n_segments": 6,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005043Z_n1",
+      "start_utc": "2025-09-10T00:50:29.511857+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005043Z_n1.wav",
+      "peak_confidence": 0.6856444478034973,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005053Z_n2",
+      "start_utc": "2025-09-10T00:50:40.508034+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005053Z_n2.wav",
+      "peak_confidence": 0.8368653655052185,
+      "n_segments": 2,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005115Z_n1",
+      "start_utc": "2025-09-10T00:51:01.508034+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005115Z_n1.wav",
+      "peak_confidence": 0.7538971900939941,
+      "n_segments": 1,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005129Z_n3",
+      "start_utc": "2025-09-10T00:51:20.508034+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005129Z_n3.wav",
+      "peak_confidence": 0.584733784198761,
+      "n_segments": 3,
+      "window_start_s": 8.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005219Z_n1",
+      "start_utc": "2025-09-10T00:52:05.506835+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005219Z_n1.wav",
+      "peak_confidence": 0.7591089606285095,
+      "n_segments": 1,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005247Z_n1",
+      "start_utc": "2025-09-10T00:52:33.506835+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005247Z_n1.wav",
+      "peak_confidence": 0.6993008852005005,
+      "n_segments": 1,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005301Z_n9",
+      "start_utc": "2025-09-10T00:52:57.507647+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005301Z_n9.wav",
+      "peak_confidence": 0.9471454620361328,
+      "n_segments": 9,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005423Z_n1",
+      "start_utc": "2025-09-10T00:54:09.510069+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005423Z_n1.wav",
+      "peak_confidence": 0.5485662221908569,
+      "n_segments": 1,
+      "window_start_s": 19.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005451Z_n1",
+      "start_utc": "2025-09-10T00:54:37.513812+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005451Z_n1.wav",
+      "peak_confidence": 0.91575688123703,
+      "n_segments": 1,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005521Z_n2",
+      "start_utc": "2025-09-10T00:55:11.513812+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005521Z_n2.wav",
+      "peak_confidence": 0.6974455118179321,
+      "n_segments": 2,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005557Z_n2",
+      "start_utc": "2025-09-10T00:55:47.518524+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005557Z_n2.wav",
+      "peak_confidence": 0.8127310276031494,
+      "n_segments": 2,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005707Z_n1",
+      "start_utc": "2025-09-10T00:56:53.502734+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005707Z_n1.wav",
+      "peak_confidence": 0.5322467684745789,
+      "n_segments": 1,
+      "window_start_s": 8.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005725Z_n1",
+      "start_utc": "2025-09-10T00:57:11.502734+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005725Z_n1.wav",
+      "peak_confidence": 0.6935409307479858,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005801Z_n12",
+      "start_utc": "2025-09-10T00:58:06.508901+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005801Z_n12.wav",
+      "peak_confidence": 0.9444664120674133,
+      "n_segments": 12,
+      "window_start_s": 16.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005853Z_n4",
+      "start_utc": "2025-09-10T00:58:44.515567+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005853Z_n4.wav",
+      "peak_confidence": 0.7968699932098389,
+      "n_segments": 4,
+      "window_start_s": 16.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005915Z_n2",
+      "start_utc": "2025-09-10T00:59:04.515567+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005915Z_n2.wav",
+      "peak_confidence": 0.8818309903144836,
+      "n_segments": 2,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005943Z_n2",
+      "start_utc": "2025-09-10T00:59:30.515567+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005943Z_n2.wav",
+      "peak_confidence": 0.8297209143638611,
+      "n_segments": 2,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T005955Z_n12",
+      "start_utc": "2025-09-10T00:59:55.501299+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T005955Z_n12.wav",
+      "peak_confidence": 0.9295223951339722,
+      "n_segments": 12,
+      "window_start_s": 9.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010033Z_n2",
+      "start_utc": "2025-09-10T01:00:20.501299+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010033Z_n2.wav",
+      "peak_confidence": 0.8538351058959961,
+      "n_segments": 2,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010045Z_n12",
+      "start_utc": "2025-09-10T01:00:50.504983+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010045Z_n12.wav",
+      "peak_confidence": 0.9412665367126465,
+      "n_segments": 12,
+      "window_start_s": 3.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010135Z_n4",
+      "start_utc": "2025-09-10T01:01:25.508667+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010135Z_n4.wav",
+      "peak_confidence": 0.8392744064331055,
+      "n_segments": 4,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010155Z_n1",
+      "start_utc": "2025-09-10T01:01:41.516300+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010155Z_n1.wav",
+      "peak_confidence": 0.6585044860839844,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010209Z_n4",
+      "start_utc": "2025-09-10T01:02:00.516300+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010209Z_n4.wav",
+      "peak_confidence": 0.7105420827865601,
+      "n_segments": 4,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010231Z_n5",
+      "start_utc": "2025-09-10T01:02:25.516300+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010231Z_n5.wav",
+      "peak_confidence": 0.8216543197631836,
+      "n_segments": 5,
+      "window_start_s": 3.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010257Z_n4",
+      "start_utc": "2025-09-10T01:02:47.502756+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010257Z_n4.wav",
+      "peak_confidence": 0.7633745074272156,
+      "n_segments": 4,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010315Z_n3",
+      "start_utc": "2025-09-10T01:03:04.502756+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010315Z_n3.wav",
+      "peak_confidence": 0.8552738428115845,
+      "n_segments": 3,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010347Z_n1",
+      "start_utc": "2025-09-10T01:03:33.502756+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010347Z_n1.wav",
+      "peak_confidence": 0.7681341767311096,
+      "n_segments": 1,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010401Z_n1",
+      "start_utc": "2025-09-10T01:03:47.510735+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010401Z_n1.wav",
+      "peak_confidence": 0.61673903465271,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010443Z_n2",
+      "start_utc": "2025-09-10T01:04:33.514785+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010443Z_n2.wav",
+      "peak_confidence": 0.5371206402778625,
+      "n_segments": 2,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010505Z_n3",
+      "start_utc": "2025-09-10T01:04:53.518835+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010505Z_n3.wav",
+      "peak_confidence": 0.6541955471038818,
+      "n_segments": 3,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010547Z_n1",
+      "start_utc": "2025-09-10T01:05:33.518835+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010547Z_n1.wav",
+      "peak_confidence": 0.6935590505599976,
+      "n_segments": 1,
+      "window_start_s": 5.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T010709Z_n1",
+      "start_utc": "2025-09-10T01:06:55.513967+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T010709Z_n1.wav",
+      "peak_confidence": 0.6529291868209839,
+      "n_segments": 1,
+      "window_start_s": 16.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T011455Z_n2",
+      "start_utc": "2025-09-10T01:14:44.504206+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T011455Z_n2.wav",
+      "peak_confidence": 0.6335291862487793,
+      "n_segments": 2,
+      "window_start_s": 20.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T011523Z_n1",
+      "start_utc": "2025-09-10T01:15:09.504206+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T011523Z_n1.wav",
+      "peak_confidence": 0.6678978204727173,
+      "n_segments": 1,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T011541Z_n1",
+      "start_utc": "2025-09-10T01:15:27.504206+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T011541Z_n1.wav",
+      "peak_confidence": 0.5437026023864746,
+      "n_segments": 1,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T011755Z_n2",
+      "start_utc": "2025-09-10T01:17:43.514885+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T011755Z_n2.wav",
+      "peak_confidence": 0.9301832914352417,
+      "n_segments": 2,
+      "window_start_s": 19.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T011811Z_n1",
+      "start_utc": "2025-09-10T01:17:57.514885+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T011811Z_n1.wav",
+      "peak_confidence": 0.6627482771873474,
+      "n_segments": 1,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T013133Z_n3",
+      "start_utc": "2025-09-10T01:31:25.518562+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T013133Z_n3.wav",
+      "peak_confidence": 0.7877328991889954,
+      "n_segments": 3,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T014031Z_n3",
+      "start_utc": "2025-09-10T01:40:19.502597+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T014031Z_n3.wav",
+      "peak_confidence": 0.8610541224479675,
+      "n_segments": 3,
+      "window_start_s": 19.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T014045Z_n2",
+      "start_utc": "2025-09-10T01:40:32.502597+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T014045Z_n2.wav",
+      "peak_confidence": 0.9156514406204224,
+      "n_segments": 2,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T014109Z_n1",
+      "start_utc": "2025-09-10T01:40:55.502954+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T014109Z_n1.wav",
+      "peak_confidence": 0.581411600112915,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T014135Z_n1",
+      "start_utc": "2025-09-10T01:41:21.502954+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T014135Z_n1.wav",
+      "peak_confidence": 0.5271470546722412,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T014157Z_n1",
+      "start_utc": "2025-09-10T01:41:43.503178+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T014157Z_n1.wav",
+      "peak_confidence": 0.8227680921554565,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T014259Z_n2",
+      "start_utc": "2025-09-10T01:42:47.506189+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T014259Z_n2.wav",
+      "peak_confidence": 0.621971845626831,
+      "n_segments": 2,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250910T014415Z_n3",
+      "start_utc": "2025-09-10T01:44:03.511311+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250910T014415Z_n3.wav",
+      "peak_confidence": 0.8287529349327087,
+      "n_segments": 3,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250915T141411Z_n1",
+      "start_utc": "2025-09-15T14:13:57.501593+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250915T141411Z_n1.wav",
+      "peak_confidence": 0.8878451585769653,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250915T141445Z_n1",
+      "start_utc": "2025-09-15T14:14:31.510547+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250915T141445Z_n1.wav",
+      "peak_confidence": 0.7987393140792847,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250915T141837Z_n1",
+      "start_utc": "2025-09-15T14:18:23.511747+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250915T141837Z_n1.wav",
+      "peak_confidence": 0.596091628074646,
+      "n_segments": 1,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250915T142027Z_n1",
+      "start_utc": "2025-09-15T14:20:13.510237+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250915T142027Z_n1.wav",
+      "peak_confidence": 0.6324455738067627,
+      "n_segments": 1,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250915T144431Z_n2",
+      "start_utc": "2025-09-15T14:44:19.506281+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250915T144431Z_n2.wav",
+      "peak_confidence": 0.7331171631813049,
+      "n_segments": 2,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250915T144449Z_n2",
+      "start_utc": "2025-09-15T14:44:36.506281+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250915T144449Z_n2.wav",
+      "peak_confidence": 0.7267490029335022,
+      "n_segments": 2,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T024250Z_n3",
+      "start_utc": "2025-09-22T02:42:39.505853+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T024250Z_n3.wav",
+      "peak_confidence": 0.9682144522666931,
+      "n_segments": 3,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T024900Z_n2",
+      "start_utc": "2025-09-22T02:48:50.511653+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T024900Z_n2.wav",
+      "peak_confidence": 0.8982820510864258,
+      "n_segments": 2,
+      "window_start_s": 5.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025008Z_n1",
+      "start_utc": "2025-09-22T02:49:54.501743+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025008Z_n1.wav",
+      "peak_confidence": 0.8610450029373169,
+      "n_segments": 1,
+      "window_start_s": 17.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025018Z_n2",
+      "start_utc": "2025-09-22T02:50:05.501743+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025018Z_n2.wav",
+      "peak_confidence": 0.931363046169281,
+      "n_segments": 2,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025032Z_n2",
+      "start_utc": "2025-09-22T02:50:22.501743+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025032Z_n2.wav",
+      "peak_confidence": 0.8402707576751709,
+      "n_segments": 2,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025050Z_n9",
+      "start_utc": "2025-09-22T02:50:53.513167+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025050Z_n9.wav",
+      "peak_confidence": 0.9081184267997742,
+      "n_segments": 9,
+      "window_start_s": 20.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025134Z_n2",
+      "start_utc": "2025-09-22T02:51:21.513167+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025134Z_n2.wav",
+      "peak_confidence": 0.7220540046691895,
+      "n_segments": 2,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025150Z_n1",
+      "start_utc": "2025-09-22T02:51:36.503213+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025150Z_n1.wav",
+      "peak_confidence": 0.6650461554527283,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025208Z_n3",
+      "start_utc": "2025-09-22T02:51:56.503213+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025208Z_n3.wav",
+      "peak_confidence": 0.7883131504058838,
+      "n_segments": 3,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025224Z_n1",
+      "start_utc": "2025-09-22T02:52:10.503213+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025224Z_n1.wav",
+      "peak_confidence": 0.642687976360321,
+      "n_segments": 1,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025242Z_n1",
+      "start_utc": "2025-09-22T02:52:28.503213+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025242Z_n1.wav",
+      "peak_confidence": 0.5461470484733582,
+      "n_segments": 1,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025404Z_n3",
+      "start_utc": "2025-09-22T02:53:53.504568+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025404Z_n3.wav",
+      "peak_confidence": 0.9164867997169495,
+      "n_segments": 3,
+      "window_start_s": 12.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025432Z_n1",
+      "start_utc": "2025-09-22T02:54:18.504568+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025432Z_n1.wav",
+      "peak_confidence": 0.84369295835495,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025530Z_n2",
+      "start_utc": "2025-09-22T02:55:20.515855+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025530Z_n2.wav",
+      "peak_confidence": 0.8898135423660278,
+      "n_segments": 2,
+      "window_start_s": 17.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025602Z_n1",
+      "start_utc": "2025-09-22T02:55:48.505754+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025602Z_n1.wav",
+      "peak_confidence": 0.7135857343673706,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025626Z_n1",
+      "start_utc": "2025-09-22T02:56:12.505754+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025626Z_n1.wav",
+      "peak_confidence": 0.5356199145317078,
+      "n_segments": 1,
+      "window_start_s": 5.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025640Z_n1",
+      "start_utc": "2025-09-22T02:56:26.505754+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025640Z_n1.wav",
+      "peak_confidence": 0.5431259274482727,
+      "n_segments": 1,
+      "window_start_s": 20.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025818Z_n1",
+      "start_utc": "2025-09-22T02:58:04.506896+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025818Z_n1.wav",
+      "peak_confidence": 0.5025720596313477,
+      "n_segments": 1,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025842Z_n4",
+      "start_utc": "2025-09-22T02:58:33.512512+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025842Z_n4.wav",
+      "peak_confidence": 0.9200242161750793,
+      "n_segments": 4,
+      "window_start_s": 7.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025904Z_n6",
+      "start_utc": "2025-09-22T02:58:58.518128+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025904Z_n6.wav",
+      "peak_confidence": 0.9610885977745056,
+      "n_segments": 6,
+      "window_start_s": 19.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T025938Z_n1",
+      "start_utc": "2025-09-22T02:59:24.518128+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T025938Z_n1.wav",
+      "peak_confidence": 0.8371528387069702,
+      "n_segments": 1,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030002Z_n2",
+      "start_utc": "2025-09-22T02:59:50.508016+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030002Z_n2.wav",
+      "peak_confidence": 0.9196533560752869,
+      "n_segments": 2,
+      "window_start_s": 8.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030036Z_n3",
+      "start_utc": "2025-09-22T03:00:24.508016+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030036Z_n3.wav",
+      "peak_confidence": 0.9169467091560364,
+      "n_segments": 3,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030050Z_n1",
+      "start_utc": "2025-09-22T03:00:36.519226+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030050Z_n1.wav",
+      "peak_confidence": 0.828210175037384,
+      "n_segments": 1,
+      "window_start_s": 1.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030102Z_n2",
+      "start_utc": "2025-09-22T03:00:49.519226+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030102Z_n2.wav",
+      "peak_confidence": 0.9732673764228821,
+      "n_segments": 2,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030130Z_n1",
+      "start_utc": "2025-09-22T03:01:16.519226+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030130Z_n1.wav",
+      "peak_confidence": 0.9617751836776733,
+      "n_segments": 1,
+      "window_start_s": 7.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030150Z_n2",
+      "start_utc": "2025-09-22T03:01:37.509059+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030150Z_n2.wav",
+      "peak_confidence": 0.8965393900871277,
+      "n_segments": 2,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030218Z_n1",
+      "start_utc": "2025-09-22T03:02:04.509059+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030218Z_n1.wav",
+      "peak_confidence": 0.769336462020874,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030356Z_n1",
+      "start_utc": "2025-09-22T03:03:42.510036+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030356Z_n1.wav",
+      "peak_confidence": 0.9568057656288147,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030406Z_n3",
+      "start_utc": "2025-09-22T03:03:57.510036+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030406Z_n3.wav",
+      "peak_confidence": 0.9206608533859253,
+      "n_segments": 3,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030442Z_n1",
+      "start_utc": "2025-09-22T03:04:28.510036+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030442Z_n1.wav",
+      "peak_confidence": 0.9410020709037781,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030455Z_n1",
+      "start_utc": "2025-09-22T03:04:42.499836+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030455Z_n1.wav",
+      "peak_confidence": 0.9013758897781372,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030511Z_n4",
+      "start_utc": "2025-09-22T03:05:04.499836+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030511Z_n4.wav",
+      "peak_confidence": 0.9598922729492188,
+      "n_segments": 4,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030533Z_n1",
+      "start_utc": "2025-09-22T03:05:20.499836+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030533Z_n1.wav",
+      "peak_confidence": 0.7566240429878235,
+      "n_segments": 1,
+      "window_start_s": 9.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030550Z_n6",
+      "start_utc": "2025-09-22T03:05:43.511024+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030550Z_n6.wav",
+      "peak_confidence": 0.9500365257263184,
+      "n_segments": 6,
+      "window_start_s": 8.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030638Z_n1",
+      "start_utc": "2025-09-22T03:06:24.511024+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030638Z_n1.wav",
+      "peak_confidence": 0.7950915098190308,
+      "n_segments": 1,
+      "window_start_s": 21.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030656Z_n3",
+      "start_utc": "2025-09-22T03:06:44.500835+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030656Z_n3.wav",
+      "peak_confidence": 0.8574569225311279,
+      "n_segments": 3,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030710Z_n1",
+      "start_utc": "2025-09-22T03:06:56.500835+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030710Z_n1.wav",
+      "peak_confidence": 0.911693811416626,
+      "n_segments": 1,
+      "window_start_s": 3.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030726Z_n2",
+      "start_utc": "2025-09-22T03:07:16.500835+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030726Z_n2.wav",
+      "peak_confidence": 0.95693039894104,
+      "n_segments": 2,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030752Z_n6",
+      "start_utc": "2025-09-22T03:07:49.511935+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030752Z_n6.wav",
+      "peak_confidence": 0.966877818107605,
+      "n_segments": 6,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T030914Z_n1",
+      "start_utc": "2025-09-22T03:09:00.501724+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T030914Z_n1.wav",
+      "peak_confidence": 0.9223430752754211,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T031026Z_n1",
+      "start_utc": "2025-09-22T03:10:12.512835+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T031026Z_n1.wav",
+      "peak_confidence": 0.8787485957145691,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T031040Z_n1",
+      "start_utc": "2025-09-22T03:10:26.512835+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T031040Z_n1.wav",
+      "peak_confidence": 0.5278552174568176,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T031104Z_n3",
+      "start_utc": "2025-09-22T03:10:55.502591+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T031104Z_n3.wav",
+      "peak_confidence": 0.9021243453025818,
+      "n_segments": 3,
+      "window_start_s": 17.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T031308Z_n4",
+      "start_utc": "2025-09-22T03:13:00.503513+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T031308Z_n4.wav",
+      "peak_confidence": 0.8080496788024902,
+      "n_segments": 4,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T031340Z_n1",
+      "start_utc": "2025-09-22T03:13:26.503513+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T031340Z_n1.wav",
+      "peak_confidence": 0.7657514214515686,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T031434Z_n1",
+      "start_utc": "2025-09-22T03:14:20.514613+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T031434Z_n1.wav",
+      "peak_confidence": 0.9204413294792175,
+      "n_segments": 1,
+      "window_start_s": 13.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T031528Z_n1",
+      "start_utc": "2025-09-22T03:15:14.504535+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T031528Z_n1.wav",
+      "peak_confidence": 0.5163750648498535,
+      "n_segments": 1,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T031642Z_n1",
+      "start_utc": "2025-09-22T03:16:28.515823+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T031642Z_n1.wav",
+      "peak_confidence": 0.8194875121116638,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T031656Z_n1",
+      "start_utc": "2025-09-22T03:16:42.505800+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T031656Z_n1.wav",
+      "peak_confidence": 0.9585595726966858,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T032359Z_n2",
+      "start_utc": "2025-09-22T03:23:47.499015+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T032359Z_n2.wav",
+      "peak_confidence": 0.944561243057251,
+      "n_segments": 2,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T032413Z_n1",
+      "start_utc": "2025-09-22T03:24:00.499015+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T032413Z_n1.wav",
+      "peak_confidence": 0.7659928202629089,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T033252Z_n1",
+      "start_utc": "2025-09-22T03:32:38.514122+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T033252Z_n1.wav",
+      "peak_confidence": 0.8125032782554626,
+      "n_segments": 1,
+      "window_start_s": 7.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T033312Z_n3",
+      "start_utc": "2025-09-22T03:33:03.514122+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T033312Z_n3.wav",
+      "peak_confidence": 0.9806253910064697,
+      "n_segments": 3,
+      "window_start_s": 7.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T033414Z_n1",
+      "start_utc": "2025-09-22T03:34:00.503933+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T033414Z_n1.wav",
+      "peak_confidence": 0.9664832949638367,
+      "n_segments": 1,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T033428Z_n2",
+      "start_utc": "2025-09-22T03:34:15.503933+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T033428Z_n2.wav",
+      "peak_confidence": 0.5241814851760864,
+      "n_segments": 2,
+      "window_start_s": 9.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T033736Z_n1",
+      "start_utc": "2025-09-22T03:37:22.515988+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T033736Z_n1.wav",
+      "peak_confidence": 0.9486755132675171,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T034014Z_n3",
+      "start_utc": "2025-09-22T03:40:05.506710+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T034014Z_n3.wav",
+      "peak_confidence": 0.8933730721473694,
+      "n_segments": 3,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T034104Z_n1",
+      "start_utc": "2025-09-22T03:40:50.517810+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T034104Z_n1.wav",
+      "peak_confidence": 0.5067564845085144,
+      "n_segments": 1,
+      "window_start_s": 4.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T034114Z_n1",
+      "start_utc": "2025-09-22T03:41:00.517810+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T034114Z_n1.wav",
+      "peak_confidence": 0.9519403576850891,
+      "n_segments": 1,
+      "window_start_s": 5.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T034324Z_n1",
+      "start_utc": "2025-09-22T03:43:10.518754+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T034324Z_n1.wav",
+      "peak_confidence": 0.8285679817199707,
+      "n_segments": 1,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T034737Z_n1",
+      "start_utc": "2025-09-22T03:47:24.499232+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T034737Z_n1.wav",
+      "peak_confidence": 0.5642232298851013,
+      "n_segments": 1,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T035716Z_n1",
+      "start_utc": "2025-09-22T03:57:02.503820+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T035716Z_n1.wav",
+      "peak_confidence": 0.9265586733818054,
+      "n_segments": 1,
+      "window_start_s": 4.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T035752Z_n2",
+      "start_utc": "2025-09-22T03:57:40.514942+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T035752Z_n2.wav",
+      "peak_confidence": 0.9531416296958923,
+      "n_segments": 2,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T035818Z_n1",
+      "start_utc": "2025-09-22T03:58:04.514942+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T035818Z_n1.wav",
+      "peak_confidence": 0.9328945279121399,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T035832Z_n2",
+      "start_utc": "2025-09-22T03:58:21.514942+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T035832Z_n2.wav",
+      "peak_confidence": 0.88606196641922,
+      "n_segments": 2,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T035918Z_n1",
+      "start_utc": "2025-09-22T03:59:04.504753+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T035918Z_n1.wav",
+      "peak_confidence": 0.9609401822090149,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T035946Z_n1",
+      "start_utc": "2025-09-22T03:59:32.504753+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T035946Z_n1.wav",
+      "peak_confidence": 0.9719343781471252,
+      "n_segments": 1,
+      "window_start_s": 20.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T040000Z_n1",
+      "start_utc": "2025-09-22T03:59:46.515886+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T040000Z_n1.wav",
+      "peak_confidence": 0.6237503886222839,
+      "n_segments": 1,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T040014Z_n3",
+      "start_utc": "2025-09-22T04:00:03.515886+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T040014Z_n3.wav",
+      "peak_confidence": 0.9632839560508728,
+      "n_segments": 3,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T040044Z_n1",
+      "start_utc": "2025-09-22T04:00:30.515886+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T040044Z_n1.wav",
+      "peak_confidence": 0.9725543260574341,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T040108Z_n3",
+      "start_utc": "2025-09-22T04:00:57.505653+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T040108Z_n3.wav",
+      "peak_confidence": 0.7243445515632629,
+      "n_segments": 3,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T040258Z_n1",
+      "start_utc": "2025-09-22T04:02:44.506630+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T040258Z_n1.wav",
+      "peak_confidence": 0.6920362710952759,
+      "n_segments": 1,
+      "window_start_s": 21.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T040340Z_n1",
+      "start_utc": "2025-09-22T04:03:26.506630+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T040340Z_n1.wav",
+      "peak_confidence": 0.6163896322250366,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T040636Z_n1",
+      "start_utc": "2025-09-22T04:06:22.518419+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T040636Z_n1.wav",
+      "peak_confidence": 0.9168972969055176,
+      "n_segments": 1,
+      "window_start_s": 4.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T040714Z_n2",
+      "start_utc": "2025-09-22T04:07:04.507619+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T040714Z_n2.wav",
+      "peak_confidence": 0.6468720436096191,
+      "n_segments": 2,
+      "window_start_s": 21.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T041216Z_n3",
+      "start_utc": "2025-09-22T04:12:07.518461+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T041216Z_n3.wav",
+      "peak_confidence": 0.6431835293769836,
+      "n_segments": 3,
+      "window_start_s": 5.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T041540Z_n1",
+      "start_utc": "2025-09-22T04:15:26.508298+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T041540Z_n1.wav",
+      "peak_confidence": 0.531876802444458,
+      "n_segments": 1,
+      "window_start_s": 23.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T041824Z_n1",
+      "start_utc": "2025-09-22T04:18:10.519634+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T041824Z_n1.wav",
+      "peak_confidence": 0.5718450546264648,
+      "n_segments": 1,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T041955Z_n1",
+      "start_utc": "2025-09-22T04:19:42.498825+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T041955Z_n1.wav",
+      "peak_confidence": 0.6279717087745667,
+      "n_segments": 1,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T042130Z_n1",
+      "start_utc": "2025-09-22T04:21:16.509759+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T042130Z_n1.wav",
+      "peak_confidence": 0.5464698076248169,
+      "n_segments": 1,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250922T045622Z_n1",
+      "start_utc": "2025-09-22T04:56:08.503130+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250922T045622Z_n1.wav",
+      "peak_confidence": 0.7139555811882019,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060252Z_n3",
+      "start_utc": "2025-09-24T06:02:45.502061+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060252Z_n3.wav",
+      "peak_confidence": 0.9498538970947266,
+      "n_segments": 3,
+      "window_start_s": 23.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060318Z_n5",
+      "start_utc": "2025-09-24T06:03:14.502061+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060318Z_n5.wav",
+      "peak_confidence": 0.9758285880088806,
+      "n_segments": 5,
+      "window_start_s": 17.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060440Z_n3",
+      "start_utc": "2025-09-24T06:04:29.513249+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060440Z_n3.wav",
+      "peak_confidence": 0.9618061780929565,
+      "n_segments": 3,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060458Z_n1",
+      "start_utc": "2025-09-24T06:04:44.503104+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060458Z_n1.wav",
+      "peak_confidence": 0.5363988280296326,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060518Z_n5",
+      "start_utc": "2025-09-24T06:05:15.503104+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060518Z_n5.wav",
+      "peak_confidence": 0.9744526743888855,
+      "n_segments": 5,
+      "window_start_s": 20.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060554Z_n1",
+      "start_utc": "2025-09-24T06:05:40.514314+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060554Z_n1.wav",
+      "peak_confidence": 0.9578868746757507,
+      "n_segments": 1,
+      "window_start_s": 22.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060620Z_n2",
+      "start_utc": "2025-09-24T06:06:07.514314+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060620Z_n2.wav",
+      "peak_confidence": 0.9747059345245361,
+      "n_segments": 2,
+      "window_start_s": 21.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060644Z_n2",
+      "start_utc": "2025-09-24T06:06:31.514314+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060644Z_n2.wav",
+      "peak_confidence": 0.9272251725196838,
+      "n_segments": 2,
+      "window_start_s": 23.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060710Z_n1",
+      "start_utc": "2025-09-24T06:06:56.504125+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060710Z_n1.wav",
+      "peak_confidence": 0.5633493661880493,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060728Z_n1",
+      "start_utc": "2025-09-24T06:07:14.504125+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060728Z_n1.wav",
+      "peak_confidence": 0.7863425612449646,
+      "n_segments": 1,
+      "window_start_s": 21.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060742Z_n1",
+      "start_utc": "2025-09-24T06:07:28.504125+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060742Z_n1.wav",
+      "peak_confidence": 0.5810657739639282,
+      "n_segments": 1,
+      "window_start_s": 7.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060752Z_n1",
+      "start_utc": "2025-09-24T06:07:38.515313+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060752Z_n1.wav",
+      "peak_confidence": 0.8535417318344116,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060806Z_n6",
+      "start_utc": "2025-09-24T06:08:00.515313+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060806Z_n6.wav",
+      "peak_confidence": 0.9804845452308655,
+      "n_segments": 6,
+      "window_start_s": 23.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060832Z_n3",
+      "start_utc": "2025-09-24T06:08:26.515313+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060832Z_n3.wav",
+      "peak_confidence": 0.95155268907547,
+      "n_segments": 3,
+      "window_start_s": 4.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060900Z_n1",
+      "start_utc": "2025-09-24T06:08:46.505146+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060900Z_n1.wav",
+      "peak_confidence": 0.8053411841392517,
+      "n_segments": 1,
+      "window_start_s": 21.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060914Z_n4",
+      "start_utc": "2025-09-24T06:09:04.505146+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060914Z_n4.wav",
+      "peak_confidence": 0.9395644664764404,
+      "n_segments": 4,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060932Z_n7",
+      "start_utc": "2025-09-24T06:09:26.505146+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060932Z_n7.wav",
+      "peak_confidence": 0.9912257790565491,
+      "n_segments": 7,
+      "window_start_s": 17.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T060958Z_n1",
+      "start_utc": "2025-09-24T06:09:44.516268+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T060958Z_n1.wav",
+      "peak_confidence": 0.89990234375,
+      "n_segments": 1,
+      "window_start_s": 16.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061014Z_n2",
+      "start_utc": "2025-09-24T06:10:01.516268+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061014Z_n2.wav",
+      "peak_confidence": 0.947931706905365,
+      "n_segments": 2,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061044Z_n2",
+      "start_utc": "2025-09-24T06:10:31.516268+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061044Z_n2.wav",
+      "peak_confidence": 0.6486560106277466,
+      "n_segments": 2,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061058Z_n14",
+      "start_utc": "2025-09-24T06:11:05.506013+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061058Z_n14.wav",
+      "peak_confidence": 0.9934847950935364,
+      "n_segments": 14,
+      "window_start_s": 4.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061158Z_n12",
+      "start_utc": "2025-09-24T06:12:07.517091+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061158Z_n12.wav",
+      "peak_confidence": 0.99623703956604,
+      "n_segments": 12,
+      "window_start_s": 3.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061306Z_n2",
+      "start_utc": "2025-09-24T06:12:54.506891+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061306Z_n2.wav",
+      "peak_confidence": 0.9968979358673096,
+      "n_segments": 2,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061332Z_n11",
+      "start_utc": "2025-09-24T06:13:41.512452+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061332Z_n11.wav",
+      "peak_confidence": 0.9853683114051819,
+      "n_segments": 11,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061434Z_n4",
+      "start_utc": "2025-09-24T06:14:27.518013+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061434Z_n4.wav",
+      "peak_confidence": 0.9375140070915222,
+      "n_segments": 4,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061616Z_n1",
+      "start_utc": "2025-09-24T06:16:02.518924+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061616Z_n1.wav",
+      "peak_confidence": 0.9659383893013,
+      "n_segments": 1,
+      "window_start_s": 16.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061646Z_n5",
+      "start_utc": "2025-09-24T06:16:39.513824+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061646Z_n5.wav",
+      "peak_confidence": 0.9880287051200867,
+      "n_segments": 5,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061722Z_n1",
+      "start_utc": "2025-09-24T06:17:08.508724+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061722Z_n1.wav",
+      "peak_confidence": 0.8328853249549866,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061732Z_n1",
+      "start_utc": "2025-09-24T06:17:18.508724+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061732Z_n1.wav",
+      "peak_confidence": 0.8743659257888794,
+      "n_segments": 1,
+      "window_start_s": 7.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061746Z_n3",
+      "start_utc": "2025-09-24T06:17:37.503629+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061746Z_n3.wav",
+      "peak_confidence": 0.957237720489502,
+      "n_segments": 3,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T061934Z_n1",
+      "start_utc": "2025-09-24T06:19:20.509657+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T061934Z_n1.wav",
+      "peak_confidence": 0.5403046607971191,
+      "n_segments": 1,
+      "window_start_s": 9.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T062114Z_n11",
+      "start_utc": "2025-09-24T06:21:14.510568+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T062114Z_n11.wav",
+      "peak_confidence": 0.9891679286956787,
+      "n_segments": 11,
+      "window_start_s": 24.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T062152Z_n4",
+      "start_utc": "2025-09-24T06:21:42.500379+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T062152Z_n4.wav",
+      "peak_confidence": 0.975621223449707,
+      "n_segments": 4,
+      "window_start_s": 7.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T062214Z_n17",
+      "start_utc": "2025-09-24T06:22:25.505957+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T062214Z_n17.wav",
+      "peak_confidence": 0.9971364736557007,
+      "n_segments": 17,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T062328Z_n4",
+      "start_utc": "2025-09-24T06:23:21.511534+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T062328Z_n4.wav",
+      "peak_confidence": 0.9067813754081726,
+      "n_segments": 4,
+      "window_start_s": 18.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T062356Z_n1",
+      "start_utc": "2025-09-24T06:23:42.501345+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T062356Z_n1.wav",
+      "peak_confidence": 0.763171911239624,
+      "n_segments": 1,
+      "window_start_s": 10.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T062414Z_n3",
+      "start_utc": "2025-09-24T06:24:07.501345+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T062414Z_n3.wav",
+      "peak_confidence": 0.9764750599861145,
+      "n_segments": 3,
+      "window_start_s": 11.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T062446Z_n1",
+      "start_utc": "2025-09-24T06:24:32.501345+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T062446Z_n1.wav",
+      "peak_confidence": 0.527314305305481,
+      "n_segments": 1,
+      "window_start_s": 6.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T062648Z_n1",
+      "start_utc": "2025-09-24T06:26:34.502300+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T062648Z_n1.wav",
+      "peak_confidence": 0.8247876167297363,
+      "n_segments": 1,
+      "window_start_s": 21.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T062706Z_n2",
+      "start_utc": "2025-09-24T06:26:54.513455+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T062706Z_n2.wav",
+      "peak_confidence": 0.7620985507965088,
+      "n_segments": 2,
+      "window_start_s": 2.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T063108Z_n1",
+      "start_utc": "2025-09-24T06:30:54.515343+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T063108Z_n1.wav",
+      "peak_confidence": 0.7026597857475281,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250924T063120Z_n1",
+      "start_utc": "2025-09-24T06:31:06.515343+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250924T063120Z_n1.wav",
+      "peak_confidence": 0.8133351802825928,
+      "n_segments": 1,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250925T034244Z_n1",
+      "start_utc": "2025-09-25T03:42:30.504885+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250925T034244Z_n1.wav",
+      "peak_confidence": 0.5874814391136169,
+      "n_segments": 1,
+      "window_start_s": 15.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250925T034314Z_n1",
+      "start_utc": "2025-09-25T03:43:00.515820+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250925T034314Z_n1.wav",
+      "peak_confidence": 0.8419457077980042,
+      "n_segments": 1,
+      "window_start_s": 25.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250925T034518Z_n1",
+      "start_utc": "2025-09-25T03:45:04.516387+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250925T034518Z_n1.wav",
+      "peak_confidence": 0.7580242156982422,
+      "n_segments": 1,
+      "window_start_s": 14.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250925T034532Z_n1",
+      "start_utc": "2025-09-25T03:45:18.516387+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250925T034532Z_n1.wav",
+      "peak_confidence": 0.5132188200950623,
+      "n_segments": 1,
+      "window_start_s": 0.0
+    },
+    {
+      "clip_id": "orcasound_lab_20250925T145020Z_n1",
+      "start_utc": "2025-09-25T14:50:06.518094+00:00",
+      "raw_path": "/media/y/hlabflash/whale_library/audio_raw/orcasound_lab_20250925T145020Z_n1.wav",
+      "peak_confidence": 0.5803318023681641,
+      "n_segments": 1,
+      "window_start_s": 22.0
+    }
+  ],
+  "cluster_labels": [
+    6,
+    6,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    6,
+    3,
+    3,
+    6,
+    6,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    3,
+    3,
+    6,
+    6,
+    6,
+    6,
+    6,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    6,
+    6,
+    5,
+    5,
+    6,
+    5,
+    5,
+    5,
+    5,
+    1,
+    5,
+    5,
+    1,
+    1,
+    1,
+    6,
+    5,
+    1,
+    1,
+    1,
+    1,
+    5,
+    5,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    5,
+    1,
+    5,
+    4,
+    5,
+    1,
+    0,
+    0,
+    4,
+    0,
+    2,
+    2,
+    2,
+    4,
+    2,
+    4,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    4,
+    4,
+    2,
+    2,
+    2,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    4,
+    4,
+    2,
+    2,
+    2,
+    4,
+    2,
+    2,
+    2,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    3,
+    6,
+    0,
+    0,
+    6,
+    3,
+    3,
+    3,
+    6,
+    3,
+    6,
+    3,
+    3,
+    3,
+    6,
+    6,
+    4,
+    3,
+    3,
+    3,
+    6,
+    4,
+    3,
+    6,
+    4,
+    6,
+    4,
+    4,
+    3,
+    6,
+    6,
+    5,
+    6,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    6,
+    3,
+    4,
+    4,
+    6,
+    -1,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    -1,
+    3,
+    3,
+    6,
+    6,
+    6,
+    -1,
+    6,
+    -1,
+    6,
+    6,
+    6,
+    3,
+    6,
+    6,
+    6,
+    1,
+    4,
+    4,
+    4,
+    4,
+    0,
+    0,
+    3,
+    6,
+    6,
+    6,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    6,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    6,
+    3,
+    3,
+    3,
+    3,
+    6,
+    6,
+    3,
+    3,
+    4,
+    3,
+    3,
+    3,
+    4,
+    3,
+    4,
+    4,
+    3,
+    4,
+    3,
+    3,
+    6,
+    6,
+    3,
+    4,
+    4,
+    3,
+    3,
+    3,
+    3,
+    4,
+    3,
+    4,
+    3,
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
+    4,
+    4,
+    6,
+    6,
+    6,
+    6,
+    6,
+    3,
+    3,
+    4,
+    3,
+    3,
+    6,
+    6,
+    6,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    6,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    3,
+    2,
+    2,
+    2,
+    2,
+    4
+  ],
+  "coords_2d": [
+    [
+      8.701364517211914,
+      11.902884483337402
+    ],
+    [
+      8.762859344482422,
+      12.004988670349121
+    ],
+    [
+      5.429843425750732,
+      11.639387130737305
+    ],
+    [
+      5.4823455810546875,
+      10.792669296264648
+    ],
+    [
+      5.605093955993652,
+      11.263503074645996
+    ],
+    [
+      5.408016204833984,
+      10.57386589050293
+    ],
+    [
+      5.626768112182617,
+      10.609817504882812
+    ],
+    [
+      6.296515941619873,
+      11.575193405151367
+    ],
+    [
+      5.75840950012207,
+      11.0943021774292
+    ],
+    [
+      8.431313514709473,
+      12.126214981079102
+    ],
+    [
+      5.957871913909912,
+      11.004678726196289
+    ],
+    [
+      5.7946343421936035,
+      10.750059127807617
+    ],
+    [
+      8.101280212402344,
+      11.97118091583252
+    ],
+    [
+      8.281867027282715,
+      12.105998992919922
+    ],
+    [
+      5.893214702606201,
+      10.966769218444824
+    ],
+    [
+      6.144146919250488,
+      11.483546257019043
+    ],
+    [
+      4.344955921173096,
+      9.323833465576172
+    ],
+    [
+      5.9898552894592285,
+      11.027383804321289
+    ],
+    [
+      8.855142593383789,
+      7.555105209350586
+    ],
+    [
+      8.890287399291992,
+      7.57960319519043
+    ],
+    [
+      4.643937587738037,
+      9.727405548095703
+    ],
+    [
+      4.510654926300049,
+      9.558189392089844
+    ],
+    [
+      8.4810791015625,
+      11.955230712890625
+    ],
+    [
+      8.492094039916992,
+      11.908658981323242
+    ],
+    [
+      8.429723739624023,
+      12.004541397094727
+    ],
+    [
+      8.41967487335205,
+      11.935641288757324
+    ],
+    [
+      8.503763198852539,
+      11.918551445007324
+    ],
+    [
+      4.276394367218018,
+      9.749897956848145
+    ],
+    [
+      4.227539539337158,
+      9.096270561218262
+    ],
+    [
+      4.289087295532227,
+      9.133637428283691
+    ],
+    [
+      4.2083516120910645,
+      9.464139938354492
+    ],
+    [
+      4.244646072387695,
+      9.289216995239258
+    ],
+    [
+      5.346537113189697,
+      11.809956550598145
+    ],
+    [
+      4.434266567230225,
+      9.179194450378418
+    ],
+    [
+      3.0627596378326416,
+      9.137166023254395
+    ],
+    [
+      3.202638626098633,
+      9.18037223815918
+    ],
+    [
+      3.1709790229797363,
+      9.084162712097168
+    ],
+    [
+      3.064253807067871,
+      9.226710319519043
+    ],
+    [
+      3.1196634769439697,
+      9.281742095947266
+    ],
+    [
+      8.116823196411133,
+      10.802284240722656
+    ],
+    [
+      9.185392379760742,
+      10.55261516571045
+    ],
+    [
+      9.20950984954834,
+      9.427547454833984
+    ],
+    [
+      8.977871894836426,
+      9.607784271240234
+    ],
+    [
+      8.938253402709961,
+      10.726064682006836
+    ],
+    [
+      9.046714782714844,
+      9.709653854370117
+    ],
+    [
+      8.9265718460083,
+      10.00265121459961
+    ],
+    [
+      9.068753242492676,
+      9.722654342651367
+    ],
+    [
+      9.055404663085938,
+      9.457372665405273
+    ],
+    [
+      4.318929672241211,
+      10.453845024108887
+    ],
+    [
+      9.228870391845703,
+      9.89431381225586
+    ],
+    [
+      9.052923202514648,
+      9.772801399230957
+    ],
+    [
+      3.73177170753479,
+      9.785873413085938
+    ],
+    [
+      3.812905788421631,
+      9.976266860961914
+    ],
+    [
+      3.6446986198425293,
+      9.783336639404297
+    ],
+    [
+      8.73244571685791,
+      10.513686180114746
+    ],
+    [
+      9.019487380981445,
+      9.766622543334961
+    ],
+    [
+      3.6136534214019775,
+      8.773513793945312
+    ],
+    [
+      3.532991647720337,
+      8.931116104125977
+    ],
+    [
+      3.630016565322876,
+      8.682467460632324
+    ],
+    [
+      3.6132240295410156,
+      8.757046699523926
+    ],
+    [
+      8.871204376220703,
+      9.972922325134277
+    ],
+    [
+      8.833722114562988,
+      10.096487045288086
+    ],
+    [
+      3.4969985485076904,
+      8.844307899475098
+    ],
+    [
+      3.3278489112854004,
+      8.975296020507812
+    ],
+    [
+      3.4743103981018066,
+      8.917243003845215
+    ],
+    [
+      3.611457109451294,
+      8.819056510925293
+    ],
+    [
+      3.7537577152252197,
+      8.807267189025879
+    ],
+    [
+      3.2501165866851807,
+      8.1326322555542
+    ],
+    [
+      3.2122795581817627,
+      8.523018836975098
+    ],
+    [
+      3.3036861419677734,
+      8.409000396728516
+    ],
+    [
+      3.1786913871765137,
+      8.464029312133789
+    ],
+    [
+      3.2641563415527344,
+      8.53863525390625
+    ],
+    [
+      3.3227996826171875,
+      8.262472152709961
+    ],
+    [
+      3.348912239074707,
+      8.191990852355957
+    ],
+    [
+      3.286973237991333,
+      8.327534675598145
+    ],
+    [
+      9.237894058227539,
+      9.05913257598877
+    ],
+    [
+      3.302216053009033,
+      8.166274070739746
+    ],
+    [
+      9.149391174316406,
+      8.998680114746094
+    ],
+    [
+      8.949834823608398,
+      8.075418472290039
+    ],
+    [
+      9.128241539001465,
+      9.255690574645996
+    ],
+    [
+      3.074643850326538,
+      8.97851848602295
+    ],
+    [
+      4.594198226928711,
+      8.3648042678833
+    ],
+    [
+      4.631226539611816,
+      8.360076904296875
+    ],
+    [
+      8.666804313659668,
+      7.906182289123535
+    ],
+    [
+      4.7491960525512695,
+      8.269701957702637
+    ],
+    [
+      5.722201824188232,
+      6.57989501953125
+    ],
+    [
+      5.9609222412109375,
+      6.165095806121826
+    ],
+    [
+      5.917568683624268,
+      6.203388690948486
+    ],
+    [
+      8.84321117401123,
+      7.628594398498535
+    ],
+    [
+      6.350783824920654,
+      5.986764430999756
+    ],
+    [
+      8.455733299255371,
+      8.766936302185059
+    ],
+    [
+      6.295938491821289,
+      6.035478591918945
+    ],
+    [
+      6.4036784172058105,
+      5.871179580688477
+    ],
+    [
+      6.577699184417725,
+      5.909344673156738
+    ],
+    [
+      6.965256214141846,
+      6.118616104125977
+    ],
+    [
+      6.304757118225098,
+      6.051485538482666
+    ],
+    [
+      6.11605978012085,
+      8.756708145141602
+    ],
+    [
+      7.587135314941406,
+      7.004134178161621
+    ],
+    [
+      7.933254241943359,
+      6.9031982421875
+    ],
+    [
+      6.353299140930176,
+      5.780543804168701
+    ],
+    [
+      6.121898651123047,
+      5.896509170532227
+    ],
+    [
+      6.369844436645508,
+      5.798583030700684
+    ],
+    [
+      8.201679229736328,
+      6.959314346313477
+    ],
+    [
+      8.05472183227539,
+      6.814313888549805
+    ],
+    [
+      7.904396057128906,
+      6.821964740753174
+    ],
+    [
+      7.374001502990723,
+      6.440077304840088
+    ],
+    [
+      7.155459403991699,
+      6.21947717666626
+    ],
+    [
+      7.1525468826293945,
+      6.2226643562316895
+    ],
+    [
+      8.231283187866211,
+      7.112460136413574
+    ],
+    [
+      8.314977645874023,
+      6.863603591918945
+    ],
+    [
+      6.817453384399414,
+      5.952329158782959
+    ],
+    [
+      6.411123275756836,
+      5.833260536193848
+    ],
+    [
+      6.471636772155762,
+      5.7953596115112305
+    ],
+    [
+      8.424882888793945,
+      6.943210124969482
+    ],
+    [
+      6.503929138183594,
+      5.708169937133789
+    ],
+    [
+      6.427306652069092,
+      5.784713268280029
+    ],
+    [
+      5.9624714851379395,
+      6.142917633056641
+    ],
+    [
+      8.988593101501465,
+      7.5278096199035645
+    ],
+    [
+      4.98881721496582,
+      7.858982563018799
+    ],
+    [
+      4.701266765594482,
+      7.568996429443359
+    ],
+    [
+      4.684457778930664,
+      7.606349468231201
+    ],
+    [
+      4.5440192222595215,
+      7.669192790985107
+    ],
+    [
+      4.637721061706543,
+      7.543576717376709
+    ],
+    [
+      4.640954971313477,
+      7.578754425048828
+    ],
+    [
+      8.886408805847168,
+      7.59911584854126
+    ],
+    [
+      4.616168022155762,
+      7.51443338394165
+    ],
+    [
+      4.01118803024292,
+      11.210283279418945
+    ],
+    [
+      8.864296913146973,
+      11.966111183166504
+    ],
+    [
+      4.785292625427246,
+      7.972108840942383
+    ],
+    [
+      4.800367832183838,
+      8.03791618347168
+    ],
+    [
+      9.012710571289062,
+      11.851242065429688
+    ],
+    [
+      6.509143352508545,
+      10.772378921508789
+    ],
+    [
+      4.864380359649658,
+      10.710994720458984
+    ],
+    [
+      4.849680423736572,
+      10.68435287475586
+    ],
+    [
+      8.852110862731934,
+      11.897128105163574
+    ],
+    [
+      5.829259395599365,
+      10.535256385803223
+    ],
+    [
+      8.891223907470703,
+      11.702746391296387
+    ],
+    [
+      4.870452880859375,
+      9.671671867370605
+    ],
+    [
+      5.206460952758789,
+      10.186873435974121
+    ],
+    [
+      5.0763325691223145,
+      11.984686851501465
+    ],
+    [
+      8.704646110534668,
+      12.151994705200195
+    ],
+    [
+      8.832403182983398,
+      12.118408203125
+    ],
+    [
+      8.250560760498047,
+      8.516380310058594
+    ],
+    [
+      5.273653030395508,
+      11.774234771728516
+    ],
+    [
+      5.1111273765563965,
+      11.935126304626465
+    ],
+    [
+      4.95775842666626,
+      12.079007148742676
+    ],
+    [
+      8.560428619384766,
+      12.172332763671875
+    ],
+    [
+      8.87731647491455,
+      8.435232162475586
+    ],
+    [
+      6.15024995803833,
+      9.185914039611816
+    ],
+    [
+      8.97736930847168,
+      11.720526695251465
+    ],
+    [
+      8.240378379821777,
+      7.262325763702393
+    ],
+    [
+      8.737163543701172,
+      11.662332534790039
+    ],
+    [
+      8.341914176940918,
+      7.302533149719238
+    ],
+    [
+      8.519659042358398,
+      7.362462997436523
+    ],
+    [
+      5.493649482727051,
+      10.511133193969727
+    ],
+    [
+      9.284860610961914,
+      11.381515502929688
+    ],
+    [
+      9.373990058898926,
+      11.368870735168457
+    ],
+    [
+      8.900240898132324,
+      9.098003387451172
+    ],
+    [
+      7.138158798217773,
+      9.98351001739502
+    ],
+    [
+      4.751755237579346,
+      10.356884956359863
+    ],
+    [
+      4.824531078338623,
+      10.196176528930664
+    ],
+    [
+      4.793371677398682,
+      10.044475555419922
+    ],
+    [
+      4.9793267250061035,
+      11.80502700805664
+    ],
+    [
+      4.558923244476318,
+      9.487588882446289
+    ],
+    [
+      4.70180606842041,
+      11.804550170898438
+    ],
+    [
+      4.535433769226074,
+      11.485639572143555
+    ],
+    [
+      4.55623722076416,
+      9.630393981933594
+    ],
+    [
+      4.470348834991455,
+      9.404305458068848
+    ],
+    [
+      4.7175211906433105,
+      9.492878913879395
+    ],
+    [
+      4.972973346710205,
+      10.264925956726074
+    ],
+    [
+      4.184690475463867,
+      11.557753562927246
+    ],
+    [
+      4.223867893218994,
+      11.61760425567627
+    ],
+    [
+      6.152172565460205,
+      9.420828819274902
+    ],
+    [
+      4.94774866104126,
+      12.072969436645508
+    ],
+    [
+      6.851848602294922,
+      11.353438377380371
+    ],
+    [
+      6.328850746154785,
+      11.617894172668457
+    ],
+    [
+      5.0521650314331055,
+      11.027993202209473
+    ],
+    [
+      8.692849159240723,
+      11.221302032470703
+    ],
+    [
+      5.487509250640869,
+      10.581277847290039
+    ],
+    [
+      8.622980117797852,
+      8.469865798950195
+    ],
+    [
+      8.644006729125977,
+      8.437273025512695
+    ],
+    [
+      8.484356880187988,
+      10.047552108764648
+    ],
+    [
+      4.847355842590332,
+      11.223490715026855
+    ],
+    [
+      4.442814350128174,
+      10.974007606506348
+    ],
+    [
+      4.475221633911133,
+      11.350553512573242
+    ],
+    [
+      4.532041549682617,
+      11.323922157287598
+    ],
+    [
+      4.514865875244141,
+      11.194397926330566
+    ],
+    [
+      4.596344470977783,
+      11.037001609802246
+    ],
+    [
+      4.391148567199707,
+      11.11452865600586
+    ],
+    [
+      4.024242877960205,
+      11.284416198730469
+    ],
+    [
+      4.062816143035889,
+      11.182440757751465
+    ],
+    [
+      4.163040637969971,
+      10.952873229980469
+    ],
+    [
+      4.145745754241943,
+      10.871077537536621
+    ],
+    [
+      4.059425354003906,
+      11.009523391723633
+    ],
+    [
+      4.998758792877197,
+      10.949545860290527
+    ],
+    [
+      4.19171667098999,
+      10.8761568069458
+    ],
+    [
+      4.3799824714660645,
+      10.595949172973633
+    ],
+    [
+      4.55094051361084,
+      10.65164852142334
+    ],
+    [
+      5.275207996368408,
+      10.838618278503418
+    ],
+    [
+      4.400390625,
+      10.809674263000488
+    ],
+    [
+      4.820627689361572,
+      11.721858978271484
+    ],
+    [
+      7.953114986419678,
+      9.815840721130371
+    ],
+    [
+      8.05715274810791,
+      10.471299171447754
+    ],
+    [
+      7.816153049468994,
+      9.917981147766113
+    ],
+    [
+      6.731879711151123,
+      10.09578800201416
+    ],
+    [
+      7.992697715759277,
+      10.893463134765625
+    ],
+    [
+      7.42917013168335,
+      10.93224048614502
+    ],
+    [
+      7.315900802612305,
+      10.039241790771484
+    ],
+    [
+      7.412695407867432,
+      9.872528076171875
+    ],
+    [
+      7.424848556518555,
+      9.905817985534668
+    ],
+    [
+      6.088644981384277,
+      10.770256042480469
+    ],
+    [
+      7.606427192687988,
+      10.41280460357666
+    ],
+    [
+      7.925298690795898,
+      10.085603713989258
+    ],
+    [
+      7.726784706115723,
+      10.032609939575195
+    ],
+    [
+      3.8791353702545166,
+      9.303949356079102
+    ],
+    [
+      5.345272064208984,
+      8.02907943725586
+    ],
+    [
+      7.007030010223389,
+      8.880729675292969
+    ],
+    [
+      8.168924331665039,
+      9.022899627685547
+    ],
+    [
+      7.39888334274292,
+      8.831497192382812
+    ],
+    [
+      4.682065010070801,
+      7.59300422668457
+    ],
+    [
+      4.705779075622559,
+      7.64096212387085
+    ],
+    [
+      5.764649868011475,
+      10.265829086303711
+    ],
+    [
+      8.699531555175781,
+      10.936675071716309
+    ],
+    [
+      8.631959915161133,
+      11.185564041137695
+    ],
+    [
+      8.63683795928955,
+      11.184212684631348
+    ],
+    [
+      5.783616065979004,
+      9.431940078735352
+    ],
+    [
+      4.925800323486328,
+      10.060205459594727
+    ],
+    [
+      5.32073974609375,
+      9.752924919128418
+    ],
+    [
+      5.452807903289795,
+      9.84604263305664
+    ],
+    [
+      5.145246505737305,
+      9.602132797241211
+    ],
+    [
+      5.694116115570068,
+      10.144784927368164
+    ],
+    [
+      8.586668014526367,
+      11.096574783325195
+    ],
+    [
+      5.417114734649658,
+      9.34582233428955
+    ],
+    [
+      5.441854000091553,
+      9.284582138061523
+    ],
+    [
+      5.283899784088135,
+      9.119412422180176
+    ],
+    [
+      5.3718461990356445,
+      9.522276878356934
+    ],
+    [
+      6.8977789878845215,
+      10.874866485595703
+    ],
+    [
+      7.016695499420166,
+      10.998956680297852
+    ],
+    [
+      6.742094993591309,
+      11.108410835266113
+    ],
+    [
+      5.0910868644714355,
+      9.955321311950684
+    ],
+    [
+      5.110694885253906,
+      9.445478439331055
+    ],
+    [
+      8.4621000289917,
+      11.130816459655762
+    ],
+    [
+      6.2291789054870605,
+      10.839771270751953
+    ],
+    [
+      5.113028526306152,
+      10.11451244354248
+    ],
+    [
+      5.146461009979248,
+      10.11872673034668
+    ],
+    [
+      5.583474636077881,
+      10.261460304260254
+    ],
+    [
+      8.594450950622559,
+      10.714689254760742
+    ],
+    [
+      8.26061725616455,
+      10.571085929870605
+    ],
+    [
+      6.141617774963379,
+      11.208991050720215
+    ],
+    [
+      5.505372524261475,
+      9.9982328414917
+    ],
+    [
+      8.226284980773926,
+      9.328535079956055
+    ],
+    [
+      6.580809116363525,
+      11.11079216003418
+    ],
+    [
+      5.694578170776367,
+      10.198358535766602
+    ],
+    [
+      5.534651279449463,
+      10.014698028564453
+    ],
+    [
+      8.53774356842041,
+      9.148797035217285
+    ],
+    [
+      4.5513200759887695,
+      9.876335144042969
+    ],
+    [
+      8.385703086853027,
+      9.059513092041016
+    ],
+    [
+      8.465323448181152,
+      9.192648887634277
+    ],
+    [
+      6.099350929260254,
+      9.38456916809082
+    ],
+    [
+      8.444622039794922,
+      8.906856536865234
+    ],
+    [
+      6.107841968536377,
+      9.385828018188477
+    ],
+    [
+      5.783419609069824,
+      9.86467170715332
+    ],
+    [
+      8.311402320861816,
+      11.572643280029297
+    ],
+    [
+      8.269340515136719,
+      11.541646003723145
+    ],
+    [
+      6.747270584106445,
+      11.487776756286621
+    ],
+    [
+      8.682392120361328,
+      8.296855926513672
+    ],
+    [
+      8.714021682739258,
+      8.639665603637695
+    ],
+    [
+      5.867824554443359,
+      9.938157081604004
+    ],
+    [
+      5.005192756652832,
+      12.032281875610352
+    ],
+    [
+      6.049442291259766,
+      9.471041679382324
+    ],
+    [
+      5.9962544441223145,
+      9.523736000061035
+    ],
+    [
+      8.768918991088867,
+      7.922145366668701
+    ],
+    [
+      6.253406524658203,
+      8.86505126953125
+    ],
+    [
+      9.305737495422363,
+      7.714370250701904
+    ],
+    [
+      6.577795505523682,
+      8.755985260009766
+    ],
+    [
+      9.377522468566895,
+      7.657010555267334
+    ],
+    [
+      9.319914817810059,
+      7.672183513641357
+    ],
+    [
+      6.946589946746826,
+      8.319101333618164
+    ],
+    [
+      9.026646614074707,
+      8.122088432312012
+    ],
+    [
+      9.228973388671875,
+      7.837297439575195
+    ],
+    [
+      9.012468338012695,
+      8.113799095153809
+    ],
+    [
+      9.301179885864258,
+      8.070307731628418
+    ],
+    [
+      6.168136119842529,
+      9.163585662841797
+    ],
+    [
+      7.915387153625488,
+      8.777700424194336
+    ],
+    [
+      7.403510570526123,
+      8.81530475616455
+    ],
+    [
+      7.299691677093506,
+      8.810919761657715
+    ],
+    [
+      7.837343215942383,
+      8.843644142150879
+    ],
+    [
+      7.684135437011719,
+      8.617542266845703
+    ],
+    [
+      7.777472019195557,
+      8.737096786499023
+    ],
+    [
+      7.783143043518066,
+      8.744806289672852
+    ],
+    [
+      7.246410846710205,
+      8.71006965637207
+    ],
+    [
+      7.229219913482666,
+      8.588132858276367
+    ],
+    [
+      7.555783271789551,
+      8.647153854370117
+    ],
+    [
+      7.9981231689453125,
+      9.157427787780762
+    ],
+    [
+      7.677005290985107,
+      8.955426216125488
+    ],
+    [
+      7.979663848876953,
+      9.01095199584961
+    ],
+    [
+      7.88413143157959,
+      9.053919792175293
+    ],
+    [
+      7.207460403442383,
+      9.200224876403809
+    ],
+    [
+      7.319794654846191,
+      9.149312019348145
+    ],
+    [
+      7.235604286193848,
+      9.222002029418945
+    ],
+    [
+      7.145902633666992,
+      9.285028457641602
+    ],
+    [
+      7.053893566131592,
+      9.28890609741211
+    ],
+    [
+      7.489699363708496,
+      9.298532485961914
+    ],
+    [
+      8.19495964050293,
+      7.9080810546875
+    ],
+    [
+      8.37382698059082,
+      7.973948955535889
+    ],
+    [
+      8.103257179260254,
+      9.127321243286133
+    ],
+    [
+      6.522055149078369,
+      8.48729133605957
+    ],
+    [
+      7.07580041885376,
+      7.62246036529541
+    ],
+    [
+      8.057994842529297,
+      7.655158042907715
+    ],
+    [
+      8.22098445892334,
+      7.829426288604736
+    ],
+    [
+      8.99947452545166,
+      11.401159286499023
+    ],
+    [
+      9.056323051452637,
+      11.409783363342285
+    ],
+    [
+      9.221076965332031,
+      11.24786376953125
+    ],
+    [
+      9.14970874786377,
+      11.129225730895996
+    ],
+    [
+      9.332015037536621,
+      10.907024383544922
+    ],
+    [
+      7.442281246185303,
+      7.612040042877197
+    ],
+    [
+      7.277199745178223,
+      7.852735996246338
+    ],
+    [
+      7.899163246154785,
+      7.721915245056152
+    ],
+    [
+      7.149257183074951,
+      7.74742317199707
+    ],
+    [
+      6.4595746994018555,
+      8.418237686157227
+    ],
+    [
+      9.079992294311523,
+      11.756753921508789
+    ],
+    [
+      9.023233413696289,
+      11.702715873718262
+    ],
+    [
+      8.960686683654785,
+      11.735359191894531
+    ],
+    [
+      6.289699077606201,
+      10.745221138000488
+    ],
+    [
+      7.26522970199585,
+      7.595130443572998
+    ],
+    [
+      6.340476036071777,
+      10.88306999206543
+    ],
+    [
+      6.363598823547363,
+      8.539666175842285
+    ],
+    [
+      8.270975112915039,
+      7.513850688934326
+    ],
+    [
+      8.293380737304688,
+      7.316151142120361
+    ],
+    [
+      8.3067626953125,
+      7.191498756408691
+    ],
+    [
+      8.114710807800293,
+      7.165030479431152
+    ],
+    [
+      7.901752471923828,
+      7.197712421417236
+    ],
+    [
+      8.051400184631348,
+      7.10104513168335
+    ],
+    [
+      9.307354927062988,
+      10.946158409118652
+    ],
+    [
+      6.219021320343018,
+      10.785303115844727
+    ],
+    [
+      6.915190696716309,
+      11.242076873779297
+    ],
+    [
+      4.918850898742676,
+      10.278156280517578
+    ],
+    [
+      6.5880327224731445,
+      8.317252159118652
+    ],
+    [
+      7.4853386878967285,
+      7.602361679077148
+    ],
+    [
+      5.0375823974609375,
+      9.655311584472656
+    ],
+    [
+      7.147090435028076,
+      8.013415336608887
+    ],
+    [
+      8.097315788269043,
+      7.940064430236816
+    ],
+    [
+      8.076092720031738,
+      7.877506732940674
+    ],
+    [
+      8.091899871826172,
+      8.037347793579102
+    ],
+    [
+      5.925178527832031,
+      9.559349060058594
+    ],
+    [
+      5.833439350128174,
+      6.71925163269043
+    ],
+    [
+      5.822147846221924,
+      6.750982761383057
+    ],
+    [
+      5.8280930519104,
+      6.7553815841674805
+    ],
+    [
+      5.83450174331665,
+      6.792393684387207
+    ],
+    [
+      8.673951148986816,
+      7.9184393882751465
+    ]
+  ],
+  "params": {
+    "umap_n_components": 15,
+    "umap_n_neighbors": 15,
+    "umap_min_dist": 0.0,
+    "hdbscan_min_cluster_size": 8,
+    "hdbscan_min_samples": 3
+  }
+}

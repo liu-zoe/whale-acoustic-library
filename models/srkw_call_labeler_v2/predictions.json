@@ -1,0 +1,4050 @@
+[
+  {
+    "clip_id": "orcasound_lab_20250924T062214Z_n17",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6028074622154236,
+    "window_start_s": 14.0,
+    "margin": 0.0006259679794311523
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061306Z_n2",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.5012696981430054,
+    "window_start_s": 10.0,
+    "margin": 0.04328960180282593
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T083905Z_n9",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.5172045230865479,
+    "window_start_s": 24.0,
+    "margin": 0.048826634883880615
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061158Z_n12",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2937828600406647,
+    "window_start_s": 3.0,
+    "margin": 0.013471215963363647
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T084135Z_n9",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.31083154678344727,
+    "window_start_s": 21.0,
+    "margin": 0.013038992881774902
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061058Z_n14",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.5866578817367554,
+    "window_start_s": 4.0,
+    "margin": 0.04196310043334961
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060932Z_n7",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.40928491950035095,
+    "window_start_s": 17.0,
+    "margin": 0.03520935773849487
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T062114Z_n11",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.47728919982910156,
+    "window_start_s": 24.0,
+    "margin": 0.0062971413135528564
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061646Z_n5",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.18981488049030304,
+    "window_start_s": 25.0,
+    "margin": 0.002409234642982483
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T152920Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4738832116127014,
+    "window_start_s": 12.0,
+    "margin": 0.018292278051376343
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061332Z_n11",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5566924810409546,
+    "window_start_s": 0.0,
+    "margin": 0.011436700820922852
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T033312Z_n3",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.4178207516670227,
+    "window_start_s": 7.0,
+    "margin": 0.03940120339393616
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T070446Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3399007320404053,
+    "window_start_s": 13.0,
+    "margin": 0.017143547534942627
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T083959Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22618192434310913,
+    "window_start_s": 24.0,
+    "margin": 0.009905010461807251
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060806Z_n6",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21979305148124695,
+    "window_start_s": 23.0,
+    "margin": 0.0021562576293945312
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T233906Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.43203216791152954,
+    "window_start_s": 16.0,
+    "margin": 0.01481124758720398
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T003134Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21351218223571777,
+    "window_start_s": 22.0,
+    "margin": 0.0028691142797470093
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225411Z_n5",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.423991322517395,
+    "window_start_s": 22.0,
+    "margin": 0.018622994422912598
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T062414Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5982905626296997,
+    "window_start_s": 11.0,
+    "margin": 0.02838754653930664
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060318Z_n5",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21985100209712982,
+    "window_start_s": 17.0,
+    "margin": 0.02655486762523651
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T062152Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.40048933029174805,
+    "window_start_s": 7.0,
+    "margin": 0.017149686813354492
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060620Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24693584442138672,
+    "window_start_s": 21.0,
+    "margin": 0.0036454051733016968
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060518Z_n5",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.44999709725379944,
+    "window_start_s": 20.0,
+    "margin": 0.023843824863433838
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030102Z_n2",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.6375962495803833,
+    "window_start_s": 0.0,
+    "margin": 0.030170679092407227
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T083529Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2515963315963745,
+    "window_start_s": 15.0,
+    "margin": 0.0014053583145141602
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T040044Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4823278486728668,
+    "window_start_s": 11.0,
+    "margin": 0.02627083659172058
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T035946Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22893090546131134,
+    "window_start_s": 20.0,
+    "margin": 0.012485906481742859
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T064912Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.43376678228378296,
+    "window_start_s": 11.0,
+    "margin": 0.016763955354690552
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T024250Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5433045625686646,
+    "window_start_s": 10.0,
+    "margin": 0.014993906021118164
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T233822Z_n5",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4815908670425415,
+    "window_start_s": 9.0,
+    "margin": 0.00287705659866333
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030752Z_n6",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.40726250410079956,
+    "window_start_s": 22.0,
+    "margin": 0.04841551184654236
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T033414Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19892585277557373,
+    "window_start_s": 24.0,
+    "margin": 0.007116034626960754
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061616Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2362341433763504,
+    "window_start_s": 16.0,
+    "margin": 0.00563792884349823
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T165432Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3438746929168701,
+    "window_start_s": 12.0,
+    "margin": 0.0008065104484558105
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004627Z_n16",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5764133930206299,
+    "window_start_s": 11.0,
+    "margin": 0.004361867904663086
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T230819Z_n2",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.26006022095680237,
+    "window_start_s": 0.0,
+    "margin": 0.1039152443408966
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T235244Z_n1",
+    "nearest_call": "Unk",
+    "pod": "K",
+    "similarity": 0.33175158500671387,
+    "window_start_s": 11.0,
+    "margin": 0.05084031820297241
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T040014Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.48303866386413574,
+    "window_start_s": 15.0,
+    "margin": 0.010208278894424438
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225233Z_n6",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.49383413791656494,
+    "window_start_s": 18.0,
+    "margin": 0.0368533730506897
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T005858Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.28199252486228943,
+    "window_start_s": 16.0,
+    "margin": 0.0011836588382720947
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060440Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.14888896048069,
+    "window_start_s": 0.0,
+    "margin": 0.0002622455358505249
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030130Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.2298891544342041,
+    "window_start_s": 7.0,
+    "margin": 0.03468117117881775
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T032318Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.48779386281967163,
+    "window_start_s": 2.0,
+    "margin": 0.00919446349143982
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025904Z_n6",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.5790799856185913,
+    "window_start_s": 19.0,
+    "margin": 0.0729106068611145
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T035918Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2202121764421463,
+    "window_start_s": 25.0,
+    "margin": 0.0005516856908798218
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T003038Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24439531564712524,
+    "window_start_s": 25.0,
+    "margin": 0.016652584075927734
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T231129Z_n16",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6276969909667969,
+    "window_start_s": 1.0,
+    "margin": 0.0026053190231323242
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T230911Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.26841384172439575,
+    "window_start_s": 3.0,
+    "margin": 0.07322351634502411
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030511Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6946516036987305,
+    "window_start_s": 14.0,
+    "margin": 0.0013633370399475098
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T031656Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.446139395236969,
+    "window_start_s": 14.0,
+    "margin": 0.005246937274932861
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T050930Z_n7",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.5095319151878357,
+    "window_start_s": 18.0,
+    "margin": 0.06809228658676147
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060554Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22142645716667175,
+    "window_start_s": 22.0,
+    "margin": 0.01006782054901123
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T083739Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.5465654134750366,
+    "window_start_s": 12.0,
+    "margin": 0.04444408416748047
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061746Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1544319987297058,
+    "window_start_s": 25.0,
+    "margin": 0.01218116283416748
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T230131Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.7017725706100464,
+    "window_start_s": 24.0,
+    "margin": 0.02795267105102539
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030726Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.25136491656303406,
+    "window_start_s": 25.0,
+    "margin": 0.010914385318756104
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030356Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.517882227897644,
+    "window_start_s": 14.0,
+    "margin": 0.02067914605140686
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T085055Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.36492541432380676,
+    "window_start_s": 0.0,
+    "margin": 0.03443917632102966
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T084017Z_n5",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.23146307468414307,
+    "window_start_s": 0.0,
+    "margin": 0.009561330080032349
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T162258Z_n1",
+    "nearest_call": "S14",
+    "pod": "?",
+    "similarity": 0.46393972635269165,
+    "window_start_s": 0.0,
+    "margin": 0.04243111610412598
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004223Z_n13",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5757392644882202,
+    "window_start_s": 23.0,
+    "margin": 0.01549917459487915
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T035752Z_n2",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.3750406503677368,
+    "window_start_s": 10.0,
+    "margin": 0.04462197422981262
+  },
+  {
+    "clip_id": "orcasound_lab_20250724T174455Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.45498061180114746,
+    "window_start_s": 2.0,
+    "margin": 0.0008101463317871094
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T034114Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.32649320363998413,
+    "window_start_s": 5.0,
+    "margin": 0.013895630836486816
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060832Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.43256813287734985,
+    "window_start_s": 4.0,
+    "margin": 0.005315989255905151
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225735Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.33740663528442383,
+    "window_start_s": 18.0,
+    "margin": 0.002792656421661377
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030550Z_n6",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.7394592761993408,
+    "window_start_s": 8.0,
+    "margin": 0.09841638803482056
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060252Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22944697737693787,
+    "window_start_s": 23.0,
+    "margin": 0.0037060678005218506
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T033736Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.31912028789520264,
+    "window_start_s": 14.0,
+    "margin": 0.004708468914031982
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T233738Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.523009181022644,
+    "window_start_s": 17.0,
+    "margin": 0.0014249086380004883
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061014Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21594813466072083,
+    "window_start_s": 0.0,
+    "margin": 0.01785317063331604
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005301Z_n9",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.5147361755371094,
+    "window_start_s": 0.0,
+    "margin": 0.035479456186294556
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225259Z_n10",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5912864208221436,
+    "window_start_s": 25.0,
+    "margin": 0.010272979736328125
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T032359Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24633124470710754,
+    "window_start_s": 0.0,
+    "margin": 0.022040218114852905
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005801Z_n12",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5212172269821167,
+    "window_start_s": 16.0,
+    "margin": 0.004157423973083496
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010045Z_n12",
+    "nearest_call": "S44",
+    "pod": "K",
+    "similarity": 0.36569395661354065,
+    "window_start_s": 3.0,
+    "margin": 0.0413515567779541
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030442Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5020888447761536,
+    "window_start_s": 0.0,
+    "margin": 0.007117152214050293
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T005912Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2651492953300476,
+    "window_start_s": 3.0,
+    "margin": 0.0026607513427734375
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060914Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3615601062774658,
+    "window_start_s": 25.0,
+    "margin": 0.00570186972618103
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061434Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19226516783237457,
+    "window_start_s": 25.0,
+    "margin": 0.010377198457717896
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T165544Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.44197773933410645,
+    "window_start_s": 11.0,
+    "margin": 0.03203672170639038
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T084607Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2552438974380493,
+    "window_start_s": 0.0,
+    "margin": 0.023269668221473694
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T085115Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1725783348083496,
+    "window_start_s": 25.0,
+    "margin": 0.007781863212585449
+  },
+  {
+    "clip_id": "orcasound_lab_20250731T175356Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.16276301443576813,
+    "window_start_s": 23.0,
+    "margin": 0.002819433808326721
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T230955Z_n4",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.6090552806854248,
+    "window_start_s": 8.0,
+    "margin": 0.08017987012863159
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T062253Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19941575825214386,
+    "window_start_s": 25.0,
+    "margin": 0.007364556193351746
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T230732Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3265734910964966,
+    "window_start_s": 12.0,
+    "margin": 0.001805722713470459
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T035818Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.4180387258529663,
+    "window_start_s": 25.0,
+    "margin": 0.06997758150100708
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225433Z_n5",
+    "nearest_call": "S05",
+    "pod": "K",
+    "similarity": 0.5435913801193237,
+    "window_start_s": 24.0,
+    "margin": 0.0859920084476471
+  },
+  {
+    "clip_id": "orcasound_lab_20250809T005615Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21359018981456757,
+    "window_start_s": 3.0,
+    "margin": 0.029789671301841736
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025018Z_n2",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.2509404122829437,
+    "window_start_s": 6.0,
+    "margin": 0.0693807601928711
+  },
+  {
+    "clip_id": "orcasound_lab_20250823T153010Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.45678019523620605,
+    "window_start_s": 14.0,
+    "margin": 0.009354740381240845
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T011755Z_n2",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.2683156728744507,
+    "window_start_s": 19.0,
+    "margin": 0.10681712627410889
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005955Z_n12",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.540322482585907,
+    "window_start_s": 9.0,
+    "margin": 0.0010756254196166992
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004309Z_n30",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6714913249015808,
+    "window_start_s": 9.0,
+    "margin": 0.003863811492919922
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225839Z_n8",
+    "nearest_call": "S06",
+    "pod": "K",
+    "similarity": 0.3978256285190582,
+    "window_start_s": 22.0,
+    "margin": 0.03048822283744812
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060644Z_n2",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.26995861530303955,
+    "window_start_s": 23.0,
+    "margin": 0.03747716546058655
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T230049Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.16443303227424622,
+    "window_start_s": 7.0,
+    "margin": 0.02126598358154297
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T035716Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2386196404695511,
+    "window_start_s": 4.0,
+    "margin": 0.008344873785972595
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225635Z_n9",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5282049179077148,
+    "window_start_s": 19.0,
+    "margin": 0.006958901882171631
+  },
+  {
+    "clip_id": "orcasound_lab_20250711T233934Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.16721826791763306,
+    "window_start_s": 25.0,
+    "margin": 0.01543077826499939
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T061516Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.23440250754356384,
+    "window_start_s": 16.0,
+    "margin": 0.00613287091255188
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T201158Z_n3",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.31161564588546753,
+    "window_start_s": 12.0,
+    "margin": 0.031454235315322876
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T033646Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.28542518615722656,
+    "window_start_s": 4.0,
+    "margin": 0.0008741915225982666
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030914Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.509469211101532,
+    "window_start_s": 11.0,
+    "margin": 0.007057368755340576
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030406Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.35672861337661743,
+    "window_start_s": 0.0,
+    "margin": 0.029092133045196533
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T031434Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6091042757034302,
+    "window_start_s": 13.0,
+    "margin": 0.016999483108520508
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025842Z_n4",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.5522506237030029,
+    "window_start_s": 7.0,
+    "margin": 0.030350565910339355
+  },
+  {
+    "clip_id": "orcasound_lab_20250731T211716Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.27725738286972046,
+    "window_start_s": 20.0,
+    "margin": 0.024998068809509277
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030002Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5305580496788025,
+    "window_start_s": 8.0,
+    "margin": 0.013399243354797363
+  },
+  {
+    "clip_id": "orcasound_lab_20250711T234706Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22254382073879242,
+    "window_start_s": 24.0,
+    "margin": 0.0013006776571273804
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030036Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6154550313949585,
+    "window_start_s": 13.0,
+    "margin": 0.021762430667877197
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T040636Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20348794758319855,
+    "window_start_s": 4.0,
+    "margin": 0.018573090434074402
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025404Z_n3",
+    "nearest_call": "Unk",
+    "pod": "K",
+    "similarity": 0.5583126544952393,
+    "window_start_s": 12.0,
+    "margin": 0.038217902183532715
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005451Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4093989133834839,
+    "window_start_s": 10.0,
+    "margin": 0.006594479084014893
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T014045Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2808070182800293,
+    "window_start_s": 6.0,
+    "margin": 0.0170820951461792
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T032404Z_n3",
+    "nearest_call": "S08",
+    "pod": "K",
+    "similarity": 0.27289777994155884,
+    "window_start_s": 19.0,
+    "margin": 0.049380749464035034
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051154Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.504302978515625,
+    "window_start_s": 12.0,
+    "margin": 0.0031679272651672363
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T234012Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.20421501994132996,
+    "window_start_s": 17.0,
+    "margin": 0.04045325517654419
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030710Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5780755281448364,
+    "window_start_s": 3.0,
+    "margin": 0.024161458015441895
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T233008Z_n2",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.39404207468032837,
+    "window_start_s": 13.0,
+    "margin": 0.06039494276046753
+  },
+  {
+    "clip_id": "orcasound_lab_20250827T152328Z_n15",
+    "nearest_call": "S33",
+    "pod": "K",
+    "similarity": 0.42145633697509766,
+    "window_start_s": 3.0,
+    "margin": 0.036910831928253174
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T230117Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20496465265750885,
+    "window_start_s": 22.0,
+    "margin": 0.0007410496473312378
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025050Z_n9",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6723770499229431,
+    "window_start_s": 20.0,
+    "margin": 0.01015859842300415
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T062328Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.43781787157058716,
+    "window_start_s": 18.0,
+    "margin": 0.010645866394042969
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225349Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6183842420578003,
+    "window_start_s": 8.0,
+    "margin": 0.008286058902740479
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T050816Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.30946558713912964,
+    "window_start_s": 2.0,
+    "margin": 0.013356000185012817
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T000256Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.230150043964386,
+    "window_start_s": 0.0,
+    "margin": 0.00866420567035675
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T083143Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4561161994934082,
+    "window_start_s": 0.0,
+    "margin": 0.005364149808883667
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T031104Z_n3",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.4477940797805786,
+    "window_start_s": 17.0,
+    "margin": 0.04511147737503052
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030455Z_n1",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.5848406553268433,
+    "window_start_s": 14.0,
+    "margin": 0.03863859176635742
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060958Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22613027691841125,
+    "window_start_s": 16.0,
+    "margin": 0.008830368518829346
+  },
+  {
+    "clip_id": "orcasound_lab_20250827T152426Z_n3",
+    "nearest_call": "S14",
+    "pod": "?",
+    "similarity": 0.48893284797668457,
+    "window_start_s": 10.0,
+    "margin": 0.06801420450210571
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T060843Z_n7",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21564701199531555,
+    "window_start_s": 23.0,
+    "margin": 0.0014220476150512695
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T024900Z_n2",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.2703727185726166,
+    "window_start_s": 5.0,
+    "margin": 0.040386974811553955
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T050846Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2736942768096924,
+    "window_start_s": 0.0,
+    "margin": 0.0178777277469635
+  },
+  {
+    "clip_id": "orcasound_lab_20250901T201809Z_n2",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.22471140325069427,
+    "window_start_s": 1.0,
+    "margin": 0.032501474022865295
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030150Z_n2",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.19291436672210693,
+    "window_start_s": 25.0,
+    "margin": 0.05181051790714264
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T034014Z_n3",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.324047327041626,
+    "window_start_s": 0.0,
+    "margin": 0.05384546518325806
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025530Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.48953694105148315,
+    "window_start_s": 17.0,
+    "margin": 0.006330430507659912
+  },
+  {
+    "clip_id": "orcasound_lab_20250915T141411Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.40356215834617615,
+    "window_start_s": 11.0,
+    "margin": 0.016661792993545532
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004819Z_n5",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6678445339202881,
+    "window_start_s": 18.0,
+    "margin": 0.015093326568603516
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T035832Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2492421418428421,
+    "window_start_s": 24.0,
+    "margin": 0.004639521241188049
+  },
+  {
+    "clip_id": "orcasound_lab_20250804T141718Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.25465378165245056,
+    "window_start_s": 16.0,
+    "margin": 0.012349426746368408
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T084625Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.18453778326511383,
+    "window_start_s": 0.0,
+    "margin": 0.0017310231924057007
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225809Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19399502873420715,
+    "window_start_s": 2.0,
+    "margin": 0.004652202129364014
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T032340Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5121480226516724,
+    "window_start_s": 20.0,
+    "margin": 0.014297902584075928
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005915Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.44122788310050964,
+    "window_start_s": 0.0,
+    "margin": 0.0004272758960723877
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T031026Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.32054945826530457,
+    "window_start_s": 25.0,
+    "margin": 0.06815287470817566
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T234658Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5120297074317932,
+    "window_start_s": 12.0,
+    "margin": 0.013774842023849487
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T235216Z_n1",
+    "nearest_call": "Unk",
+    "pod": "K",
+    "similarity": 0.282927930355072,
+    "window_start_s": 11.0,
+    "margin": 0.033772945404052734
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061732Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.2575919032096863,
+    "window_start_s": 7.0,
+    "margin": 0.03753092885017395
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004855Z_n5",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.5739320516586304,
+    "window_start_s": 20.0,
+    "margin": 0.04270714521408081
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T054032Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4091462194919586,
+    "window_start_s": 12.0,
+    "margin": 0.0005673468112945557
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T181826Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.43856117129325867,
+    "window_start_s": 12.0,
+    "margin": 0.014606565237045288
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225823Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5580982565879822,
+    "window_start_s": 4.0,
+    "margin": 0.0053198933601379395
+  },
+  {
+    "clip_id": "orcasound_lab_20250730T005225Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2647910714149475,
+    "window_start_s": 25.0,
+    "margin": 0.024949461221694946
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T205617Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3222312033176422,
+    "window_start_s": 14.0,
+    "margin": 0.024464666843414307
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T230427Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.23572808504104614,
+    "window_start_s": 22.0,
+    "margin": 0.06227082014083862
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051346Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2799752950668335,
+    "window_start_s": 2.0,
+    "margin": 0.017046302556991577
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T014031Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.28080689907073975,
+    "window_start_s": 19.0,
+    "margin": 0.01708206534385681
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025008Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.2509404420852661,
+    "window_start_s": 17.0,
+    "margin": 0.0693807452917099
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T233138Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5150178670883179,
+    "window_start_s": 9.0,
+    "margin": 0.010023951530456543
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030656Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.218765988945961,
+    "window_start_s": 2.0,
+    "margin": 0.003368586301803589
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T231057Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5853742361068726,
+    "window_start_s": 19.0,
+    "margin": 0.018600881099700928
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010315Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5608416795730591,
+    "window_start_s": 10.0,
+    "margin": 0.007532656192779541
+  },
+  {
+    "clip_id": "orcasound_lab_20250827T152612Z_n1",
+    "nearest_call": "S33",
+    "pod": "K",
+    "similarity": 0.19428928196430206,
+    "window_start_s": 25.0,
+    "margin": 0.04397217929363251
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010033Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4227810502052307,
+    "window_start_s": 13.0,
+    "margin": 0.008720755577087402
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060752Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.23096559941768646,
+    "window_start_s": 0.0,
+    "margin": 0.005544483661651611
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T045324Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.25546860694885254,
+    "window_start_s": 25.0,
+    "margin": 0.010034635663032532
+  },
+  {
+    "clip_id": "orcasound_lab_20250827T152522Z_n10",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.42022302746772766,
+    "window_start_s": 19.0,
+    "margin": 0.0027069151401519775
+  },
+  {
+    "clip_id": "orcasound_lab_20250827T152440Z_n6",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.40167436003685,
+    "window_start_s": 10.0,
+    "margin": 0.027712702751159668
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T010042Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.18811599910259247,
+    "window_start_s": 25.0,
+    "margin": 0.006303921341896057
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T071346Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4064716696739197,
+    "window_start_s": 11.0,
+    "margin": 0.024802714586257935
+  },
+  {
+    "clip_id": "orcasound_lab_20250704T225631Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.23832638561725616,
+    "window_start_s": 0.0,
+    "margin": 0.010036766529083252
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025432Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.47997793555259705,
+    "window_start_s": 11.0,
+    "margin": 0.0156230628490448
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T234026Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21676179766654968,
+    "window_start_s": 1.0,
+    "margin": 0.02860972285270691
+  },
+  {
+    "clip_id": "orcasound_lab_20250925T034314Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.46803510189056396,
+    "window_start_s": 25.0,
+    "margin": 0.04382315278053284
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225937Z_n13",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.5868918299674988,
+    "window_start_s": 11.0,
+    "margin": 0.032382071018218994
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025032Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.49565714597702026,
+    "window_start_s": 25.0,
+    "margin": 0.008039593696594238
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010135Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4704379141330719,
+    "window_start_s": 10.0,
+    "margin": 0.00430634617805481
+  },
+  {
+    "clip_id": "orcasound_lab_20250724T173739Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.49318647384643555,
+    "window_start_s": 0.0,
+    "margin": 0.05559605360031128
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025938Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21714945137500763,
+    "window_start_s": 6.0,
+    "margin": 0.028866425156593323
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T050050Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20481224358081818,
+    "window_start_s": 5.0,
+    "margin": 0.011919885873794556
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005053Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.43353748321533203,
+    "window_start_s": 0.0,
+    "margin": 0.010600805282592773
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T231021Z_n3",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.4352584779262543,
+    "window_start_s": 25.0,
+    "margin": 0.05172809958457947
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061722Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20187857747077942,
+    "window_start_s": 0.0,
+    "margin": 0.02525937557220459
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T232816Z_n1",
+    "nearest_call": "Unk",
+    "pod": "K",
+    "similarity": 0.4721860885620117,
+    "window_start_s": 19.0,
+    "margin": 0.03166693449020386
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005943Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.41019749641418457,
+    "window_start_s": 25.0,
+    "margin": 0.0003744363784790039
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T014415Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6013002991676331,
+    "window_start_s": 13.0,
+    "margin": 0.006138920783996582
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T034324Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21414171159267426,
+    "window_start_s": 22.0,
+    "margin": 0.0007330626249313354
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030050Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.587393581867218,
+    "window_start_s": 1.0,
+    "margin": 0.00559002161026001
+  },
+  {
+    "clip_id": "orcasound_lab_20250827T152508Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4264645278453827,
+    "window_start_s": 24.0,
+    "margin": 0.017158061265945435
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T231237Z_n5",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.30103981494903564,
+    "window_start_s": 1.0,
+    "margin": 0.013393580913543701
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T180308Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.393290638923645,
+    "window_start_s": 11.0,
+    "margin": 0.02897346019744873
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T062648Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.21335333585739136,
+    "window_start_s": 21.0,
+    "margin": 0.030604004859924316
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051056Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3391205072402954,
+    "window_start_s": 13.0,
+    "margin": 0.009611338376998901
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T014157Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2329513132572174,
+    "window_start_s": 25.0,
+    "margin": 0.019450604915618896
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T205433Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3716103434562683,
+    "window_start_s": 14.0,
+    "margin": 0.007837653160095215
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010231Z_n5",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5392892956733704,
+    "window_start_s": 3.0,
+    "margin": 0.017942965030670166
+  },
+  {
+    "clip_id": "orcasound_lab_20250826T174651Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1352258026599884,
+    "window_start_s": 8.0,
+    "margin": 0.01568690687417984
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T031642Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3882656991481781,
+    "window_start_s": 25.0,
+    "margin": 0.008515030145645142
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225041Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22950679063796997,
+    "window_start_s": 17.0,
+    "margin": 0.025615140795707703
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T063120Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4311084449291229,
+    "window_start_s": 15.0,
+    "margin": 0.0071374475955963135
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005557Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.16078956425189972,
+    "window_start_s": 0.0,
+    "margin": 8.727610111236572e-05
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T033252Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1495363563299179,
+    "window_start_s": 7.0,
+    "margin": 0.0016371756792068481
+  },
+  {
+    "clip_id": "orcasound_lab_20250717T180846Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.28354620933532715,
+    "window_start_s": 14.0,
+    "margin": 0.000855565071105957
+  },
+  {
+    "clip_id": "orcasound_lab_20250717T170112Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.26219043135643005,
+    "window_start_s": 0.0,
+    "margin": 0.016523122787475586
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004951Z_n6",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5403162837028503,
+    "window_start_s": 15.0,
+    "margin": 0.0030578970909118652
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T031308Z_n4",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.38134732842445374,
+    "window_start_s": 0.0,
+    "margin": 0.04608026146888733
+  },
+  {
+    "clip_id": "orcasound_lab_20250724T174445Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.45498067140579224,
+    "window_start_s": 12.0,
+    "margin": 0.0008101463317871094
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060900Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2349185049533844,
+    "window_start_s": 21.0,
+    "margin": 0.013843744993209839
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T214933Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.23695771396160126,
+    "window_start_s": 23.0,
+    "margin": 0.051424384117126465
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T084045Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21616515517234802,
+    "window_start_s": 9.0,
+    "margin": 0.0034490227699279785
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T170312Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4400952458381653,
+    "window_start_s": 13.0,
+    "margin": 0.019592106342315674
+  },
+  {
+    "clip_id": "orcasound_lab_20250915T141445Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4222670793533325,
+    "window_start_s": 14.0,
+    "margin": 0.00011616945266723633
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T061025Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2011994868516922,
+    "window_start_s": 20.0,
+    "margin": 0.005221471190452576
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T084729Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.19983693957328796,
+    "window_start_s": 0.0,
+    "margin": 0.05785529315471649
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005853Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5052187442779541,
+    "window_start_s": 16.0,
+    "margin": 0.009347617626190186
+  },
+  {
+    "clip_id": "orcasound_lab_20250717T185020Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.23243166506290436,
+    "window_start_s": 17.0,
+    "margin": 0.009685441851615906
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T174224Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.38342201709747314,
+    "window_start_s": 13.0,
+    "margin": 0.0016437768936157227
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030638Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22607600688934326,
+    "window_start_s": 21.0,
+    "margin": 0.0019484758377075195
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T083423Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5823521614074707,
+    "window_start_s": 19.0,
+    "margin": 0.01873767375946045
+  },
+  {
+    "clip_id": "orcasound_lab_20250717T185038Z_n5",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1925446093082428,
+    "window_start_s": 25.0,
+    "margin": 0.009782731533050537
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025208Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5888670682907104,
+    "window_start_s": 11.0,
+    "margin": 0.010873854160308838
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T013133Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.386951208114624,
+    "window_start_s": 6.0,
+    "margin": 0.022226154804229736
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T232714Z_n1",
+    "nearest_call": "Unk",
+    "pod": "K",
+    "similarity": 0.40482383966445923,
+    "window_start_s": 12.0,
+    "margin": 0.07274359464645386
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060728Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.2710310220718384,
+    "window_start_s": 21.0,
+    "margin": 0.07636106014251709
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T033700Z_n1",
+    "nearest_call": "S33",
+    "pod": "K",
+    "similarity": 0.2759552597999573,
+    "window_start_s": 15.0,
+    "margin": 0.05289241671562195
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T052433Z_n2",
+    "nearest_call": "S01",
+    "pod": "?",
+    "similarity": 0.5333442091941833,
+    "window_start_s": 21.0,
+    "margin": 0.07328557968139648
+  },
+  {
+    "clip_id": "orcasound_lab_20250902T000607Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24639615416526794,
+    "window_start_s": 8.0,
+    "margin": 0.026165693998336792
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T084057Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3683120310306549,
+    "window_start_s": 9.0,
+    "margin": 0.026909559965133667
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T230023Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5553240776062012,
+    "window_start_s": 12.0,
+    "margin": 0.02452164888381958
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225209Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3166709542274475,
+    "window_start_s": 16.0,
+    "margin": 0.024228423833847046
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T162244Z_n1",
+    "nearest_call": "S14",
+    "pod": "K",
+    "similarity": 0.4448998272418976,
+    "window_start_s": 4.0,
+    "margin": 0.10079839825630188
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T231307Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.40236878395080566,
+    "window_start_s": 6.0,
+    "margin": 0.009631872177124023
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T062023Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22267934679985046,
+    "window_start_s": 23.0,
+    "margin": 0.006546139717102051
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T060541Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.28488123416900635,
+    "window_start_s": 0.0,
+    "margin": 0.0434490442276001
+  },
+  {
+    "clip_id": "orcasound_lab_20250803T025346Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22023668885231018,
+    "window_start_s": 8.0,
+    "margin": 0.002557039260864258
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225157Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3136584162712097,
+    "window_start_s": 11.0,
+    "margin": 0.01239427924156189
+  },
+  {
+    "clip_id": "orcasound_lab_20250901T202103Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2857133150100708,
+    "window_start_s": 25.0,
+    "margin": 0.012216538190841675
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225721Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5250918865203857,
+    "window_start_s": 11.0,
+    "margin": 0.002846956253051758
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T002822Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.26890045404434204,
+    "window_start_s": 4.0,
+    "margin": 0.04248237609863281
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T060717Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2341655045747757,
+    "window_start_s": 25.0,
+    "margin": 0.01151321828365326
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030218Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4344002902507782,
+    "window_start_s": 11.0,
+    "margin": 0.015064358711242676
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T230443Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.23590168356895447,
+    "window_start_s": 6.0,
+    "margin": 0.06222337484359741
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004925Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5524744987487793,
+    "window_start_s": 0.0,
+    "margin": 0.0011043548583984375
+  },
+  {
+    "clip_id": "orcasound_lab_20250805T012619Z_n2",
+    "nearest_call": "S18",
+    "pod": "K",
+    "similarity": 0.19450584053993225,
+    "window_start_s": 16.0,
+    "margin": 0.04288499057292938
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010347Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5750441551208496,
+    "window_start_s": 13.0,
+    "margin": 0.02399265766143799
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T063800Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2599256634712219,
+    "window_start_s": 21.0,
+    "margin": 0.007178455591201782
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T231041Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5531997680664062,
+    "window_start_s": 14.0,
+    "margin": 0.015609562397003174
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T083309Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2710821330547333,
+    "window_start_s": 22.0,
+    "margin": 0.005407094955444336
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T032413Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5786723494529724,
+    "window_start_s": 0.0,
+    "margin": 0.0054593682289123535
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T031340Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.29600250720977783,
+    "window_start_s": 0.0,
+    "margin": 0.05747251212596893
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T083341Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3730962872505188,
+    "window_start_s": 15.0,
+    "margin": 0.011885583400726318
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T082815Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5644218921661377,
+    "window_start_s": 9.0,
+    "margin": 0.023135066032409668
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T234622Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3086056709289551,
+    "window_start_s": 23.0,
+    "margin": 0.013484179973602295
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010257Z_n4",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.45275160670280457,
+    "window_start_s": 15.0,
+    "margin": 0.011685341596603394
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T062356Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.26297757029533386,
+    "window_start_s": 10.0,
+    "margin": 0.02063542604446411
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T062706Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19195786118507385,
+    "window_start_s": 2.0,
+    "margin": 0.0037595629692077637
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T052044Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.25753289461135864,
+    "window_start_s": 23.0,
+    "margin": 0.029850661754608154
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T082509Z_n3",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.45300328731536865,
+    "window_start_s": 15.0,
+    "margin": 0.04455101490020752
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005219Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.42466211318969727,
+    "window_start_s": 24.0,
+    "margin": 0.00782996416091919
+  },
+  {
+    "clip_id": "orcasound_lab_20250925T034518Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4367872476577759,
+    "window_start_s": 14.0,
+    "margin": 0.01058506965637207
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T110315Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.3070189952850342,
+    "window_start_s": 25.0,
+    "margin": 0.05665820837020874
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030533Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22470754384994507,
+    "window_start_s": 9.0,
+    "margin": 0.005833283066749573
+  },
+  {
+    "clip_id": "orcasound_lab_20250803T025142Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3182094395160675,
+    "window_start_s": 23.0,
+    "margin": 0.02160954475402832
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005115Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.49777525663375854,
+    "window_start_s": 13.0,
+    "margin": 0.0005490779876708984
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T165047Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.48718875646591187,
+    "window_start_s": 13.0,
+    "margin": 0.008045852184295654
+  },
+  {
+    "clip_id": "orcasound_lab_20250917T202354Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20120856165885925,
+    "window_start_s": 9.0,
+    "margin": 0.01897326111793518
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T090257Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.4213367700576782,
+    "window_start_s": 13.0,
+    "margin": 0.06268709897994995
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T231950Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4394589960575104,
+    "window_start_s": 11.0,
+    "margin": 0.017254561185836792
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T084121Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2366277575492859,
+    "window_start_s": 0.0,
+    "margin": 0.019941166043281555
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T052421Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.36293500661849976,
+    "window_start_s": 6.0,
+    "margin": 0.006901353597640991
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T060809Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2224341332912445,
+    "window_start_s": 25.0,
+    "margin": 0.004265189170837402
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T062525Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1807912290096283,
+    "window_start_s": 0.0,
+    "margin": 0.003958225250244141
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T171405Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4795970916748047,
+    "window_start_s": 13.0,
+    "margin": 0.015452712774276733
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T083457Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3058546781539917,
+    "window_start_s": 25.0,
+    "margin": 1.341104507446289e-06
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T050834Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21973536908626556,
+    "window_start_s": 2.0,
+    "margin": 0.016172051429748535
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T060731Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2353440821170807,
+    "window_start_s": 25.0,
+    "margin": 0.005457282066345215
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004729Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.43591201305389404,
+    "window_start_s": 1.0,
+    "margin": 0.008611083030700684
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T060933Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.17635442316532135,
+    "window_start_s": 25.0,
+    "margin": 0.007643520832061768
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T233353Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.35758206248283386,
+    "window_start_s": 12.0,
+    "margin": 0.018395990133285522
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T232620Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3784468173980713,
+    "window_start_s": 12.0,
+    "margin": 0.003478527069091797
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T060643Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.23687943816184998,
+    "window_start_s": 25.0,
+    "margin": 0.020771145820617676
+  },
+  {
+    "clip_id": "orcasound_lab_20250915T144431Z_n2",
+    "nearest_call": "S14",
+    "pod": "?",
+    "similarity": 0.4635012745857239,
+    "window_start_s": 15.0,
+    "margin": 0.07257348299026489
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051210Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.4198298454284668,
+    "window_start_s": 16.0,
+    "margin": 0.03639954328536987
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T060531Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.3016741871833801,
+    "window_start_s": 0.0,
+    "margin": 0.07388675212860107
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051904Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.406357079744339,
+    "window_start_s": 2.0,
+    "margin": 0.007416039705276489
+  },
+  {
+    "clip_id": "orcasound_lab_20250915T144449Z_n2",
+    "nearest_call": "S14",
+    "pod": "L",
+    "similarity": 0.3910393714904785,
+    "window_start_s": 13.0,
+    "margin": 0.06646338105201721
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T120301Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.15631362795829773,
+    "window_start_s": 23.0,
+    "margin": 0.020430386066436768
+  },
+  {
+    "clip_id": "orcasound_lab_20250827T010317Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2113034874200821,
+    "window_start_s": 5.0,
+    "margin": 0.017001599073410034
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T040108Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3156030774116516,
+    "window_start_s": 14.0,
+    "margin": 0.018547475337982178
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T062615Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1912495493888855,
+    "window_start_s": 14.0,
+    "margin": 0.019806236028671265
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T234852Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21424135565757751,
+    "window_start_s": 12.0,
+    "margin": 0.006062895059585571
+  },
+  {
+    "clip_id": "orcasound_lab_20250731T194502Z_n1",
+    "nearest_call": "S05",
+    "pod": "K",
+    "similarity": 0.27088838815689087,
+    "window_start_s": 22.0,
+    "margin": 0.050557494163513184
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025134Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6564005613327026,
+    "window_start_s": 12.0,
+    "margin": 0.0047425031661987305
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T233054Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.38207000494003296,
+    "window_start_s": 14.0,
+    "margin": 0.014712095260620117
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T060718Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24368834495544434,
+    "window_start_s": 6.0,
+    "margin": 0.02632620930671692
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T053656Z_n2",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.5072095394134521,
+    "window_start_s": 25.0,
+    "margin": 0.0674741268157959
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T045622Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20912835001945496,
+    "window_start_s": 25.0,
+    "margin": 0.006591111421585083
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T085009Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.30453062057495117,
+    "window_start_s": 18.0,
+    "margin": 0.0008474588394165039
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025602Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5438439846038818,
+    "window_start_s": 0.0,
+    "margin": 0.003982901573181152
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T052340Z_n3",
+    "nearest_call": "Unk",
+    "pod": "K",
+    "similarity": 0.5697653293609619,
+    "window_start_s": 10.0,
+    "margin": 0.03115791082382202
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010209Z_n4",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.5778034925460815,
+    "window_start_s": 10.0,
+    "margin": 0.08070191740989685
+  },
+  {
+    "clip_id": "orcasound_lab_20250903T043905Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.16907882690429688,
+    "window_start_s": 8.0,
+    "margin": 0.013815611600875854
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T171216Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.33285239338874817,
+    "window_start_s": 14.0,
+    "margin": 0.016168713569641113
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T205529Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.34560060501098633,
+    "window_start_s": 15.0,
+    "margin": 0.03514671325683594
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051818Z_n3",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.5845864415168762,
+    "window_start_s": 8.0,
+    "margin": 0.043231189250946045
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T063108Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.3075900077819824,
+    "window_start_s": 0.0,
+    "margin": 0.08313572406768799
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T060825Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24100229144096375,
+    "window_start_s": 23.0,
+    "margin": 0.01872318983078003
+  },
+  {
+    "clip_id": "orcasound_lab_20250827T152654Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4068010449409485,
+    "window_start_s": 8.0,
+    "margin": 0.00989454984664917
+  },
+  {
+    "clip_id": "orcasound_lab_20250926T235350Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2659101188182831,
+    "window_start_s": 25.0,
+    "margin": 0.010258108377456665
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T181142Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.40130752325057983,
+    "window_start_s": 13.0,
+    "margin": 0.00588265061378479
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T010020Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.28360655903816223,
+    "window_start_s": 6.0,
+    "margin": 0.0100003182888031
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005247Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4164999723434448,
+    "window_start_s": 13.0,
+    "margin": 0.021016061305999756
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T061532Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20485982298851013,
+    "window_start_s": 19.0,
+    "margin": 0.006789654493331909
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005521Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.184204563498497,
+    "window_start_s": 25.0,
+    "margin": 0.0032552331686019897
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T232852Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.36136549711227417,
+    "window_start_s": 13.0,
+    "margin": 0.00496363639831543
+  },
+  {
+    "clip_id": "orcasound_lab_20250712T223859Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.17344576120376587,
+    "window_start_s": 25.0,
+    "margin": 0.003700077533721924
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010547Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3615139126777649,
+    "window_start_s": 5.0,
+    "margin": 0.02750241756439209
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005725Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.38147473335266113,
+    "window_start_s": 11.0,
+    "margin": 0.023895621299743652
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T040258Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2102116048336029,
+    "window_start_s": 21.0,
+    "margin": 0.007324337959289551
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225009Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.21053138375282288,
+    "window_start_s": 5.0,
+    "margin": 0.045191824436187744
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T083607Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.25376611948013306,
+    "window_start_s": 21.0,
+    "margin": 0.01936696469783783
+  },
+  {
+    "clip_id": "orcasound_lab_20250815T155014Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.34743958711624146,
+    "window_start_s": 7.0,
+    "margin": 0.03158798813819885
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T053822Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2390815019607544,
+    "window_start_s": 25.0,
+    "margin": 0.011710286140441895
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T052140Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5312593579292297,
+    "window_start_s": 14.0,
+    "margin": 0.008947432041168213
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005043Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4350584149360657,
+    "window_start_s": 11.0,
+    "margin": 0.013771653175354004
+  },
+  {
+    "clip_id": "orcasound_lab_20250830T153908Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20319917798042297,
+    "window_start_s": 1.0,
+    "margin": 0.0008319616317749023
+  },
+  {
+    "clip_id": "orcasound_lab_20250909T191351Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.2673609256744385,
+    "window_start_s": 25.0,
+    "margin": 0.04184150695800781
+  },
+  {
+    "clip_id": "orcasound_lab_20250805T012635Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1837034523487091,
+    "window_start_s": 23.0,
+    "margin": 0.025556951761245728
+  },
+  {
+    "clip_id": "orcasound_lab_20250822T064624Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1383334845304489,
+    "window_start_s": 0.0,
+    "margin": 0.005272194743156433
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T053504Z_n1",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.5234619975090027,
+    "window_start_s": 10.0,
+    "margin": 0.034863680601119995
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T034906Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19404955208301544,
+    "window_start_s": 4.0,
+    "margin": 0.005798459053039551
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051010Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.26480376720428467,
+    "window_start_s": 23.0,
+    "margin": 0.011163443326950073
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T011523Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20628145337104797,
+    "window_start_s": 24.0,
+    "margin": 0.002235010266304016
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T032420Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2721448242664337,
+    "window_start_s": 19.0,
+    "margin": 0.006060928106307983
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T090331Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2044338434934616,
+    "window_start_s": 5.0,
+    "margin": 0.009366005659103394
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T001912Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3362496495246887,
+    "window_start_s": 15.0,
+    "margin": 0.0021733641624450684
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025150Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6216710805892944,
+    "window_start_s": 0.0,
+    "margin": 0.003455221652984619
+  },
+  {
+    "clip_id": "orcasound_lab_20250704T034753Z_n1",
+    "nearest_call": "Unk",
+    "pod": "K",
+    "similarity": 0.28204765915870667,
+    "window_start_s": 1.0,
+    "margin": 0.030354291200637817
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T085209Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21570110321044922,
+    "window_start_s": 0.0,
+    "margin": 0.0015574246644973755
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T054340Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2663578689098358,
+    "window_start_s": 24.0,
+    "margin": 0.0003808140754699707
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004009Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.38746178150177,
+    "window_start_s": 20.0,
+    "margin": 0.01635873317718506
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T011811Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.39267784357070923,
+    "window_start_s": 2.0,
+    "margin": 0.0023783743381500244
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051026Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.25929856300354004,
+    "window_start_s": 0.0,
+    "margin": 0.004046976566314697
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010155Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4868122339248657,
+    "window_start_s": 25.0,
+    "margin": 0.005219399929046631
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T060755Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2583768367767334,
+    "window_start_s": 25.0,
+    "margin": 0.02710948884487152
+  },
+  {
+    "clip_id": "orcasound_lab_20250724T173919Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.2804936170578003,
+    "window_start_s": 6.0,
+    "margin": 0.03134456276893616
+  },
+  {
+    "clip_id": "orcasound_lab_20250710T211653Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1923624575138092,
+    "window_start_s": 0.0,
+    "margin": 0.011913254857063293
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010505Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5237082242965698,
+    "window_start_s": 14.0,
+    "margin": 0.0030448436737060547
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010709Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1606176644563675,
+    "window_start_s": 16.0,
+    "margin": 0.0029799938201904297
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T052106Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24692842364311218,
+    "window_start_s": 1.0,
+    "margin": 0.028008416295051575
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061044Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19123750925064087,
+    "window_start_s": 24.0,
+    "margin": 0.012612521648406982
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T230851Z_n2",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.2684139013290405,
+    "window_start_s": 22.0,
+    "margin": 0.0732235312461853
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T040714Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21874327957630157,
+    "window_start_s": 21.0,
+    "margin": 0.006277516484260559
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T002337Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.30394816398620605,
+    "window_start_s": 0.0,
+    "margin": 0.004579484462738037
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T054908Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.25328147411346436,
+    "window_start_s": 25.0,
+    "margin": 0.02788996696472168
+  },
+  {
+    "clip_id": "orcasound_lab_20250903T214359Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21691866219043732,
+    "window_start_s": 4.0,
+    "margin": 0.008288517594337463
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T041216Z_n3",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.353458046913147,
+    "window_start_s": 5.0,
+    "margin": 0.008322715759277344
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025224Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5849871635437012,
+    "window_start_s": 12.0,
+    "margin": 0.0018267035484313965
+  },
+  {
+    "clip_id": "orcasound_lab_20250914T000136Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.17859342694282532,
+    "window_start_s": 0.0,
+    "margin": 0.006867796182632446
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T060610Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.25544774532318115,
+    "window_start_s": 17.0,
+    "margin": 0.03412766754627228
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T230143Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6996874213218689,
+    "window_start_s": 12.0,
+    "margin": 0.029252827167510986
+  },
+  {
+    "clip_id": "orcasound_lab_20250927T171728Z_n2",
+    "nearest_call": "Unk",
+    "pod": "K",
+    "similarity": 0.4038589596748352,
+    "window_start_s": 15.0,
+    "margin": 0.06676885485649109
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T011455Z_n2",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.22861793637275696,
+    "window_start_s": 20.0,
+    "margin": 0.049773186445236206
+  },
+  {
+    "clip_id": "orcasound_lab_20250915T142027Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.31481796503067017,
+    "window_start_s": 2.0,
+    "margin": 0.006734400987625122
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T001818Z_n1",
+    "nearest_call": "Unk",
+    "pod": "K",
+    "similarity": 0.4682425856590271,
+    "window_start_s": 13.0,
+    "margin": 0.05139857530593872
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T232828Z_n1",
+    "nearest_call": "Unk",
+    "pod": "K",
+    "similarity": 0.471174418926239,
+    "window_start_s": 7.0,
+    "margin": 0.03703930974006653
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T050734Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.308045357465744,
+    "window_start_s": 17.0,
+    "margin": 0.02694186568260193
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T233716Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2780939042568207,
+    "window_start_s": 13.0,
+    "margin": 0.022741854190826416
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T041955Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.40987709164619446,
+    "window_start_s": 2.0,
+    "margin": 0.0035784542560577393
+  },
+  {
+    "clip_id": "orcasound_lab_20250718T151615Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2805267870426178,
+    "window_start_s": 10.0,
+    "margin": 0.004264414310455322
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T062455Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20469991862773895,
+    "window_start_s": 7.0,
+    "margin": 0.010441377758979797
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T040000Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.23929071426391602,
+    "window_start_s": 6.0,
+    "margin": 0.012973949313163757
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T014259Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.29972943663597107,
+    "window_start_s": 25.0,
+    "margin": 0.008454203605651855
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T084529Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2548981010913849,
+    "window_start_s": 15.0,
+    "margin": 0.01711943745613098
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T053712Z_n2",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.46393364667892456,
+    "window_start_s": 11.0,
+    "margin": 0.048880815505981445
+  },
+  {
+    "clip_id": "orcasound_lab_20250912T183521Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.16271865367889404,
+    "window_start_s": 21.0,
+    "margin": 0.0020941942930221558
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T050028Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21794897317886353,
+    "window_start_s": 19.0,
+    "margin": 0.022015929222106934
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010401Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4881944954395294,
+    "window_start_s": 0.0,
+    "margin": 0.008425086736679077
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T040340Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.23795904219150543,
+    "window_start_s": 25.0,
+    "margin": 0.0018575936555862427
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T232932Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3075907230377197,
+    "window_start_s": 11.0,
+    "margin": 0.000614464282989502
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T235752Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.38235557079315186,
+    "window_start_s": 14.0,
+    "margin": 0.08317232131958008
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T232256Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.33122485876083374,
+    "window_start_s": 11.0,
+    "margin": 0.018984079360961914
+  },
+  {
+    "clip_id": "orcasound_lab_20250724T174031Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.44275006651878357,
+    "window_start_s": 15.0,
+    "margin": 0.0215570330619812
+  },
+  {
+    "clip_id": "orcasound_lab_20250712T223849Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2524062991142273,
+    "window_start_s": 15.0,
+    "margin": 0.007885456085205078
+  },
+  {
+    "clip_id": "orcasound_lab_20250704T205520Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19841992855072021,
+    "window_start_s": 3.0,
+    "margin": 0.00018289685249328613
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061528Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.27716219425201416,
+    "window_start_s": 12.0,
+    "margin": 0.039313554763793945
+  },
+  {
+    "clip_id": "orcasound_lab_20250906T021203Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.23245254158973694,
+    "window_start_s": 25.0,
+    "margin": 0.014994889497756958
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T033800Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2601633071899414,
+    "window_start_s": 16.0,
+    "margin": 0.021523475646972656
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T082743Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.248203307390213,
+    "window_start_s": 0.0,
+    "margin": 0.0008322298526763916
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T083709Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.36404949426651,
+    "window_start_s": 15.0,
+    "margin": 0.0176050066947937
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051928Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5682934522628784,
+    "window_start_s": 12.0,
+    "margin": 0.026926696300506592
+  },
+  {
+    "clip_id": "orcasound_lab_20250925T193741Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24433353543281555,
+    "window_start_s": 17.0,
+    "margin": 0.029085516929626465
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051254Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21978208422660828,
+    "window_start_s": 6.0,
+    "margin": 0.006799563765525818
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051758Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5545389652252197,
+    "window_start_s": 15.0,
+    "margin": 0.0061713457107543945
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T065737Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.44984304904937744,
+    "window_start_s": 14.0,
+    "margin": 0.02900940179824829
+  },
+  {
+    "clip_id": "orcasound_lab_20250915T141837Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2470596432685852,
+    "window_start_s": 6.0,
+    "margin": 0.015332967042922974
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T082913Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.47023165225982666,
+    "window_start_s": 11.0,
+    "margin": 0.03401064872741699
+  },
+  {
+    "clip_id": "orcasound_lab_20250912T193503Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2501527965068817,
+    "window_start_s": 0.0,
+    "margin": 0.010500282049179077
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T003240Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2968471646308899,
+    "window_start_s": 13.0,
+    "margin": 0.011586785316467285
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T003342Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.33882462978363037,
+    "window_start_s": 0.0,
+    "margin": 0.015053540468215942
+  },
+  {
+    "clip_id": "orcasound_lab_20250902T000539Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.17447051405906677,
+    "window_start_s": 0.0,
+    "margin": 0.002916187047958374
+  },
+  {
+    "clip_id": "orcasound_lab_20250703T213107Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.174676775932312,
+    "window_start_s": 6.0,
+    "margin": 0.0015880465507507324
+  },
+  {
+    "clip_id": "orcasound_lab_20250810T194632Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2513655424118042,
+    "window_start_s": 8.0,
+    "margin": 0.023082494735717773
+  },
+  {
+    "clip_id": "orcasound_lab_20250925T034244Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4692450165748596,
+    "window_start_s": 15.0,
+    "margin": 0.01219189167022705
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T181444Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.40570810437202454,
+    "window_start_s": 11.0,
+    "margin": 0.019093304872512817
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005129Z_n3",
+    "nearest_call": "S14",
+    "pod": "K",
+    "similarity": 0.5216034650802612,
+    "window_start_s": 8.0,
+    "margin": 0.032442957162857056
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T233103Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.42450934648513794,
+    "window_start_s": 22.0,
+    "margin": 0.01650989055633545
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T060636Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.15372426807880402,
+    "window_start_s": 1.0,
+    "margin": 0.0061164796352386475
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T011326Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.28954145312309265,
+    "window_start_s": 13.0,
+    "margin": 0.00687253475189209
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T014109Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5854959487915039,
+    "window_start_s": 0.0,
+    "margin": 0.013945162296295166
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T234400Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1461695432662964,
+    "window_start_s": 22.0,
+    "margin": 0.011691898107528687
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060742Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.27103108167648315,
+    "window_start_s": 7.0,
+    "margin": 0.07636108994483948
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T062043Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.24949677288532257,
+    "window_start_s": 4.0,
+    "margin": 0.05917541682720184
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T234710Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5120296478271484,
+    "window_start_s": 1.0,
+    "margin": 0.013774782419204712
+  },
+  {
+    "clip_id": "orcasound_lab_20250925T145020Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.3033919930458069,
+    "window_start_s": 22.0,
+    "margin": 0.05045109987258911
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004613Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.298039048910141,
+    "window_start_s": 0.0,
+    "margin": 0.00020584464073181152
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T061110Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.24744969606399536,
+    "window_start_s": 16.0,
+    "margin": 0.03618142008781433
+  },
+  {
+    "clip_id": "orcasound_lab_20250829T202200Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19922833144664764,
+    "window_start_s": 1.0,
+    "margin": 0.007806882262229919
+  },
+  {
+    "clip_id": "orcasound_lab_20250825T232356Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2662583887577057,
+    "window_start_s": 12.0,
+    "margin": 0.01161530613899231
+  },
+  {
+    "clip_id": "orcasound_lab_20250905T003514Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4949324131011963,
+    "window_start_s": 12.0,
+    "margin": 0.009249597787857056
+  },
+  {
+    "clip_id": "orcasound_lab_20250822T003524Z_n1",
+    "nearest_call": "S09",
+    "pod": "K",
+    "similarity": 0.44047242403030396,
+    "window_start_s": 15.0,
+    "margin": 0.0387110710144043
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T053412Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.44031214714050293,
+    "window_start_s": 8.0,
+    "margin": 0.021389245986938477
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T053354Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.29368647933006287,
+    "window_start_s": 0.0,
+    "margin": 0.010453194379806519
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T041824Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.42813926935195923,
+    "window_start_s": 24.0,
+    "margin": 0.0051767826080322266
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T053620Z_n1",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.5714478492736816,
+    "window_start_s": 8.0,
+    "margin": 0.07139837741851807
+  },
+  {
+    "clip_id": "orcasound_lab_20250724T173725Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.49319538474082947,
+    "window_start_s": 14.0,
+    "margin": 0.05559709668159485
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T034737Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.6259176135063171,
+    "window_start_s": 15.0,
+    "margin": 0.017679035663604736
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060710Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24217277765274048,
+    "window_start_s": 0.0,
+    "margin": 0.020194023847579956
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030432Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.24803613126277924,
+    "window_start_s": 7.0,
+    "margin": 0.06492507457733154
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T062106Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2234695851802826,
+    "window_start_s": 3.0,
+    "margin": 0.0058021098375320435
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T053430Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4433152675628662,
+    "window_start_s": 12.0,
+    "margin": 0.003981798887252808
+  },
+  {
+    "clip_id": "orcasound_lab_20250901T202045Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.21804358065128326,
+    "window_start_s": 13.0,
+    "margin": 0.009306982159614563
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T054852Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.2751595377922058,
+    "window_start_s": 5.0,
+    "margin": 0.03011953830718994
+  },
+  {
+    "clip_id": "orcasound_lab_20250715T100232Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19000576436519623,
+    "window_start_s": 2.0,
+    "margin": 0.019420862197875977
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T032950Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.2362595647573471,
+    "window_start_s": 6.0,
+    "margin": 0.0453832745552063
+  },
+  {
+    "clip_id": "orcasound_lab_20250915T144607Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3087673783302307,
+    "window_start_s": 13.0,
+    "margin": 0.0038211941719055176
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T061942Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1865576207637787,
+    "window_start_s": 19.0,
+    "margin": 0.0056947022676467896
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005423Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2613872289657593,
+    "window_start_s": 19.0,
+    "margin": 0.007386684417724609
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T042130Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4330388307571411,
+    "window_start_s": 11.0,
+    "margin": 0.0010358095169067383
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025242Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.24945256114006042,
+    "window_start_s": 2.0,
+    "margin": 0.03239452838897705
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T061427Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2089133858680725,
+    "window_start_s": 9.0,
+    "margin": 0.005716696381568909
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T025816Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2960062026977539,
+    "window_start_s": 25.0,
+    "margin": 0.0014126896858215332
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T011541Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5398939847946167,
+    "window_start_s": 10.0,
+    "margin": 0.02160501480102539
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025640Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3264148235321045,
+    "window_start_s": 20.0,
+    "margin": 0.022780179977416992
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T072044Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.28272151947021484,
+    "window_start_s": 20.0,
+    "margin": 0.032548755407333374
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061934Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22158241271972656,
+    "window_start_s": 9.0,
+    "margin": 0.011772215366363525
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T053758Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20310166478157043,
+    "window_start_s": 16.0,
+    "margin": 0.0016936063766479492
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T010443Z_n2",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.31107819080352783,
+    "window_start_s": 6.0,
+    "margin": 0.03165525197982788
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T072012Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.3352121114730835,
+    "window_start_s": 10.0,
+    "margin": 0.05779528617858887
+  },
+  {
+    "clip_id": "orcasound_lab_20250711T223248Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.29913923144340515,
+    "window_start_s": 14.0,
+    "margin": 0.003945738077163696
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060458Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5127712488174438,
+    "window_start_s": 0.0,
+    "margin": 0.010657310485839844
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T032222Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.2945663332939148,
+    "window_start_s": 20.0,
+    "margin": 0.03785663843154907
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025626Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4345158338546753,
+    "window_start_s": 5.0,
+    "margin": 0.012681126594543457
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225521Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.21233847737312317,
+    "window_start_s": 25.0,
+    "margin": 0.054592207074165344
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T235134Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22512012720108032,
+    "window_start_s": 18.0,
+    "margin": 0.013500437140464783
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T090449Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22840005159378052,
+    "window_start_s": 3.0,
+    "margin": 0.008020848035812378
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005707Z_n1",
+    "nearest_call": "S11",
+    "pod": "K",
+    "similarity": 0.2814059257507324,
+    "window_start_s": 8.0,
+    "margin": 0.04275621473789215
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T041540Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2853882610797882,
+    "window_start_s": 23.0,
+    "margin": 0.004363983869552612
+  },
+  {
+    "clip_id": "orcasound_lab_20250902T202115Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.40080559253692627,
+    "window_start_s": 20.0,
+    "margin": 0.0015733838081359863
+  },
+  {
+    "clip_id": "orcasound_lab_20250818T090552Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.26598310470581055,
+    "window_start_s": 18.0,
+    "margin": 0.000974118709564209
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T031040Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.32054951786994934,
+    "window_start_s": 11.0,
+    "margin": 0.06815293431282043
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T115451Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.15193232893943787,
+    "window_start_s": 9.0,
+    "margin": 0.006604030728340149
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T062446Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.30827075242996216,
+    "window_start_s": 6.0,
+    "margin": 0.003104984760284424
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T014135Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.30718156695365906,
+    "window_start_s": 0.0,
+    "margin": 0.02107653021812439
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T063750Z_n1",
+    "nearest_call": "S01",
+    "pod": "K",
+    "similarity": 0.4615296423435211,
+    "window_start_s": 12.0,
+    "margin": 0.07467177510261536
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T232050Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.28231939673423767,
+    "window_start_s": 25.0,
+    "margin": 0.018343627452850342
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T032258Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2939857840538025,
+    "window_start_s": 25.0,
+    "margin": 0.00484997034072876
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T033428Z_n2",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19892559945583344,
+    "window_start_s": 9.0,
+    "margin": 0.007115975022315979
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T205517Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.3036240041255951,
+    "window_start_s": 24.0,
+    "margin": 0.030367940664291382
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T025802Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.31695014238357544,
+    "window_start_s": 24.0,
+    "margin": 0.006733566522598267
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T055324Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22908587753772736,
+    "window_start_s": 23.0,
+    "margin": 0.00011269748210906982
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004207Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4785347580909729,
+    "window_start_s": 25.0,
+    "margin": 0.002857208251953125
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T032522Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.2410883605480194,
+    "window_start_s": 25.0,
+    "margin": 0.011001482605934143
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T121143Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.18686215579509735,
+    "window_start_s": 7.0,
+    "margin": 0.0048176199197769165
+  },
+  {
+    "clip_id": "orcasound_lab_20250817T201134Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24947835505008698,
+    "window_start_s": 0.0,
+    "margin": 5.653500556945801e-05
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T043526Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.341022253036499,
+    "window_start_s": 14.0,
+    "margin": 0.02371037006378174
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T032914Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.23277205228805542,
+    "window_start_s": 18.0,
+    "margin": 0.0148639976978302
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T031528Z_n1",
+    "nearest_call": "Unk",
+    "pod": "K",
+    "similarity": 0.5351220369338989,
+    "window_start_s": 10.0,
+    "margin": 0.03794991970062256
+  },
+  {
+    "clip_id": "orcasound_lab_20250715T210010Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.16588029265403748,
+    "window_start_s": 17.0,
+    "margin": 0.011839285492897034
+  },
+  {
+    "clip_id": "orcasound_lab_20250724T173935Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4204727113246918,
+    "window_start_s": 12.0,
+    "margin": 0.0024094879627227783
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T061343Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20311632752418518,
+    "window_start_s": 5.0,
+    "margin": 0.012151986360549927
+  },
+  {
+    "clip_id": "orcasound_lab_20250830T201642Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.17288196086883545,
+    "window_start_s": 6.0,
+    "margin": 0.005904287099838257
+  },
+  {
+    "clip_id": "orcasound_lab_20250916T130755Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.20134113729000092,
+    "window_start_s": 6.0,
+    "margin": 0.024036303162574768
+  },
+  {
+    "clip_id": "orcasound_lab_20250925T034532Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.43679362535476685,
+    "window_start_s": 0.0,
+    "margin": 0.010571390390396118
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T053542Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.5005801916122437,
+    "window_start_s": 24.0,
+    "margin": 0.020489215850830078
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T051414Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.32466769218444824,
+    "window_start_s": 0.0,
+    "margin": 0.01673927903175354
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T085429Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.43146681785583496,
+    "window_start_s": 3.0,
+    "margin": 0.014553189277648926
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T034104Z_n1",
+    "nearest_call": "S04",
+    "pod": "K",
+    "similarity": 0.22055482864379883,
+    "window_start_s": 4.0,
+    "margin": 0.05186110734939575
+  },
+  {
+    "clip_id": "orcasound_lab_20250717T185010Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.22788752615451813,
+    "window_start_s": 12.0,
+    "margin": 0.01934652030467987
+  },
+  {
+    "clip_id": "orcasound_lab_20250827T005945Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3000454902648926,
+    "window_start_s": 15.0,
+    "margin": 0.005791187286376953
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T061908Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.18723464012145996,
+    "window_start_s": 25.0,
+    "margin": 0.0035077929496765137
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T232954Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24081093072891235,
+    "window_start_s": 25.0,
+    "margin": 0.0062611401081085205
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T050528Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.19705715775489807,
+    "window_start_s": 24.0,
+    "margin": 0.009432420134544373
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025818Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4384974539279938,
+    "window_start_s": 22.0,
+    "margin": 0.0031280219554901123
+  },
+  {
+    "clip_id": "orcasound_lab_20250718T175545Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.26575416326522827,
+    "window_start_s": 11.0,
+    "margin": 0.010465085506439209
+  },
+  {
+    "clip_id": "orcasound_lab_20250807T061039Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24095112085342407,
+    "window_start_s": 21.0,
+    "margin": 0.02601364254951477
+  },
+  {
+    "clip_id": "orcasound_lab_20250703T215749Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.24050337076187134,
+    "window_start_s": 2.0,
+    "margin": 0.011721551418304443
+  },
+  {
+    "clip_id": "orcasound_lab_20250801T084739Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.3240066170692444,
+    "window_start_s": 25.0,
+    "margin": 0.006735324859619141
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T052252Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.4179062247276306,
+    "window_start_s": 1.0,
+    "margin": 0.012826323509216309
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004759Z_n1",
+    "nearest_call": "S10",
+    "pod": "K",
+    "similarity": 0.47278106212615967,
+    "window_start_s": 0.0,
+    "margin": 0.03334331512451172
+  },
+  {
+    "clip_id": "orcasound_lab_20250809T055853Z_n1",
+    "nearest_call": null,
+    "pod": "?",
+    "similarity": 0.1936310976743698,
+    "window_start_s": 8.0,
+    "margin": 0.008231773972511292
+  },
+  {
+    "clip_id": "orcasound_lab_20250703T234843Z_n1",
+    "nearest_call": "S03",
+    "pod": "K",
+    "similarity": 0.3081883192062378,
+    "window_start_s": 15.0,
+    "margin": 0.03477984666824341
+  }
+]

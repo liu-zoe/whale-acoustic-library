@@ -1,0 +1,78 @@
+# Whale Acoustic Library — files excluded from the public repo.
+#
+# Principle: keep code, docs, and small derived artifacts (trained joblib
+# classifiers, prediction JSON). Exclude:
+#   - audio data (CC BY-NC-SA from Orcasound; not ours to redistribute)
+#   - large model weights downloaded from third parties (re-downloadable)
+#   - large reference datasets (re-downloadable)
+#   - run-time scratch + logs (re-generatable)
+#   - historical backups (only useful locally)
+#   - Python build artifacts
+
+# --- third-party model weights & repos (re-fetchable) ---
+# OrcaHello — git clone from Orcasound
+models/aifororcas-livesystem/
+models/aifororcas-orcaml/
+# Google Multispecies — Kaggle manual download
+models/multispecies-whale/
+
+# --- large reference datasets (re-downloadable from upstream) ---
+# Watkins Marine Mammal Sound DB humpback package
+testdata/humpback_whatkins/
+# Orcasound CC BY-NC-SA reference clips
+testdata/srkw_reference/
+# Watkins minke/finback/right whale
+testdata/watkins_extras/
+# Any other top-level testdata bundles
+testdata/*.zip
+testdata/*.tar.gz
+
+# --- embedding caches (recomputable, large) ---
+models/*/embeddings.npz
+models/*/reference_embeddings.npz
+models/*/keep_embeddings.npz
+models/*/sfu_embeddings.npz
+
+# --- per-clip raw audio + spectrograms (not in repo by design) ---
+# Library output lives at /media/y/hlabflash/whale_library/ in the local
+# setup. Anything that path-shaped here is also excluded.
+whale_library/
+
+# --- run-time scratch & logs (regenerated each run) ---
+scratch/
+logs/
+*.log
+*.pid
+
+# --- historical denoise / humpback iterations (only useful locally) ---
+_backup_*/
+
+# --- Python build artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# --- editor / OS detritus ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- macOS metadata on the exfat drive ---
+._*
+.fseventsd/
+.Spotlight-V100/
+.Trash-1000/
+.Trashes/
+System Volume Information/
+
+# --- local override / private files ---
+.env
+.env.local

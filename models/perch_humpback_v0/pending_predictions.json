@@ -1,0 +1,128 @@
+[
+  {
+    "clip_id": "orcasound_lab_hb_20250717T223025Z_n1",
+    "perch_p_humpback": 0.22214532574445292,
+    "ms_mn": 0.4143,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250709T051114Z_n1",
+    "perch_p_humpback": 0.20563353010629887,
+    "ms_mn": 0.3801,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250709T051452Z_n1",
+    "perch_p_humpback": 0.18480969458034796,
+    "ms_mn": 0.5736,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250928T153319Z_n1",
+    "perch_p_humpback": 0.17783864424205792,
+    "ms_mn": 0.4155,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250709T044922Z_n1",
+    "perch_p_humpback": 0.1607748020635312,
+    "ms_mn": 0.3619,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250811T004434Z_n1",
+    "perch_p_humpback": 0.1589707637787078,
+    "ms_mn": 0.9172,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250929T132524Z_n1",
+    "perch_p_humpback": 0.15629171333484843,
+    "ms_mn": 0.793,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250728T003652Z_n1",
+    "perch_p_humpback": 0.1544033344026783,
+    "ms_mn": 0.1671,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250726T133326Z_n1",
+    "perch_p_humpback": 0.15124070086580757,
+    "ms_mn": 0.7022,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250916T025841Z_n1",
+    "perch_p_humpback": 0.14521106927117097,
+    "ms_mn": 0.8665,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250731T212534Z_n1",
+    "perch_p_humpback": 0.14021300787576532,
+    "ms_mn": 0.3244,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250903T024616Z_n1",
+    "perch_p_humpback": 0.1336258388682967,
+    "ms_mn": 0.6927,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250916T164626Z_n1",
+    "perch_p_humpback": 0.11710935071885796,
+    "ms_mn": 0.9086,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250912T153831Z_n1",
+    "perch_p_humpback": 0.11543739311470344,
+    "ms_mn": 0.6487,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250924T123614Z_n1",
+    "perch_p_humpback": 0.11048454056069931,
+    "ms_mn": 0.679,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250921T062857Z_n1",
+    "perch_p_humpback": 0.10944875437794827,
+    "ms_mn": 0.5148,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250927T112722Z_n2",
+    "perch_p_humpback": 0.10477612893930704,
+    "ms_mn": 0.7376,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250912T152426Z_n1",
+    "perch_p_humpback": 0.1035370250695669,
+    "ms_mn": 0.8742,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250916T200056Z_n1",
+    "perch_p_humpback": 0.10201044632968391,
+    "ms_mn": 0.8689,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250929T201912Z_n1",
+    "perch_p_humpback": 0.09423378012837125,
+    "ms_mn": 0.2625,
+    "verdict": "not humpback"
+  },
+  {
+    "clip_id": "orcasound_lab_hb_20250903T045423Z_n1",
+    "perch_p_humpback": 0.08722526297433446,
+    "ms_mn": 0.457,
+    "verdict": "not humpback"
+  }
+]

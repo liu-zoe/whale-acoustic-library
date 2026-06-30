@@ -1,0 +1,86 @@
+[
+  {
+    "clip_id": "orcasound_lab_20250714T225233Z_n6",
+    "start_utc": "2025-07-14T22:52:27.516839+00:00",
+    "n_segments": 6,
+    "peak_confidence": 0.9625496864318848,
+    "snr_db": 6.777109802186393,
+    "focused_audio": "audio/orcasound_lab_20250714T225233Z_n6_focus.flac",
+    "focused_spectrogram": "spectrograms/orcasound_lab_20250714T225233Z_n6_focus.png",
+    "window_start_in_clip_s": 18.0,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250714T225233Z_n6.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250714T225233Z_n6.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T060440Z_n3",
+    "start_utc": "2025-09-24T06:04:29.513249+00:00",
+    "n_segments": 3,
+    "peak_confidence": 0.9618061780929565,
+    "snr_db": 5.412391723229875,
+    "focused_audio": "audio/orcasound_lab_20250924T060440Z_n3_focus.flac",
+    "focused_spectrogram": "spectrograms/orcasound_lab_20250924T060440Z_n3_focus.png",
+    "window_start_in_clip_s": 0.0,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250924T060440Z_n3.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250924T060440Z_n3.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T162258Z_n1",
+    "start_utc": "2025-09-04T16:22:44.513860+00:00",
+    "n_segments": 1,
+    "peak_confidence": 0.954376220703125,
+    "snr_db": 5.2503660127786755,
+    "focused_audio": "audio/orcasound_lab_20250904T162258Z_n1_focus.flac",
+    "focused_spectrogram": "spectrograms/orcasound_lab_20250904T162258Z_n1_focus.png",
+    "window_start_in_clip_s": 0.0,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250904T162258Z_n1.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250904T162258Z_n1.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T035946Z_n1",
+    "start_utc": "2025-09-22T03:59:32.504753+00:00",
+    "n_segments": 1,
+    "peak_confidence": 0.9719343781471252,
+    "snr_db": 6.125297648956085,
+    "focused_audio": "audio/orcasound_lab_20250922T035946Z_n1_focus.flac",
+    "focused_spectrogram": "spectrograms/orcasound_lab_20250922T035946Z_n1_focus.png",
+    "window_start_in_clip_s": 20.0,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250922T035946Z_n1.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250922T035946Z_n1.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004627Z_n16",
+    "start_utc": "2025-09-10T00:46:38.513258+00:00",
+    "n_segments": 16,
+    "peak_confidence": 0.9652497172355652,
+    "snr_db": 6.4944220245378705,
+    "focused_audio": "audio/orcasound_lab_20250910T004627Z_n16_focus.flac",
+    "focused_spectrogram": "spectrograms/orcasound_lab_20250910T004627Z_n16_focus.png",
+    "window_start_in_clip_s": 11.0,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250910T004627Z_n16.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250910T004627Z_n16.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004223Z_n13",
+    "start_utc": "2025-09-10T00:42:26.511387+00:00",
+    "n_segments": 13,
+    "peak_confidence": 0.9537820816040039,
+    "snr_db": 9.206787825356505,
+    "focused_audio": "audio/orcasound_lab_20250910T004223Z_n13_focus.flac",
+    "focused_spectrogram": "spectrograms/orcasound_lab_20250910T004223Z_n13_focus.png",
+    "window_start_in_clip_s": 23.0,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250910T004223Z_n13.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250910T004223Z_n13.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250904T233906Z_n3",
+    "start_utc": "2025-09-04T23:38:56.508829+00:00",
+    "n_segments": 3,
+    "peak_confidence": 0.9803453087806702,
+    "snr_db": 5.777361095826048,
+    "focused_audio": "audio/orcasound_lab_20250904T233906Z_n3_focus.flac",
+    "focused_spectrogram": "spectrograms/orcasound_lab_20250904T233906Z_n3_focus.png",
+    "window_start_in_clip_s": 16.0,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250904T233906Z_n3.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250904T233906Z_n3.png"
+  }
+]
