@@ -876,3 +876,22 @@ labels) require user confirmation before being acted on.
   the right path?". If 5+ of the 7 land clearly with high confidence,
   Path C scales. If most are guesses, we accept call-type labels are
   out of scope for v1.
+
+### D-042 — Published on GitHub: liu-zoe/whale-acoustic-library
+- Repo: <https://github.com/liu-zoe/whale-acoustic-library> (public,
+  MIT for code / CC BY-NC-SA for data).
+- Description: "Pilot SRKW acoustic library — 92 days at Orcasound Lab,
+  2025 Q3. Built with Claude Code."
+- Topics: bioacoustics, orca, srkw, killer-whale,
+  passive-acoustic-monitoring, orcasound, claude-code, ai-assisted.
+- Initial commit: 130 files, 49.6 MB. Commit author scoped per-repo to
+  `liu-zoe <liuzoe@proton.me>`; global git config unchanged.
+- README updated with a "How this was built" paragraph crediting Claude
+  Code + the human reviewer process + pointing at DECISIONS.md.
+- GitHub Pages: built-in branch source only supports `/` or `/docs`, but
+  the companion site lives at `/site`. Added
+  `.github/workflows/pages.yml` (Actions workflow that uploads `site/`
+  as the Pages artifact on every push to main). Pages live at
+  <https://liu-zoe.github.io/whale-acoustic-library/>.
+- Smoke-tested live URL: site root, JSON data, and showcase audio all
+  served 200.
