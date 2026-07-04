@@ -125,8 +125,82 @@ So: **do not rely on the transcript.** Rely on this drive instead.
 - Project code expects to live at `~/whale_acoustic_library/` (a copy is on
   this drive under `whale_acoustic_library/`).
 
+## Current state (updated 2026-07-03) — Path A published, Path C awaiting review
+
+### Publication (Path A, complete)
+- Repo live and public: <https://github.com/liu-zoe/whale-acoustic-library>
+  - Owner: `liu-zoe` (per-repo git config; NOT the default account on this
+    machine — see `~/.claude/projects/-home-y/memory/whale-acoustic-library-github.md`)
+  - Tag `v0.1-pilot` with GitHub Release
+  - Topics: bioacoustics, orca, srkw, killer-whale, passive-acoustic-
+    monitoring, orcasound, claude-code, ai-assisted
+- Companion site live: <https://liu-zoe.github.io/whale-acoustic-library/>
+  - Deployed via `.github/workflows/pages.yml` on push to `main` when
+    `site/**` changes (branch source can't target `/site`).
+  - Charts are inline SVG (Vega-Lite was pulled after render bugs).
+- Local git in sync with `origin/main`, last commit `ab40e4c`
+  ("Path C v2: OrcaHello-centered focused-window selector + 30 clips").
+  See `DECISIONS.md` D-034 → D-042 for the publication decision trail.
+
+### Path C (test in progress)
+Perch could NOT separate the 30 SRKW call types (silhouette 0.027 on SFU
+references — falsifying test, D-040). Decision: publish v1 without
+call-type labels and try Path C — a small manual-labeling test — to see
+if labeling 350 clips by hand is even feasible.
+
+- **v1 (7 clips)**: user labeled — ~20.8 min → projects to 20-26 h for
+  350 clips. Also revealed that the loudest-window selector missed the
+  real SRKW call on ~28% of clips because vessel noise had higher
+  in-band energy. See D-041.
+- **v2 (30 clips)**: selector rewritten to use OrcaHello per-segment
+  confidence as the "where is the call" signal (`src/path_c_picker.py`).
+  30 diverse focused 5 s clips generated at `site/labeling_test/audio_v2/`
+  + `spectrograms_v2/`, page at `site/labeling_test.html` uses
+  `data_v2.json` and localStorage key `srkw-labeling-test-v2`. **User is
+  reviewing these now.**
+- After user exports `manual_labels_test_v2.json`: analyze timing +
+  label distribution, decide whether to grow to 50 with
+  `python src/path_c_picker.py --target-total 50` (script is idempotent
+  and appends to existing picks) or move on.
+
+## How to pick up after a network drop / re-login
+
+1. **This session (if same laptop):**
+   `claude --resume 95e37320-86a6-434c-90d5-face5697b7a8`
+   Transcript is at `/home/y/.claude/projects/-home-y/95e37320-…jsonl`
+   (~12 MB) and persists across reboots.
+2. **Labeling test — offline safe.** The page at
+   `http://127.0.0.1:8000/labeling_test.html` needs a local static server
+   (see below); audio + spectrograms are FLAC/PNG files on the flash
+   drive. Only the "full 30 s context clip" audio comes from
+   review_server on :5000. Neither needs the internet. Progress
+   auto-saves to browser localStorage under key `srkw-labeling-test-v2`
+   — closing the tab/browser is safe as long as the SAME browser is
+   reopened. When done, click **Export labels** to download
+   `manual_labels_test_v2.json`.
+3. **Servers to restart if they died:**
+   ```
+   cd /media/y/hlabflash/whale_acoustic_library
+   /home/y/miniconda3/envs/whales/bin/python src/review_server.py &
+   /home/y/miniconda3/envs/whales/bin/python -m http.server 8000 -d site &
+   ```
+   `review_server.py` at :5000 serves the full 30 s clips + spectrograms
+   from the SQLite catalog; `http.server` at :8000 serves the static
+   labeling page. As of the last audit, `review_server.py` (PID 2437533)
+   has been running for 10+ days.
+4. **Git recovery.** Everything through `ab40e4c` is pushed to
+   `origin/main`. If the flash drive is lost:
+   `gh repo clone liu-zoe/whale-acoustic-library` gets code + docs +
+   site back. Catalog SQLite and models are NOT in the repo — those
+   only live on this drive.
+
 ## Open tasks
 
+- [ ] User reviews 30 Path C v2 clips, exports `manual_labels_test_v2.json`,
+      shares back. Then: timing analysis + go/no-go on 350-clip manual
+      labeling.
+- [ ] Optional: grow Path C to 50 clips (`--target-total 50`) after v2
+      results are in.
 - [ ] Review the call-type/pod tentative labels on the dashboard
       (sort by "nearest-ref similarity ↓"). See `docs/srkw-reference-library.md`
       and D-031 for caveats.
