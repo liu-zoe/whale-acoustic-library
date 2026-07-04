@@ -67,11 +67,14 @@
 
 <header>
   <a class="back" href="./">← back to main site</a>
-  <h1>Manual labeling test — 7 focused segments</h1>
-  <div class="sub">7 high-confidence, high-SNR keep clips, picked for diversity
+  <h1>Manual labeling — 30 focused segments (Path C subset)</h1>
+  <div class="sub">30 high-quality keep clips, picked for diversity
     (farthest-point sampling in Perch embedding space). Each is trimmed to
-    its loudest 5-second window — just the call moment, no padding ambient.
-    Goal: see whether manual call-type labeling is feasible at scale.</div>
+    a 5-second window <b>centered on the highest-OrcaHello-confidence 3 s
+    segment</b> — the model's pick of "the most call-like moment in this
+    clip." Selector fix vs. v1 (which used raw in-band energy and missed
+    the real call on ~28% of test clips). Path C subset for the public-
+    facing showcase + classifier-training data.</div>
 </header>
 
 <main>
@@ -79,9 +82,10 @@
 <div class="help">
   <b>How to use this page</b>
   <ol>
-    <li>For each clip, listen to the <b>focused 5 s segment</b> (the actual
-        call moment). If it helps, the <b>full 30 s clip</b> is also linked
-        for context.</li>
+    <li>For each clip, listen to the <b>focused 5 s segment</b> — centered
+        on what OrcaHello marked as the highest-confidence 3 s segment in
+        the 30 s clip. If you need broader context (lead-in / tail-off,
+        check for multi-call), the <b>full 30 s clip</b> is also linked.</li>
     <li>Compare against the SFU SRKW call catalogue (linked below) — find
         the closest Ford code. Type it in the label field
         (<kbd>S01</kbd>, <kbd>S17ii</kbd>, etc.). Use <kbd>unk</kbd> if you
@@ -111,10 +115,12 @@
 </main>
 
 <script>
-const LS_KEY = "srkw-labeling-test-v1";
+// v2: switched data file + storage key so the v1 labels (already exported
+// by the user) don't bleed into the OrcaHello-centered v2 picks.
+const LS_KEY = "srkw-labeling-test-v2";
 
 async function init() {
-  const data = await (await fetch("labeling_test/data.json")).json();
+  const data = await (await fetch("labeling_test/data_v2.json")).json();
   const labels = JSON.parse(localStorage.getItem(LS_KEY) || "{}");
   const container = document.getElementById("clips");
   container.innerHTML = "";
@@ -129,7 +135,8 @@ async function init() {
         OrcaHello conf <b>${c.peak_confidence.toFixed(2)}</b> ·
         SNR <b>${c.snr_db.toFixed(1)} dB</b> ·
         ${c.n_segments} segment${c.n_segments === 1 ? "" : "s"} ·
-        loudest window at <b>${c.window_start_in_clip_s.toFixed(0)}s</b> of the 30s clip
+        call centered at <b>${c.orcahello_call_center_s.toFixed(1)}s</b>
+        (peak-segment conf <b>${c.orcahello_peak_segment_confidence.toFixed(2)}</b>)
       </div>
 
       <div class="audio-row">
@@ -210,7 +217,7 @@ async function init() {
     const blob = new Blob([JSON.stringify(cur, null, 2)], {type: "application/json"});
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
-    a.href = url; a.download = "manual_labels_test.json"; a.click();
+    a.href = url; a.download = "manual_labels_test_v2.json"; a.click();
     URL.revokeObjectURL(url);
   });
   document.getElementById("clear-btn").addEventListener("click", () => {
