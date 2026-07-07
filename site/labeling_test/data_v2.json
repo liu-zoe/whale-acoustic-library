@@ -1,5 +1,44 @@
 [
   {
+    "clip_id": "orcasound_lab_20250714T225233Z_n6",
+    "start_utc": "2025-07-14T22:52:27.516839+00:00",
+    "n_segments": 6,
+    "peak_confidence": 0.9625496864318848,
+    "snr_db": 6.777109802186393,
+    "focused_audio": "audio_v2/orcasound_lab_20250714T225233Z_n6_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250714T225233Z_n6_focus.png",
+    "orcahello_call_center_s": 19.5,
+    "orcahello_peak_segment_confidence": 0.9254624247550964,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250714T225233Z_n6.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250714T225233Z_n6.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225349Z_n4",
+    "start_utc": "2025-07-14T22:53:38.506584+00:00",
+    "n_segments": 4,
+    "peak_confidence": 0.9066681265830994,
+    "snr_db": 7.580376465995073,
+    "focused_audio": "audio_v2/orcasound_lab_20250714T225349Z_n4_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250714T225349Z_n4_focus.png",
+    "orcahello_call_center_s": 17.5,
+    "orcahello_peak_segment_confidence": 0.9045690298080444,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250714T225349Z_n4.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250714T225349Z_n4.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250714T225411Z_n5",
+    "start_utc": "2025-07-14T22:54:02.506584+00:00",
+    "n_segments": 5,
+    "peak_confidence": 0.9765143394470215,
+    "snr_db": 4.477548263382806,
+    "focused_audio": "audio_v2/orcasound_lab_20250714T225411Z_n5_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250714T225411Z_n5_focus.png",
+    "orcahello_call_center_s": 11.5,
+    "orcahello_peak_segment_confidence": 0.961729884147644,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250714T225411Z_n5.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250714T225411Z_n5.png"
+  },
+  {
     "clip_id": "orcasound_lab_20250714T225433Z_n5",
     "start_utc": "2025-07-14T22:54:30.517717+00:00",
     "n_segments": 5,
@@ -26,6 +65,19 @@
     "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250714T230049Z_n3.png"
   },
   {
+    "clip_id": "orcasound_lab_20250714T230955Z_n4",
+    "start_utc": "2025-07-14T23:09:46.513575+00:00",
+    "n_segments": 4,
+    "peak_confidence": 0.9342268705368042,
+    "snr_db": 8.989883107435057,
+    "focused_audio": "audio_v2/orcasound_lab_20250714T230955Z_n4_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250714T230955Z_n4_focus.png",
+    "orcahello_call_center_s": 11.5,
+    "orcahello_peak_segment_confidence": 0.8771104216575623,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250714T230955Z_n4.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250714T230955Z_n4.png"
+  },
+  {
     "clip_id": "orcasound_lab_20250714T231057Z_n4",
     "start_utc": "2025-07-14T23:10:50.503353+00:00",
     "n_segments": 4,
@@ -37,6 +89,19 @@
     "orcahello_peak_segment_confidence": 0.9002033472061157,
     "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250714T231057Z_n4.wav",
     "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250714T231057Z_n4.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250716T033646Z_n1",
+    "start_utc": "2025-07-16T03:36:32.519035+00:00",
+    "n_segments": 1,
+    "peak_confidence": 0.9231645464897156,
+    "snr_db": 4.678449225987739,
+    "focused_audio": "audio_v2/orcasound_lab_20250716T033646Z_n1_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250716T033646Z_n1_focus.png",
+    "orcahello_call_center_s": 15.5,
+    "orcahello_peak_segment_confidence": 0.8774550557136536,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250716T033646Z_n1.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250716T033646Z_n1.png"
   },
   {
     "clip_id": "orcasound_lab_20250716T050816Z_n1",
@@ -63,6 +128,19 @@
     "orcahello_peak_segment_confidence": 0.9189918041229248,
     "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250716T050930Z_n7.wav",
     "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250716T050930Z_n7.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250724T174455Z_n1",
+    "start_utc": "2025-07-24T17:44:41.503324+00:00",
+    "n_segments": 1,
+    "peak_confidence": 0.9521773457527161,
+    "snr_db": 3.5577332729280613,
+    "focused_audio": "audio_v2/orcasound_lab_20250724T174455Z_n1_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250724T174455Z_n1_focus.png",
+    "orcahello_call_center_s": 5.5,
+    "orcahello_peak_segment_confidence": 0.9389521479606628,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250724T174455Z_n1.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250724T174455Z_n1.png"
   },
   {
     "clip_id": "orcasound_lab_20250801T083143Z_n1",
@@ -117,6 +195,32 @@
     "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250827T152426Z_n3.png"
   },
   {
+    "clip_id": "orcasound_lab_20250827T152522Z_n10",
+    "start_utc": "2025-08-27T15:25:26.512170+00:00",
+    "n_segments": 10,
+    "peak_confidence": 0.8502393960952759,
+    "snr_db": 4.95360923888675,
+    "focused_audio": "audio_v2/orcasound_lab_20250827T152522Z_n10_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250827T152522Z_n10_focus.png",
+    "orcahello_call_center_s": 3.5,
+    "orcahello_peak_segment_confidence": 0.8538398742675781,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250827T152522Z_n10.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250827T152522Z_n10.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250827T152612Z_n1",
+    "start_utc": "2025-08-27T15:25:58.512170+00:00",
+    "n_segments": 1,
+    "peak_confidence": 0.8552297353744507,
+    "snr_db": 4.9712372006231655,
+    "focused_audio": "audio_v2/orcasound_lab_20250827T152612Z_n1_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250827T152612Z_n1_focus.png",
+    "orcahello_call_center_s": 1.5,
+    "orcahello_peak_segment_confidence": 0.8558456301689148,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250827T152612Z_n1.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250827T152612Z_n1.png"
+  },
+  {
     "clip_id": "orcasound_lab_20250904T162258Z_n1",
     "start_utc": "2025-09-04T16:22:44.513860+00:00",
     "n_segments": 1,
@@ -169,6 +273,19 @@
     "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250904T233906Z_n3.png"
   },
   {
+    "clip_id": "orcasound_lab_20250904T234012Z_n1",
+    "start_utc": "2025-09-04T23:39:58.519973+00:00",
+    "n_segments": 1,
+    "peak_confidence": 0.9133689403533936,
+    "snr_db": 7.259927081708234,
+    "focused_audio": "audio_v2/orcasound_lab_20250904T234012Z_n1_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250904T234012Z_n1_focus.png",
+    "orcahello_call_center_s": 23.5,
+    "orcahello_peak_segment_confidence": 0.9783595204353333,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250904T234012Z_n1.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250904T234012Z_n1.png"
+  },
+  {
     "clip_id": "orcasound_lab_20250905T000256Z_n1",
     "start_utc": "2025-09-05T00:02:42.515640+00:00",
     "n_segments": 1,
@@ -206,6 +323,45 @@
     "orcahello_peak_segment_confidence": 0.9048263430595398,
     "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250910T004309Z_n30.wav",
     "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250910T004309Z_n30.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004627Z_n16",
+    "start_utc": "2025-09-10T00:46:38.513258+00:00",
+    "n_segments": 16,
+    "peak_confidence": 0.9652497172355652,
+    "snr_db": 6.4944220245378705,
+    "focused_audio": "audio_v2/orcasound_lab_20250910T004627Z_n16_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250910T004627Z_n16_focus.png",
+    "orcahello_call_center_s": 17.5,
+    "orcahello_peak_segment_confidence": 0.9775176644325256,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250910T004627Z_n16.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250910T004627Z_n16.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T004855Z_n5",
+    "start_utc": "2025-09-10T00:48:47.518925+00:00",
+    "n_segments": 5,
+    "peak_confidence": 0.8731071949005127,
+    "snr_db": 8.680096714089716,
+    "focused_audio": "audio_v2/orcasound_lab_20250910T004855Z_n5_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250910T004855Z_n5_focus.png",
+    "orcahello_call_center_s": 9.5,
+    "orcahello_peak_segment_confidence": 0.7787848711013794,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250910T004855Z_n5.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250910T004855Z_n5.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T005301Z_n9",
+    "start_utc": "2025-09-10T00:52:57.507647+00:00",
+    "n_segments": 9,
+    "peak_confidence": 0.9471454620361328,
+    "snr_db": 4.724756490594792,
+    "focused_audio": "audio_v2/orcasound_lab_20250910T005301Z_n9_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250910T005301Z_n9_focus.png",
+    "orcahello_call_center_s": 17.5,
+    "orcahello_peak_segment_confidence": 0.9074698090553284,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250910T005301Z_n9.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250910T005301Z_n9.png"
   },
   {
     "clip_id": "orcasound_lab_20250910T005451Z_n1",
@@ -273,6 +429,32 @@
     "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250910T010045Z_n12.png"
   },
   {
+    "clip_id": "orcasound_lab_20250910T010315Z_n3",
+    "start_utc": "2025-09-10T01:03:04.502756+00:00",
+    "n_segments": 3,
+    "peak_confidence": 0.8552738428115845,
+    "snr_db": 7.8096016180031,
+    "focused_audio": "audio_v2/orcasound_lab_20250910T010315Z_n3_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250910T010315Z_n3_focus.png",
+    "orcahello_call_center_s": 1.5,
+    "orcahello_peak_segment_confidence": 0.9356728196144104,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250910T010315Z_n3.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250910T010315Z_n3.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250910T011755Z_n2",
+    "start_utc": "2025-09-10T01:17:43.514885+00:00",
+    "n_segments": 2,
+    "peak_confidence": 0.9301832914352417,
+    "snr_db": 5.733927406594173,
+    "focused_audio": "audio_v2/orcasound_lab_20250910T011755Z_n2_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250910T011755Z_n2_focus.png",
+    "orcahello_call_center_s": 17.5,
+    "orcahello_peak_segment_confidence": 0.7459635138511658,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250910T011755Z_n2.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250910T011755Z_n2.png"
+  },
+  {
     "clip_id": "orcasound_lab_20250910T014045Z_n2",
     "start_utc": "2025-09-10T01:40:32.502597+00:00",
     "n_segments": 2,
@@ -299,6 +481,32 @@
     "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250915T141411Z_n1.png"
   },
   {
+    "clip_id": "orcasound_lab_20250922T024900Z_n2",
+    "start_utc": "2025-09-22T02:48:50.511653+00:00",
+    "n_segments": 2,
+    "peak_confidence": 0.8982820510864258,
+    "snr_db": 3.803477352506835,
+    "focused_audio": "audio_v2/orcasound_lab_20250922T024900Z_n2_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250922T024900Z_n2_focus.png",
+    "orcahello_call_center_s": 19.5,
+    "orcahello_peak_segment_confidence": 0.9407331943511963,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250922T024900Z_n2.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250922T024900Z_n2.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025530Z_n2",
+    "start_utc": "2025-09-22T02:55:20.515855+00:00",
+    "n_segments": 2,
+    "peak_confidence": 0.8898135423660278,
+    "snr_db": 4.195581508177012,
+    "focused_audio": "audio_v2/orcasound_lab_20250922T025530Z_n2_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250922T025530Z_n2_focus.png",
+    "orcahello_call_center_s": 19.5,
+    "orcahello_peak_segment_confidence": 0.8439439535140991,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250922T025530Z_n2.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250922T025530Z_n2.png"
+  },
+  {
     "clip_id": "orcasound_lab_20250922T025842Z_n4",
     "start_utc": "2025-09-22T02:58:33.512512+00:00",
     "n_segments": 4,
@@ -310,6 +518,45 @@
     "orcahello_peak_segment_confidence": 0.8889082670211792,
     "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250922T025842Z_n4.wav",
     "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250922T025842Z_n4.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T025904Z_n6",
+    "start_utc": "2025-09-22T02:58:58.518128+00:00",
+    "n_segments": 6,
+    "peak_confidence": 0.9610885977745056,
+    "snr_db": 3.7654323484249224,
+    "focused_audio": "audio_v2/orcasound_lab_20250922T025904Z_n6_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250922T025904Z_n6_focus.png",
+    "orcahello_call_center_s": 7.5,
+    "orcahello_peak_segment_confidence": 0.9776646494865417,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250922T025904Z_n6.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250922T025904Z_n6.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030036Z_n3",
+    "start_utc": "2025-09-22T03:00:24.508016+00:00",
+    "n_segments": 3,
+    "peak_confidence": 0.9169467091560364,
+    "snr_db": 3.915389282617792,
+    "focused_audio": "audio_v2/orcasound_lab_20250922T030036Z_n3_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250922T030036Z_n3_focus.png",
+    "orcahello_call_center_s": 17.5,
+    "orcahello_peak_segment_confidence": 0.8909288048744202,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250922T030036Z_n3.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250922T030036Z_n3.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250922T030550Z_n6",
+    "start_utc": "2025-09-22T03:05:43.511024+00:00",
+    "n_segments": 6,
+    "peak_confidence": 0.9500365257263184,
+    "snr_db": 4.587005158901059,
+    "focused_audio": "audio_v2/orcasound_lab_20250922T030550Z_n6_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250922T030550Z_n6_focus.png",
+    "orcahello_call_center_s": 21.5,
+    "orcahello_peak_segment_confidence": 0.9551128149032593,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250922T030550Z_n6.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250922T030550Z_n6.png"
   },
   {
     "clip_id": "orcasound_lab_20250922T030914Z_n1",
@@ -375,6 +622,19 @@
     "orcahello_peak_segment_confidence": 0.968295693397522,
     "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250924T060440Z_n3.wav",
     "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250924T060440Z_n3.png"
+  },
+  {
+    "clip_id": "orcasound_lab_20250924T061058Z_n14",
+    "start_utc": "2025-09-24T06:11:05.506013+00:00",
+    "n_segments": 14,
+    "peak_confidence": 0.9934847950935364,
+    "snr_db": 3.790514457993291,
+    "focused_audio": "audio_v2/orcasound_lab_20250924T061058Z_n14_focus.flac",
+    "focused_spectrogram": "spectrograms_v2/orcasound_lab_20250924T061058Z_n14_focus.png",
+    "orcahello_call_center_s": 7.5,
+    "orcahello_peak_segment_confidence": 0.9849072694778442,
+    "full_clip_audio_url": "http://127.0.0.1:5000/files/audio_clean/orcasound_lab_20250924T061058Z_n14.wav",
+    "full_clip_spec_url": "http://127.0.0.1:5000/files/spectrograms/orcasound_lab_20250924T061058Z_n14.png"
   },
   {
     "clip_id": "orcasound_lab_20250924T061616Z_n1",
