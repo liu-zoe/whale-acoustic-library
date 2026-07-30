@@ -54,8 +54,9 @@ def process_day(date, *, model, ms_clf, perch, acartia, args, log) -> dict:
     start_unix, end_unix = _day_window(date)
 
     # Phase 1: download
-    log.info("[%s] listing HLS segments", label)
-    segments = dl.list_segments(start_unix, end_unix)
+    log.info("[%s] listing HLS segments (%s)", label, args.hydrophone_id)
+    segments = dl.list_segments(start_unix, end_unix,
+                                hydrophone_id=args.hydrophone_id)
     log.info("[%s] %d segments to download", label, len(segments))
     chunks = dl.download_chunks(segments, C.WAV_CHUNKS_DIR, limit=args.smoke_chunks)
     if not chunks:
@@ -145,11 +146,16 @@ def process_day(date, *, model, ms_clf, perch, acartia, args, log) -> dict:
     sightings = xr.count_sightings_for_clips(all_clips, acartia)
     conn = cat.get_conn()
     cat.init_schema(conn)
+    # DB label (rpi_ prefix stripped) — feeds catalog.insert_clips, which
+    # also derives cross_node_unvalidated from it (D-044 shadow-mode flag).
+    hydrophone_location = C.NODES.get(
+        args.hydrophone_id, {"location": "orcasound_lab"})["location"]
     cat.insert_clips(
         conn, clips,
         detection_model=C.HF_REPO_ID.split("/")[-1],
         detection_threshold=C.LOCAL_DETECTION_THRESHOLD,
         species="SRKW",
+        hydrophone_location=hydrophone_location,
         sightings_by_clip_id=sightings,
         multispecies_by_clip_id=multispecies_by_clip,
         perch_by_clip_id=perch_by_clip,
@@ -160,6 +166,7 @@ def process_day(date, *, model, ms_clf, perch, acartia, args, log) -> dict:
             detection_model="multispecies-whale",
             detection_threshold=args.ms_threshold,
             species="humpback",
+            hydrophone_location=hydrophone_location,
             sightings_by_clip_id=sightings,
             multispecies_by_clip_id=multispecies_by_clip,
             perch_by_clip_id=perch_by_clip,
@@ -210,7 +217,17 @@ def main() -> None:
                          "humpback-vs-vessel P(hb) for humpback clips, "
                          "Ford-Osborne nearest-ref call/pod for SRKW clips "
                          "(default: on; pass --no-perch to skip)")
+    ap.add_argument("--hydrophone-id",
+                    default=C.HYDROPHONE_ID,
+                    help="which Orcasound node to pull audio from; must be "
+                         "a key of C.NODES. Defaults to rpi_orcasound_lab. "
+                         "Non-Lab nodes get cross_node_unvalidated=1 in the "
+                         "catalog (D-044 shadow mode).")
     args = ap.parse_args()
+    if args.hydrophone_id not in C.NODES:
+        raise SystemExit(
+            f"unknown --hydrophone-id {args.hydrophone_id!r}; "
+            f"valid choices: {sorted(C.NODES)}")
 
     C.LOGS_DIR.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(
@@ -221,7 +238,8 @@ def main() -> None:
     log = logging.getLogger("batch")
 
     start_date = datetime.strptime(args.start, "%Y-%m-%d")
-    log.info("batch: %d day(s) from %s (UTC calendar days)", args.days, args.start)
+    log.info("batch: %d day(s) from %s (UTC calendar days) at %s",
+             args.days, args.start, args.hydrophone_id)
 
     log.info("loading OrcaHello model")
     model = det.load_model()
@@ -245,8 +263,9 @@ def main() -> None:
         except Exception as exc:
             log.warning("Perch unavailable; continuing without it: %s", exc)
 
-    acartia = xr.load_acartia_near_lab()
-    log.info("Acartia: %d SRKW sightings near lab loaded", len(acartia))
+    acartia = xr.load_acartia_near_node(args.hydrophone_id)
+    log.info("Acartia: %d SRKW sightings within %.0f km of %s loaded",
+             len(acartia), C.ACARTIA_RADIUS_KM, args.hydrophone_id)
 
     summaries = []
     t0 = time.time()

@@ -125,7 +125,58 @@ So: **do not rely on the transcript.** Rely on this drive instead.
 - Project code expects to live at `~/whale_acoustic_library/` (a copy is on
   this drive under `whale_acoustic_library/`).
 
-## Current state (updated 2026-07-03) — Path A published, Path C awaiting review
+## Current state (updated 2026-07-29) — v0.2 shipped, expansion chain running autonomously
+
+### v0.2 (D-043, D-044, D-045) — S01 detector deployed + expansion started
+- 50 hand-labeled clips from Path C v2 → Perch 2.0 supervised Scheme-A
+  classifier (`S01 vs not-S01`, 79% LOO accuracy).
+  Confidence-gated at P ≥ 0.70; abstains as `unknown-calltype` on borderline.
+- Pipeline changes (all in `pilot/perch_service.py` + `pilot/catalog.py`):
+  - `PerchService.predict_calltype()` uses OrcaHello per-segment confidence
+    to locate the call inside a 30 s clip, then Perch-embeds the focused
+    5 s window, then predicts.
+  - New DB columns: `perch_predicted_calltype`, `perch_calltype_confidence`,
+    `cross_node_unvalidated`.
+  - `run_batch.py` gains `--hydrophone-id`; downloads, Acartia lookup,
+    and catalog inserts all thread the node through.
+  - `pilot/config.py::NODES` registers coordinates for the 5 known
+    Orcasound public nodes.
+- Backfilled onto all 503 pre-existing SRKW Q3 clips via
+  `src/backfill_calltype.py`.
+- Companion site: new "Call-type breakdown" section with SVG stacked bar
+  (only home-node keep+uncertain clips shown; shadow-mode predictions
+  from other nodes exist in DB but hidden). Showcase cards get an S01
+  badge when the classifier didn't abstain.
+- FINDINGS.md updated with a "Follow-up" paragraph on the Perch
+  call-type limitation section, framing the pilot classifier as the
+  positive counter-result.
+
+### Expansion chain (D-045) — running autonomously in background
+- Runner: `bin/run_expansion.sh` under `nohup` — runs 7 batches
+  sequentially, each ~1.5-2 days of compute:
+  1. `q4_lab`  — Orcasound Lab, 2025 Q4 (completes 2025 H2 at home node)
+  2. `bp_q3`   — Bush Point, Q3     (K/L pod passage)
+  3. `bp_q4`   — Bush Point, Q4
+  4. `pt_q3`   — Port Townsend, Q3  (K/L transit corridor)
+  5. `pt_q4`   — Port Townsend, Q4
+  6. `sb_q3`   — Sunset Bay, Q3     (southern Salish Sea)
+  7. `sb_q4`   — Sunset Bay, Q4
+- Total estimated wall time: 10-15 days.
+- Non-Lab clips run in shadow mode (`cross_node_unvalidated=1` in DB) —
+  S01 classifier still fires and predictions are stored, but hidden from
+  the site until per-node validation labels exist.
+- Serial because concurrent runs would OOM (each pipeline loads
+  OrcaHello + Perch + Multispecies ~5-8 GB).
+
+### How to check on the expansion chain
+```
+bash bin/expansion_status.sh          # snapshot of all 7 batches + DB counts
+tail -f logs/batch_q4_lab.log         # follow the current batch
+```
+
+### Prior state (pre-v0.2, retained for context)
+
+Path A published, Path C awaiting review
 
 ### Publication (Path A, complete)
 - Repo live and public: <https://github.com/liu-zoe/whale-acoustic-library>

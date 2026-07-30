@@ -254,6 +254,37 @@ quantitative checks miss.
   mel-spectrograms, classical MFCC + per-call classifier, or a Perch-
   equivalent foundation model trained on cetacean audio).
 
+  **Follow-up (added 2026-07): humans can, and 50 labels are enough to
+  detect the head code.** Since publication we tested whether the
+  Perch-can't-do-it finding meant call-type identification was out of
+  reach, or just that Perch's *unsupervised similarity* was the wrong
+  tool. Path C v2 had one non-expert labeler hand-label 50 focused
+  5-second segments against the SFU HALLO + Orcasound Ford-Osborne
+  catalogues (see [D-043](../DECISIONS.md#d-043)). Two sessions a week
+  apart: **60 s/clip active time, 62% confident labels, 22% unmapped**
+  (a stable floor — SRKW vocalisations outside Ford's discrete-call
+  codes). Extrapolated to all 350 keeps: ≈5.8 h. Manual labelling is
+  expensive per clip but not prohibitive at library scale.
+
+  A pilot supervised classifier over Perch 2.0 focused-window embeddings
+  (regularised logistic regression, LOO-cross-validated) trained on just
+  those 50 labels achieved **79% accuracy on S01-vs-not-S01** (Scheme A,
+  [D-044](../DECISIONS.md#d-044)) with all misses at low confidence
+  (P ∈ [0.53, 0.68]). Deployed with a P ≥ 0.70 confidence gate, the
+  classifier abstains on borderline calls rather than guess, and is now
+  run on every SRKW clip in the corpus (see the "Call-type breakdown"
+  chart on the [companion site](https://liu-zoe.github.io/whale-acoustic-library/)).
+  The mid-tier codes (S44 n=3, S17 n=2, S36 n=2) remain untrainable at
+  this label count — targeted labelling of the classifier's most-
+  uncertain predictions is the cheapest path to unlocking them.
+
+  Two takeaways sharpen the original negative finding: (a) Perch
+  embeddings *are* useful for supervised call-type classification even
+  when they fail at unsupervised; (b) the "call type doesn't map cleanly"
+  bucket is a real ~22% of SRKW vocalisations at this site, not a
+  labelling failure — future classifiers should include "unk" as a
+  first-class label.
+
 - **The first denoising algorithm made the audio worse.** Our initial
   cleaning step (D-008) used wavelet soft-thresholding with the
   universal "VisuShrink" threshold. The reviewer flagged that the

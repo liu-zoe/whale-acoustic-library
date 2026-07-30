@@ -40,9 +40,17 @@ class ChunkRecord:
         return datetime.fromtimestamp(self.start_unix, tz=timezone.utc).isoformat()
 
 
-def list_segments(start_unix: float, end_unix: float) -> List[OrcasoundHLSSegment]:
-    """Return the list of HLS segment chunks covering the requested window."""
-    client = OrcasoundHLSClient(bucket=C.BUCKET, hydrophone_id=C.HYDROPHONE_ID)
+def list_segments(start_unix: float, end_unix: float,
+                  *, hydrophone_id: str | None = None) -> List[OrcasoundHLSSegment]:
+    """Return the list of HLS segment chunks covering the requested window.
+
+    `hydrophone_id` defaults to `C.HYDROPHONE_ID` (orcasound_lab) but can be
+    overridden to any Orcasound-network node (`rpi_bush_point`,
+    `rpi_port_townsend`, etc.) for the multi-node expansion (D-044 shadow
+    mode + eventual per-node classifier retraining).
+    """
+    hid = hydrophone_id or C.HYDROPHONE_ID
+    client = OrcasoundHLSClient(bucket=C.BUCKET, hydrophone_id=hid)
     return client.get_segments(
         start_unix=start_unix,
         end_unix=end_unix,

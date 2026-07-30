@@ -296,14 +296,26 @@ def main() -> int:
     (ARTIFACTS / "results.json").write_text(json.dumps(summary, indent=2))
     print(f"\n  summary -> {(ARTIFACTS/'results.json').relative_to(REPO)}")
 
-    # Save the scheme-C classifier as the deployable one (it's the only one
-    # that handles "unk" as a class, so it's the one production would use).
+    # Save both schemes:
+    #   - Scheme A (S01 vs not-S01) is the DEPLOYED classifier — highest LOO
+    #     accuracy (79%) and low-confidence-on-misses property that makes a
+    #     P>=0.70 confidence gate sensible (see D-044 disposition).
+    #   - Scheme C (adds unk as class) kept as a research/inspection artifact
+    #     — same training data, richer output, worse point accuracy.
     from sklearn.linear_model import LogisticRegression
+    clf_a = LogisticRegression(C=0.1, class_weight="balanced",
+                               max_iter=2000, random_state=0)
+    clf_a.fit(X_a, y_a)
+    joblib.dump(clf_a, ARTIFACTS / "calltype_classifier_scheme_a.joblib")
+    print(f"  classifier A (deployed) -> "
+          f"models/perch_calltype_v0/calltype_classifier_scheme_a.joblib")
+
     clf_c = LogisticRegression(C=0.1, class_weight="balanced",
                                max_iter=2000, random_state=0)
     clf_c.fit(X_c, y_c)
     joblib.dump(clf_c, ARTIFACTS / "calltype_classifier_scheme_c.joblib")
-    print(f"  classifier -> models/perch_calltype_v0/calltype_classifier_scheme_c.joblib")
+    print(f"  classifier C (research)  -> "
+          f"models/perch_calltype_v0/calltype_classifier_scheme_c.joblib")
     return 0
 
 

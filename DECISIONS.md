@@ -1001,3 +1001,61 @@ labels) require user confirmation before being acted on.
 - Artifacts: `src/perch_calltype_classifier.py`,
   `models/perch_calltype_v0/calltype_classifier_scheme_c.joblib`,
   `models/perch_calltype_v0/results.json`.
+
+### D-045 — Full 2025 coverage at three Salish Sea nodes (expansion phase)
+- Follow-through on D-044's forward plan. Once the Scheme-A S01 classifier
+  was deployed (b), extending coverage without waiting for more labelling
+  became the next-most-valuable move. Two dimensions to extend: **time**
+  (Q3 → Q3 + Q4) and **space** (single-node → multi-node).
+- Scope: **7 batches, ~184 days each × 3 additional nodes + 1 extra
+  quarter at the home node.** Concretely:
+
+  | Batch | Node | Period | Rationale |
+  |---|---|---|---|
+  | c) | rpi_orcasound_lab | 2025-10-01 → 2025-12-31 (92 d) | complete 2025 H2 at the home node |
+  | 1 | rpi_bush_point | 2025-07-01 → 2025-09-30 (92 d) | K/L pod passage — highest cross-pod value |
+  | 2 | rpi_bush_point | 2025-10-01 → 2025-12-31 (92 d) | continuity |
+  | 3 | rpi_port_townsend | 2025-07-01 → 2025-09-30 (92 d) | K/L transit corridor |
+  | 4 | rpi_port_townsend | 2025-10-01 → 2025-12-31 (92 d) | continuity |
+  | 5 | rpi_sunset_bay | 2025-07-01 → 2025-09-30 (92 d) | southern Salish Sea |
+  | 6 | rpi_sunset_bay | 2025-10-01 → 2025-12-31 (92 d) | continuity |
+
+- **Pipeline parameterisation.** `run_batch.py` gains a `--hydrophone-id`
+  argument (default `rpi_orcasound_lab`). `pilot/config.py NODES` dict
+  registers each node's lat/lon + dominant pods. Downstream:
+  `pilot/download.py.list_segments` accepts the id;
+  `pilot/crossref.py.load_acartia_near_node(hid)` cross-references
+  sightings against that node's coordinates; `pilot/catalog.py.insert_clips`
+  writes `hydrophone_location` = the id with `rpi_` stripped and derives
+  `cross_node_unvalidated = (hydrophone_location != 'orcasound_lab')`.
+- **Cross-node classifier policy (per D-044 disposition).** The Scheme-A
+  S01 classifier still runs on non-Lab clips (predictions stored in DB
+  as normal), but `cross_node_unvalidated=1` on those rows. The
+  companion site's call-type breakdown chart and showcase-card badges
+  explicitly filter those out — they exist in the data for research
+  access, but are not published as authoritative until we have ≥20
+  K-pod / ≥20 L-pod validation labels per node.
+- **Execution.** Batches run **sequentially, not in parallel** —
+  concurrent runs share OrcaHello + Perch + Multispecies (~5-8 GB) and
+  the machine's memory shows "allocation exceeds 10% of free system
+  memory" warnings under a single load. Chained via
+  `bin/run_expansion.sh` under `nohup` so the sequence survives Claude
+  Code session end. Per-day failures already skip forward in
+  `run_batch.py`; the shell script's per-batch loop doesn't `set -e`
+  so a batch-level failure doesn't stop the chain.
+- Estimated wall time: ~10-15 days total (prior Q3 Lab runs suggest
+  1.5-2 days per 92-day batch). Runs quietly in background.
+- Disposition:
+  - **Ship code changes and the runner script now** as part of the
+    b) + c) commit sequence (v0.2 tag).
+  - **Kick off `bin/run_expansion.sh` immediately after publishing v0.2.**
+  - **Do NOT auto-tag v0.3 on completion** — each node adds new data
+    that should get a real look before publishing; expansion completion
+    should trigger a per-node review + a manual v0.3 tag.
+- Deferred: (a) per-node call-type retraining once K/L pod labels are
+  collected; (b) node-specific SNR calibration (different ambient
+  profiles at Bush Point / Port Townsend vs Haro Strait); (c) inter-node
+  event correlation (was there a J-pod pass detected at Lab AND at
+  another node within the same window?).
+- Artifacts: `bin/run_expansion.sh`, `src/pilot/config.py::NODES`,
+  new logs at `logs/batch_*.log`.

@@ -9,7 +9,9 @@
     "nearest_ref_call": null,
     "nearest_ref_pod": "?",
     "nearest_ref_similarity": 0.628,
-    "acartia_sightings": 8
+    "acartia_sightings": 8,
+    "calltype": "unknown-calltype",
+    "calltype_conf": 0.53
   },
   {
     "clip_id": "orcasound_lab_20250716T050930Z_n7",
@@ -21,7 +23,9 @@
     "nearest_ref_call": "S01",
     "nearest_ref_pod": "K",
     "nearest_ref_similarity": 0.51,
-    "acartia_sightings": 4
+    "acartia_sightings": 4,
+    "calltype": "unknown-calltype",
+    "calltype_conf": 0.547
   },
   {
     "clip_id": "orcasound_lab_20250724T174455Z_n1",
@@ -33,7 +37,9 @@
     "nearest_ref_call": null,
     "nearest_ref_pod": "?",
     "nearest_ref_similarity": 0.455,
-    "acartia_sightings": 0
+    "acartia_sightings": 0,
+    "calltype": "not-S01",
+    "calltype_conf": 0.751
   },
   {
     "clip_id": "orcasound_lab_20250730T005225Z_n1",
@@ -45,7 +51,9 @@
     "nearest_ref_call": null,
     "nearest_ref_pod": "?",
     "nearest_ref_similarity": 0.265,
-    "acartia_sightings": 0
+    "acartia_sightings": 0,
+    "calltype": "unknown-calltype",
+    "calltype_conf": 0.64
   },
   {
     "clip_id": "orcasound_lab_20250801T083905Z_n9",
@@ -57,7 +65,9 @@
     "nearest_ref_call": "S01",
     "nearest_ref_pod": "K",
     "nearest_ref_similarity": 0.517,
-    "acartia_sightings": 0
+    "acartia_sightings": 0,
+    "calltype": "not-S01",
+    "calltype_conf": 0.73
   },
   {
     "clip_id": "orcasound_lab_20250823T153010Z_n1",
@@ -69,7 +79,9 @@
     "nearest_ref_call": null,
     "nearest_ref_pod": "?",
     "nearest_ref_similarity": 0.457,
-    "acartia_sightings": 0
+    "acartia_sightings": 0,
+    "calltype": "not-S01",
+    "calltype_conf": 0.775
   },
   {
     "clip_id": "orcasound_lab_20250826T174651Z_n1",
@@ -81,7 +93,9 @@
     "nearest_ref_call": null,
     "nearest_ref_pod": "?",
     "nearest_ref_similarity": 0.135,
-    "acartia_sightings": 0
+    "acartia_sightings": 0,
+    "calltype": "unknown-calltype",
+    "calltype_conf": 0.577
   },
   {
     "clip_id": "orcasound_lab_20250827T152328Z_n15",
@@ -93,7 +107,9 @@
     "nearest_ref_call": "S33",
     "nearest_ref_pod": "K",
     "nearest_ref_similarity": 0.421,
-    "acartia_sightings": 0
+    "acartia_sightings": 0,
+    "calltype": "not-S01",
+    "calltype_conf": 0.789
   },
   {
     "clip_id": "orcasound_lab_20250904T233822Z_n5",
@@ -105,7 +121,9 @@
     "nearest_ref_call": null,
     "nearest_ref_pod": "?",
     "nearest_ref_similarity": 0.482,
-    "acartia_sightings": 4
+    "acartia_sightings": 4,
+    "calltype": "unknown-calltype",
+    "calltype_conf": 0.554
   },
   {
     "clip_id": "orcasound_lab_20250905T003038Z_n4",
@@ -117,7 +135,9 @@
     "nearest_ref_call": null,
     "nearest_ref_pod": "?",
     "nearest_ref_similarity": 0.244,
-    "acartia_sightings": 4
+    "acartia_sightings": 4,
+    "calltype": "not-S01",
+    "calltype_conf": 0.752
   },
   {
     "clip_id": "orcasound_lab_20250910T004309Z_n30",
@@ -129,7 +149,9 @@
     "nearest_ref_call": null,
     "nearest_ref_pod": "?",
     "nearest_ref_similarity": 0.671,
-    "acartia_sightings": 4
+    "acartia_sightings": 4,
+    "calltype": "unknown-calltype",
+    "calltype_conf": 0.577
   },
   {
     "clip_id": "orcasound_lab_20250915T144431Z_n2",
@@ -141,7 +163,9 @@
     "nearest_ref_call": "S14",
     "nearest_ref_pod": "?",
     "nearest_ref_similarity": 0.464,
-    "acartia_sightings": 0
+    "acartia_sightings": 0,
+    "calltype": "unknown-calltype",
+    "calltype_conf": 0.663
   },
   {
     "clip_id": "orcasound_lab_20250922T025050Z_n9",
@@ -153,7 +177,9 @@
     "nearest_ref_call": null,
     "nearest_ref_pod": "?",
     "nearest_ref_similarity": 0.672,
-    "acartia_sightings": 7
+    "acartia_sightings": 7,
+    "calltype": "S01",
+    "calltype_conf": 0.75
   },
   {
     "clip_id": "orcasound_lab_20250924T062214Z_n17",
@@ -165,7 +191,9 @@
     "nearest_ref_call": null,
     "nearest_ref_pod": "?",
     "nearest_ref_similarity": 0.603,
-    "acartia_sightings": 0
+    "acartia_sightings": 0,
+    "calltype": "unknown-calltype",
+    "calltype_conf": 0.646
   },
   {
     "clip_id": "orcasound_lab_20250925T034314Z_n1",
@@ -177,6 +205,8 @@
     "nearest_ref_call": "S01",
     "nearest_ref_pod": "K",
     "nearest_ref_similarity": 0.468,
-    "acartia_sightings": 0
+    "acartia_sightings": 0,
+    "calltype": "unknown-calltype",
+    "calltype_conf": 0.677
   }
 ]

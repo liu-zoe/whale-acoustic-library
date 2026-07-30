@@ -67,6 +67,15 @@ _LATER_COLUMNS = {
     # `keep` AND curious (e.g. SRKW present alongside an unfamiliar sound).
     # 0 / 1 stored as INTEGER (SQLite). NULL on legacy rows = "not flagged".
     "is_curious": "INTEGER DEFAULT 0",
+    # D-044: supervised Ford-code prediction from Scheme-A classifier over
+    # focused-window Perch embeddings. Values: 'S01' | 'not-S01' |
+    # 'unknown-calltype' (abstain bucket when confidence < 0.70).
+    "perch_predicted_calltype": "TEXT",
+    "perch_calltype_confidence": "REAL",
+    # D-044: J-pod-trained classifier flagged as unvalidated when applied
+    # at K/L-pod-dominant nodes. 0 = home node (orcasound_lab), 1 = shadow
+    # mode. Hidden from the public site until human-validated at that node.
+    "cross_node_unvalidated": "INTEGER DEFAULT 0",
 }
 
 
@@ -99,10 +108,14 @@ def _multispecies_fields(scores: Optional[dict]) -> dict:
 
 
 def _perch_fields(ann: Optional[dict]) -> dict:
-    """Format a PerchAnnotations-ish dict into the four catalog columns.
+    """Format a PerchAnnotations-ish dict into the perch-derived catalog columns.
 
     Accepts either a PerchAnnotations dataclass or a plain dict with the
-    same field names; missing fields become NULL.
+    same field names; missing fields become NULL. Six fields total:
+    the four from D-027/D-031 plus the two D-044 call-type prediction
+    fields. `cross_node_unvalidated` is computed by insert_clips from
+    hydrophone_location instead of coming from PerchAnnotations, because
+    it's a property of the deployment location, not the model.
     """
     if not ann:
         return {
@@ -110,6 +123,8 @@ def _perch_fields(ann: Optional[dict]) -> dict:
             "nearest_ref_call": None,
             "nearest_ref_pod": None,
             "nearest_ref_similarity": None,
+            "perch_predicted_calltype": None,
+            "perch_calltype_confidence": None,
         }
     get = (lambda k: getattr(ann, k, None)) if hasattr(ann, "perch_p_humpback") \
           else (lambda k: ann.get(k))
@@ -118,6 +133,8 @@ def _perch_fields(ann: Optional[dict]) -> dict:
         "nearest_ref_call": get("nearest_ref_call"),
         "nearest_ref_pod": get("nearest_ref_pod"),
         "nearest_ref_similarity": get("nearest_ref_similarity"),
+        "perch_predicted_calltype": get("perch_predicted_calltype"),
+        "perch_calltype_confidence": get("perch_calltype_confidence"),
     }
 
 
@@ -128,6 +145,7 @@ def insert_clips(
     detection_model: str,
     detection_threshold: float,
     species: str = "SRKW",
+    hydrophone_location: str = "orcasound_lab",
     sightings_by_clip_id: dict[str, int] | None = None,
     multispecies_by_clip_id: dict[str, dict[str, float]] | None = None,
     perch_by_clip_id: dict[str, dict] | None = None,
@@ -149,10 +167,16 @@ def insert_clips(
     for c in clips:
         start_iso = datetime.fromtimestamp(c.start_unix, tz=timezone.utc).isoformat()
         end_iso = datetime.fromtimestamp(c.end_unix, tz=timezone.utc).isoformat()
+        # D-044 shadow-mode flag: J-pod-trained call-type classifier is
+        # trusted only at orcasound_lab. Any other node runs it in shadow
+        # mode (predictions stored but tagged unvalidated) until we've
+        # labeled >=20 K-pod / >=20 L-pod clips there.
+        cross_node = 0 if hydrophone_location == "orcasound_lab" else 1
         rows.append(
             {
                 "clip_id": c.clip_id,
-                "hydrophone_location": "orcasound_lab",
+                "hydrophone_location": hydrophone_location,
+                "cross_node_unvalidated": cross_node,
                 "start_unix": c.start_unix,
                 "end_unix": c.end_unix,
                 "start_utc_iso": start_iso,
@@ -197,6 +221,8 @@ def insert_clips(
             multispecies_scores, multispecies_top, multispecies_top_score,
             perch_p_humpback,
             nearest_ref_call, nearest_ref_pod, nearest_ref_similarity,
+            perch_predicted_calltype, perch_calltype_confidence,
+            cross_node_unvalidated,
             review_status, review_note
         ) VALUES (
             :clip_id, :hydrophone_location, :start_unix, :end_unix,
@@ -210,6 +236,8 @@ def insert_clips(
             :multispecies_scores, :multispecies_top, :multispecies_top_score,
             :perch_p_humpback,
             :nearest_ref_call, :nearest_ref_pod, :nearest_ref_similarity,
+            :perch_predicted_calltype, :perch_calltype_confidence,
+            :cross_node_unvalidated,
             :review_status, :review_note
         )
         """,

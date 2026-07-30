@@ -23,20 +23,31 @@ def _haversine_km(lat1, lon1, lat2, lon2):
     return 2 * R * math.asin(math.sqrt(a))
 
 
-def load_acartia_near_lab() -> pd.DataFrame:
-    """Load Acartia, filter to SRKW types within radius of the lab.
+def load_acartia_near_node(hydrophone_id: str | None = None) -> pd.DataFrame:
+    """Load Acartia, filter to SRKW types within radius of the given node.
 
+    Uses `C.NODES[hydrophone_id]` for lat/lon. Falls back to Orcasound Lab
+    when `hydrophone_id` is None (preserves the pre-multi-node behaviour).
     Returned df has columns: created (UTC), latitude, longitude, dist_km.
     """
+    if hydrophone_id and hydrophone_id in C.NODES:
+        lat, lon = C.NODES[hydrophone_id]["lat"], C.NODES[hydrophone_id]["lon"]
+    else:
+        lat, lon = C.LAB_LAT, C.LAB_LON
     df = pd.read_csv(C.ACARTIA_CSV)
     df["created"] = pd.to_datetime(df["created"], errors="coerce", utc=True)
     df = df.dropna(subset=["created"])
     df = df[df["type"].isin(SRKW_TYPES)].copy()
     df["dist_km"] = df.apply(
-        lambda r: _haversine_km(r["latitude"], r["longitude"], C.LAB_LAT, C.LAB_LON),
+        lambda r: _haversine_km(r["latitude"], r["longitude"], lat, lon),
         axis=1,
     )
     return df[df["dist_km"] <= C.ACARTIA_RADIUS_KM].copy()
+
+
+# Back-compat alias for callers that predate the multi-node parameter.
+def load_acartia_near_lab() -> pd.DataFrame:
+    return load_acartia_near_node(None)
 
 
 def count_sightings_for_clips(

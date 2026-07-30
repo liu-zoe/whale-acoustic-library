@@ -46,6 +46,9 @@ def _db():
 def export_catalog(conn) -> int:
     """Compact per-clip metadata for the catalog browser + showcase cards."""
     rows = []
+    # D-044 columns and cross_node_unvalidated are read via COALESCE so that
+    # rows from a DB dumped before those columns existed just get sensible
+    # defaults on the site.
     for r in conn.execute("""
         SELECT clip_id, hydrophone_location, start_utc_iso, species, call_type,
                review_status, COALESCE(is_curious, 0) AS is_curious, review_note,
@@ -54,12 +57,15 @@ def export_catalog(conn) -> int:
                perch_p_humpback,
                nearest_ref_call, nearest_ref_pod, nearest_ref_similarity,
                acartia_sightings_within_24h_50km,
-               raw_wav_path, clean_wav_path, spectrogram_path
+               raw_wav_path, clean_wav_path, spectrogram_path,
+               perch_predicted_calltype, perch_calltype_confidence,
+               COALESCE(cross_node_unvalidated, 0) AS cross_node
         FROM clips ORDER BY start_utc_iso
     """):
         (cid, loc, t, sp, ct, rs, ic, note, conf, segs, snr,
          ms_top, ms_top_score, perch_hb,
-         nr_call, nr_pod, nr_sim, ac, rp, cp, spp) = r
+         nr_call, nr_pod, nr_sim, ac, rp, cp, spp,
+         pct_label, pct_conf, cross_node) = r
         rows.append({
             "clip_id": cid, "loc": loc, "t": t, "species": sp,
             "call_type": ct, "status": rs, "curious": bool(ic),
@@ -72,6 +78,13 @@ def export_catalog(conn) -> int:
             "ref_sim": round(nr_sim, 3) if nr_sim is not None else None,
             "acartia_24h_50km": ac,
             "raw_path": rp, "clean_path": cp, "spec_path": spp,
+            # D-044 supervised call-type prediction:
+            # calltype in {S01, not-S01, unknown-calltype} or null pre-backfill
+            "calltype": pct_label,
+            "calltype_conf": round(pct_conf, 3) if pct_conf is not None else None,
+            # D-044 shadow-mode flag: 1 for non-Lab nodes, 0 otherwise.
+            # The site hides call-type predictions when this is 1.
+            "cross_node": int(cross_node),
         })
     (OUT / "catalog.json").write_text(json.dumps(rows, separators=(",", ":")))
     return len(rows)
@@ -129,12 +142,15 @@ def export_showcase(conn) -> int:
         SELECT clip_id, substr(start_utc_iso, 1, 10) AS day, start_utc_iso,
                peak_confidence, n_segments, snr_db,
                nearest_ref_call, nearest_ref_pod, nearest_ref_similarity,
-               acartia_sightings_within_24h_50km
+               acartia_sightings_within_24h_50km,
+               perch_predicted_calltype, perch_calltype_confidence,
+               COALESCE(cross_node_unvalidated, 0) AS cross_node
         FROM clips
         WHERE species='SRKW' AND review_status='keep'
           AND (is_curious IS NULL OR is_curious = 0)
     """):
-        (cid, day, t, conf, segs, snr, cc, pod, sim, ac) = r
+        (cid, day, t, conf, segs, snr, cc, pod, sim, ac,
+         pct_label, pct_conf, cross_node) = r
         score = conf * math.log(segs + 1)
         if day not in days or days[day]["score"] < score:
             days[day] = dict(
@@ -144,6 +160,12 @@ def export_showcase(conn) -> int:
                 nearest_ref_call=cc, nearest_ref_pod=pod,
                 nearest_ref_similarity=round(sim, 3) if sim is not None else None,
                 acartia_sightings=ac, score=round(score, 3),
+                # D-044 supervised prediction — only shown on the showcase
+                # card when the model was confident enough to not abstain
+                # AND the clip is at the home node (shadow-mode predictions
+                # at non-Lab nodes stay hidden in the UI, see D-044).
+                calltype=pct_label if not cross_node else None,
+                calltype_conf=round(pct_conf, 3) if pct_conf is not None else None,
             )
     picks = sorted(days.values(), key=lambda r: r["day"])
     for p in picks:

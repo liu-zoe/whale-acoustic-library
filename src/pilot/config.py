@@ -22,6 +22,8 @@ REVIEW_DIR = LIBRARY_ROOT / "review"
 
 # --- Acartia ---
 ACARTIA_CSV = Path("/media/y/hlabflash/acartia_2026-02-28.csv")
+# LAB_LAT/LAB_LON kept for backward compat; multi-node runs use NODES[hid]
+# (see below). Ideally future callers just use `NODES[HYDROPHONE_ID]`.
 LAB_LAT, LAB_LON = 48.5583362, -123.1735774  # Orcasound Lab
 ACARTIA_RADIUS_KM = 50.0
 ACARTIA_TIME_WINDOW_HOURS = 24
@@ -29,6 +31,38 @@ ACARTIA_TIME_WINDOW_HOURS = 24
 # --- Orcasound bucket ---
 BUCKET = "audio-orcasound-net"
 HYDROPHONE_ID = "rpi_orcasound_lab"
+
+# --- Multi-node registry (for expansion beyond Orcasound Lab) ---
+# `location` is the DB label (rpi_ prefix stripped). `lat/lon` is used for
+# Acartia sighting cross-reference (per-node radius search). If a new node
+# gets added here, run_batch.py --hydrophone-id can immediately target it.
+NODES: dict[str, dict] = {
+    "rpi_orcasound_lab": {
+        "location": "orcasound_lab",
+        "lat": 48.5583362, "lon": -123.1735774,
+        "pods": "J",   # dominant pod at this node
+    },
+    "rpi_bush_point": {
+        "location": "bush_point",
+        "lat": 48.0336, "lon": -122.6039,   # Whidbey Island / Admiralty Inlet
+        "pods": "KL",  # K/L pod passage
+    },
+    "rpi_port_townsend": {
+        "location": "port_townsend",
+        "lat": 48.1354, "lon": -122.7604,   # Puget Sound entry
+        "pods": "KL",
+    },
+    "rpi_sunset_bay": {
+        "location": "sunset_bay",
+        "lat": 47.8560, "lon": -122.3311,   # southern Salish Sea
+        "pods": "KL",
+    },
+    "rpi_north_sjc": {
+        "location": "north_sjc",
+        "lat": 48.6813, "lon": -123.0128,   # North San Juan Channel
+        "pods": "J",
+    },
+}
 
 # --- Clip extraction ---
 CLIP_DURATION_S = 30.0
