@@ -84,7 +84,13 @@ def process_day(date, *, model, ms_clf, perch, acartia, args, log) -> dict:
     log.info("[%s] %d detection events", label, len(events))
 
     # Phase 4: clip + denoise + spectrogram (OrcaHello / SRKW events)
-    clips = clipmod.make_all_clips(events, chunks)
+    # hydrophone_location becomes the clip_id prefix so multi-node runs
+    # don't collide on primary key when two nodes produce clips at the
+    # same timestamp.
+    hydrophone_location = C.NODES.get(
+        args.hydrophone_id, {"location": "orcasound_lab"})["location"]
+    clips = clipmod.make_all_clips(
+        events, chunks, hydrophone_location=hydrophone_location)
     log.info("[%s] materialized %d / %d SRKW clips", label, len(clips), len(events))
 
     # Phase 4b: Multispecies primary detection — scan the audio for humpback
@@ -96,7 +102,8 @@ def process_day(date, *, model, ms_clf, perch, acartia, args, log) -> dict:
         n_hi = sum(1 for d in hb_dets if d.confidence >= args.ms_threshold)
         hb_events = cl.cluster_detections(hb_dets, threshold=args.ms_threshold)
         hb_clips = clipmod.make_all_clips(
-            hb_events, chunks, tag="hb_", species="humpback"
+            hb_events, chunks, tag="hb_", species="humpback",
+            hydrophone_location=hydrophone_location,
         )
         log.info("[%s] Multispecies humpback scan: max score %.3f, "
                  "%d windows >= %.2f, %d events, %d clips",
@@ -146,10 +153,9 @@ def process_day(date, *, model, ms_clf, perch, acartia, args, log) -> dict:
     sightings = xr.count_sightings_for_clips(all_clips, acartia)
     conn = cat.get_conn()
     cat.init_schema(conn)
-    # DB label (rpi_ prefix stripped) — feeds catalog.insert_clips, which
-    # also derives cross_node_unvalidated from it (D-044 shadow-mode flag).
-    hydrophone_location = C.NODES.get(
-        args.hydrophone_id, {"location": "orcasound_lab"})["location"]
+    # hydrophone_location already computed above (Phase 4). Reused for
+    # catalog.insert_clips, which also derives cross_node_unvalidated
+    # from it (D-044 shadow-mode flag).
     cat.insert_clips(
         conn, clips,
         detection_model=C.HF_REPO_ID.split("/")[-1],

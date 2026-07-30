@@ -133,6 +133,7 @@ def make_clip(
     out_sr: int = C.CLIP_SAMPLE_RATE,
     tag: str = "",
     species: str = "SRKW",
+    hydrophone_location: str = "orcasound_lab",
 ) -> Optional[ClipRecord]:
     """Cut a single 30 s clip around the event midpoint, denoise, and render spectrogram.
 
@@ -141,6 +142,9 @@ def make_clip(
     ``species`` selects the denoise bandpass and spectrogram y-range —
     humpback uses 30 Hz-5 kHz (vs SRKW's 300 Hz-15 kHz) so the low-frequency
     song energy survives and is visible.
+    ``hydrophone_location`` becomes the clip_id prefix so clips from
+    different Orcasound nodes stay distinct (avoiding PK collisions when
+    two nodes produce clips at the same timestamp).
     """
     half = duration_s / 2.0
     start_u = event.midpoint_unix - half
@@ -168,7 +172,7 @@ def make_clip(
     snr = inband_snr_db(raw48, out_sr)
 
     slug = _slug_from_unix(event.start_unix)
-    clip_id = f"orcasound_lab_{tag}{slug}_n{event.n_segments}"
+    clip_id = f"{hydrophone_location}_{tag}{slug}_n{event.n_segments}"
     raw_path = C.AUDIO_RAW_DIR / f"{clip_id}.wav"
     clean_path = C.AUDIO_CLEAN_DIR / f"{clip_id}.wav"
     spec_path = C.SPECTROGRAMS_DIR / f"{clip_id}.png"
@@ -203,10 +207,12 @@ def make_all_clips(
     *,
     tag: str = "",
     species: str = "SRKW",
+    hydrophone_location: str = "orcasound_lab",
 ) -> List[ClipRecord]:
     out: List[ClipRecord] = []
     for ev in events:
-        rec = make_clip(ev, chunks, tag=tag, species=species)
+        rec = make_clip(ev, chunks, tag=tag, species=species,
+                        hydrophone_location=hydrophone_location)
         if rec is not None:
             out.append(rec)
     return out

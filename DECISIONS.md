@@ -1059,3 +1059,18 @@ labels) require user confirmation before being acted on.
   another node within the same window?).
 - Artifacts: `bin/run_expansion.sh`, `src/pilot/config.py::NODES`,
   new logs at `logs/batch_*.log`.
+
+- **Cross-node smoke test caught a latent bug** worth surfacing. The
+  first smoke run on Bush Point produced 5 clips with `clip_id` prefixed
+  `orcasound_lab_` even though `hydrophone_location='bush_point'`. Root
+  cause: `pilot/clip.py::make_clip` had `f"orcasound_lab_{tag}{slug}..."`
+  hardcoded. Same-timestamp events at two different nodes would have
+  collided on `clip_id` (SQLite PK) and the second INSERT OR REPLACE
+  would silently overwrite the first. No actual collision occurred in
+  the test (chosen window had no pre-existing Lab data), but the fix
+  went in before launching the full chain: `make_clip` and
+  `make_all_clips` now accept `hydrophone_location`, and `run_batch.py`
+  passes it through from the resolved node. Second smoke run verified
+  `clip_id` now starts with the node label. Bug is exactly the class of
+  regression the smoke-test-before-full-run pattern is designed to
+  catch.

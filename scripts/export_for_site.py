@@ -36,6 +36,22 @@ DB_FALLBACK = Path("/media/y/hlabflash/whale_library/db/library.sqlite")
 OUT = REPO / "site/data"
 OUT.mkdir(parents=True, exist_ok=True)
 
+# Local paths on the build machine that we don't want leaking into the
+# shipped catalog.json. Anything with these prefixes gets stripped to the
+# relative form (audio_raw/... etc.) so a downstream user cloning the
+# repo sees the same relative layout the shipped data/library.sqlite
+# was originally sanitised with.
+_LOCAL_PREFIXES = ("/media/y/hlabflash/whale_library/",)
+
+
+def _relpath(p: str | None) -> str | None:
+    if not p:
+        return p
+    for prefix in _LOCAL_PREFIXES:
+        if p.startswith(prefix):
+            return p[len(prefix):]
+    return p
+
 
 def _db():
     if DB_PRIMARY.exists():
@@ -77,7 +93,10 @@ def export_catalog(conn) -> int:
             "ref_call": nr_call, "ref_pod": nr_pod,
             "ref_sim": round(nr_sim, 3) if nr_sim is not None else None,
             "acartia_24h_50km": ac,
-            "raw_path": rp, "clean_path": cp, "spec_path": spp,
+            # Sanitised to relative paths so the shipped repo doesn't leak
+            # the build-machine's absolute paths (see _LOCAL_PREFIXES).
+            "raw_path": _relpath(rp), "clean_path": _relpath(cp),
+            "spec_path": _relpath(spp),
             # D-044 supervised call-type prediction:
             # calltype in {S01, not-S01, unknown-calltype} or null pre-backfill
             "calltype": pct_label,
