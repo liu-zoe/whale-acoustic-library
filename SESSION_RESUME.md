@@ -151,7 +151,13 @@ So: **do not rely on the transcript.** Rely on this drive instead.
   call-type limitation section, framing the pilot classifier as the
   positive counter-result.
 
-### Expansion chain (D-045) — running autonomously in background
+### Expansion chain (D-045) — LAUNCHED at 2026-07-30T18:27 -05:00
+
+**PID at kickoff**: 3280342 (bash bin/run_expansion.sh) + 3280348 (first
+child, Q4 Lab batch). Launched via `nohup ... & disown` so the chain
+survives Claude Code session end.
+
+### Expansion chain (D-045) — 7 batches, sequential
 - Runner: `bin/run_expansion.sh` under `nohup` — runs 7 batches
   sequentially, each ~1.5-2 days of compute:
   1. `q4_lab`  — Orcasound Lab, 2025 Q4 (completes 2025 H2 at home node)
@@ -172,7 +178,29 @@ So: **do not rely on the transcript.** Rely on this drive instead.
 ```
 bash bin/expansion_status.sh          # snapshot of all 7 batches + DB counts
 tail -f logs/batch_q4_lab.log         # follow the current batch
+tail -f logs/expansion.out            # follow the chain's own log
+pgrep -af "run_batch|run_expansion"   # confirm the chain is still alive
 ```
+
+### If the chain died (machine reboot, OOM kill, etc.) — how to resume
+```
+# 1. See which batches have already completed (look for BATCH COMPLETE)
+grep "BATCH COMPLETE" logs/batch_*.log
+
+# 2. Edit bin/run_expansion.sh: comment out the run_batch calls for the
+#    completed batches, keep only the remaining ones.
+
+# 3. Relaunch with nohup:
+nohup bash bin/run_expansion.sh > logs/expansion_resumed.out 2>&1 &
+disown
+```
+
+### Publication cadence
+Tag `v0.2` was cut immediately after b) + expansion-code shipped
+(commit `fd1b493`), including the S01 classifier + all multi-node
+plumbing. Per D-045: **do not auto-tag v0.3 on expansion completion** —
+each new node's data deserves a review pass before publishing. Cut
+v0.3 manually after per-node review.
 
 ### Prior state (pre-v0.2, retained for context)
 
