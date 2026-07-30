@@ -32,6 +32,7 @@ models/*/embeddings.npz
 models/*/reference_embeddings.npz
 models/*/keep_embeddings.npz
 models/*/sfu_embeddings.npz
+models/*/focused_embeddings.npz
 
 # --- per-clip raw audio + spectrograms (not in repo by design) ---
 # Library output lives at /media/y/hlabflash/whale_library/ in the local

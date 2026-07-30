@@ -895,3 +895,109 @@ labels) require user confirmation before being acted on.
   <https://liu-zoe.github.io/whale-acoustic-library/>.
 - Smoke-tested live URL: site root, JSON data, and showcase audio all
   served 200.
+
+### D-043 — Path C viability confirmed: manual labeling scales (50-clip test)
+- Follow-up to D-041's 7-clip test. Selector rewritten (`src/path_c_picker.py`)
+  to use OrcaHello per-segment confidence for window centering — v1's raw
+  in-band energy missed the real call on ~28% of clips because vessel
+  noise had higher energy than SRKW calls. Two rounds: 30 clips
+  (2026-07-06) then 20 more (2026-07-12), one labeler, using SFU HALLO +
+  Orcasound Ford-Osborne libraries as references.
+- Timing held across independent batches. Batch 1 (first-time labeler):
+  34.3 min active, 69 s/clip. Batch 2 (returning, one week later):
+  16.0 min active, 48 s/clip, zero breaks. **Combined pace: 60 s/clip
+  active** — 30% faster in batch 2 with essentially identical pool quality
+  (OH peak-seg 0.88 vs 0.91; SNR 6.0 vs 5.5 dB), i.e. real trained-labeler
+  speedup, not easier clips.
+- Label distribution stable across batches:
+
+  | bucket | batch 1 | batch 2 | combined |
+  |---|---:|---:|---:|
+  | Confident (clean Ford code) | 60% | 65% | **62%** |
+  | Uncertain (?-tagged) | 20% | 10% | **16%** |
+  | Unmapped (blank) | 20% | 25% | **22%** |
+
+- **The 22% unmapped is a floor, not a labeling failure.** SRKW vocalizations
+  outside Ford's discrete-call catalogue — novel variants, whistles,
+  aberrant calls, click-trains. In any future call-type classifier, "unk"
+  should be a first-class label rather than a bucket of rejects.
+- 16 distinct Ford codes across 50 clips. **S01 dominates at 46%** of
+  non-empty labels — matches Ford & Ellis 1999's report of S01 as one of
+  the highest-frequency J-pod calls; Orcasound Lab sits in J-pod's summer
+  core habitat. Emergent labeler behaviour in batch 2 (unprompted): first
+  multi-call annotation (`S01 around 2s and S08i around 4s`), first
+  sub-type annotations (`S02i or S02ii`).
+- 350-clip extrapolation: **5.8 h active** at combined pace, 4.7 h at
+  batch-2 trained pace. Well below D-041's 20-26 h projection — the
+  OrcaHello centering + labeler training curve halved the per-clip cost.
+- Caveat that dictated the follow-up (D-044): 50 clips is Zipfian.
+  S01 has n=19; S44 has 5; S17 has 3; six other codes have 1 each.
+  A supervised classifier will be strong on S01, marginal on the mid-tier,
+  untrainable on singletons. All 50 clips are Orcasound Lab (J-pod
+  dominant); K and L pods have different call vocabularies (S16 for K;
+  S02/S10/S37 prominent for L) and a classifier trained here needs
+  cross-node validation before general use.
+- Disposition: Path C is viable. Manual labeling of the full 350 was
+  planned as a one-time ~6 h push, but before committing we test whether
+  the 50 labels are already enough for a pilot classifier (see D-044).
+- Artifacts: `data/manual_labels/path_c_v2_50.json`,
+  `src/path_c_picker.py`, `site/labeling_test.html` + `data_v2.json`.
+
+### D-044 — Pilot call-type classifier viable on head codes; targeted labeling replaces exhaustive labeling
+- Move 1 of the D-043 follow-up plan. Labeling of the remaining ~300 clips
+  turned out to be calendar-bottlenecked (two weeks passed with zero
+  additional labeling), not hour-bottlenecked. Before committing more
+  labeling time, tested whether the 50 labels already in hand were
+  sufficient to bootstrap a supervised call-type classifier for at least
+  the head codes.
+- Perch 2.0 CPU embeddings on the 50 focused 5s FLACs from Path C v2 —
+  one 1536-dim vector per clip. Regularized logistic regression
+  (C=0.1, class_weight=balanced) with leave-one-out cross-validation
+  under three progressively more ambitious schemes:
+
+  | Scheme | Classes | LOO acc | Majority baseline | Lift |
+  |---|---|---:|---:|---:|
+  | A — S01 vs not-S01 | 2 | **79%** | 57% | +22 pp |
+  | B — S01 / S44 / S17 / other-known | 4 | 71% | 58% | +13 pp |
+  | C — head codes / known-tail / unk | 5 | 57% | 43% | +14 pp |
+
+- Scheme A: S01 recall 83%, not-S01 recall 75%. All 9 misses have
+  P(wrong-class) in [0.53, 0.68] — no confident errors, meaning a
+  confidence-thresholded classifier (P ≥ 0.70) trades coverage for
+  precision on borderline calls.
+- Scheme B: S01 recall 89%; S44 (n=3) and S17 (n=2) not trainable at this
+  sample size, as expected.
+- Scheme C: unk recall 64% — Perch embeddings do distinguish "canonical
+  Ford discrete call" from "SRKW vocalization outside catalogue," which
+  validates unk-as-first-class-label from D-043.
+- Uncertain-tag agreement check: on the 8 `?`-tagged clips (labels
+  the human wasn't sure about), classifier agreed on 2/8 = 25%. Weak —
+  but ?-tagged means labeler-of-last-resort, so tells us more about the
+  labels than the classifier.
+- Disposition (ship): wire the Scheme-A S01-vs-not-S01 classifier into
+  `src/run_batch.py` as a new `perch_predicted_calltype` column with a
+  P ≥ 0.70 confidence gate (below → `unknown-calltype`). Analogous to
+  the D-027/D-032 humpback-classifier deployment. Head codes S44 and
+  S17 remain unreliable and are reported as `not-S01`.
+- Disposition (backfill): apply the classifier to all 506 existing SRKW
+  clips in the Q3 corpus (in addition to going-forward ingestion), so
+  the companion site can show S01 vs not-S01 breakdown across all of
+  2025 Q3 immediately.
+- Disposition (cross-node policy, forward-looking): when applied to
+  non-Lab nodes (Bush Point etc.), predictions run in **shadow mode** —
+  stored in DB with `cross_node_unvalidated=true`, hidden from the
+  public site until we've labeled ≥20 K-pod / ≥20 L-pod clips at the
+  new node and either confirmed transfer or retrained.
+- Disposition (labeling plan): replace "label all 350" with **targeted
+  labeling**. Future sessions surface only clips where the classifier
+  is most uncertain (P near 0.5), in 20-clip chunks matching the
+  batch-2 proven pace (~16 min/session). ~5 such sessions would add the
+  ~100 labels needed to make S44/S17 trainable, but the S01 detector
+  already auto-labels ~40% of the corpus, so forward progress is no
+  longer blocked on the labeler's calendar.
+- Caveats: all training data is Orcasound Lab / J-pod-dominant; 50-label
+  base means all accuracy numbers have wide CIs; confidence gating
+  trades coverage for precision by design.
+- Artifacts: `src/perch_calltype_classifier.py`,
+  `models/perch_calltype_v0/calltype_classifier_scheme_c.joblib`,
+  `models/perch_calltype_v0/results.json`.

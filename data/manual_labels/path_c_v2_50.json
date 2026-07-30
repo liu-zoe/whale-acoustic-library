@@ -1,0 +1,252 @@
+{
+  "orcasound_lab_20250714T225433Z_n5": {
+    "label": "S01",
+    "note": "Very clear S01. Found it within 20-30s",
+    "t": "2026-07-06T13:27:42.242Z"
+  },
+  "orcasound_lab_20250714T230049Z_n3": {
+    "label": "S01",
+    "note": "",
+    "t": "2026-07-06T13:28:04.073Z"
+  },
+  "orcasound_lab_20250714T231057Z_n4": {
+    "label": "S01",
+    "note": "quite confident. Maybe 5-10s",
+    "t": "2026-07-06T13:29:41.718Z"
+  },
+  "orcasound_lab_20250716T050816Z_n1": {
+    "label": "S01",
+    "note": "Still quite obvious S01 depsite seaker SNR than previous samples",
+    "t": "2026-07-06T13:30:22.699Z"
+  },
+  "orcasound_lab_20250716T050930Z_n7": {
+    "label": "S44",
+    "note": "this one is harde to find. I think it took me a min or more. It sounds more like the S44 in the SFU catalog than the orcasound one. The sampel does not show the squeezing sound at the beginning of the sampel clear enough but the second half sounds like S44.",
+    "t": "2026-07-06T13:36:18.232Z"
+  },
+  "orcasound_lab_20250801T083143Z_n1": {
+    "label": "",
+    "note": "Signal too weak to tell",
+    "t": "2026-07-06T13:41:28.480Z"
+  },
+  "orcasound_lab_20250823T153010Z_n1": {
+    "label": "S36",
+    "note": "This one is difficult and I am still not 100% sure. The contour is similar to S36 but it lacks the head of S36.",
+    "t": "2026-07-06T13:44:45.042Z"
+  },
+  "orcasound_lab_20250827T152328Z_n15": {
+    "label": "",
+    "note": "Can't tell which one as in I cannot find one that looks similar engouth",
+    "t": "2026-07-06T13:47:40.665Z"
+  },
+  "orcasound_lab_20250827T152426Z_n3": {
+    "label": "",
+    "note": "Again, cannot tell",
+    "t": "2026-07-06T13:48:53.564Z"
+  },
+  "orcasound_lab_20250904T162258Z_n1": {
+    "label": "",
+    "note": "It sounds clear SRKW but cannot map it to a call type",
+    "t": "2026-07-06T13:53:39.711Z"
+  },
+  "orcasound_lab_20250904T233738Z_n3": {
+    "label": "S17",
+    "note": "quick to decide",
+    "t": "2026-07-06T13:54:50.914Z"
+  },
+  "orcasound_lab_20250904T233822Z_n5": {
+    "label": "S44?",
+    "note": "Not super confident, but this sounds like the SFU S44",
+    "t": "2026-07-06T13:56:45.665Z"
+  },
+  "orcasound_lab_20250904T233906Z_n3": {
+    "label": "S02",
+    "note": "Sound like a variation of S02",
+    "t": "2026-07-06T13:59:48.665Z"
+  },
+  "orcasound_lab_20250905T000256Z_n1": {
+    "label": "S14",
+    "note": "Not very confident. It sounds like S14 being played backward",
+    "t": "2026-07-06T14:02:28.956Z"
+  },
+  "orcasound_lab_20250905T005912Z_n1": {
+    "label": "S16",
+    "note": "Signal too weak",
+    "t": "2026-07-06T14:03:02.482Z"
+  },
+  "orcasound_lab_20250910T004309Z_n30": {
+    "label": "S01",
+    "note": "",
+    "t": "2026-07-06T14:22:13.829Z"
+  },
+  "orcasound_lab_20250910T005451Z_n1": {
+    "label": "S17",
+    "note": "S17 descrives the signal around 2s in the 5s clip",
+    "t": "2026-07-06T14:23:19.770Z"
+  },
+  "orcasound_lab_20250910T005801Z_n12": {
+    "label": "",
+    "note": "Cannot map to a call type",
+    "t": "2026-07-06T14:24:00.093Z"
+  },
+  "orcasound_lab_20250910T005915Z_n2": {
+    "label": "SFU S44?",
+    "note": "Not supre confident",
+    "t": "2026-07-06T14:26:00.091Z"
+  },
+  "orcasound_lab_20250910T010033Z_n2": {
+    "label": "SFU S44",
+    "note": "Very similar to orcasound_lab_20250910T005915Z_n2",
+    "t": "2026-07-06T14:26:33.065Z"
+  },
+  "orcasound_lab_20250910T010045Z_n12": {
+    "label": "S44",
+    "note": "",
+    "t": "2026-07-06T14:26:50.463Z"
+  },
+  "orcasound_lab_20250910T014045Z_n2": {
+    "label": "S01?",
+    "note": "",
+    "t": "2026-07-06T14:27:00.035Z"
+  },
+  "orcasound_lab_20250915T141411Z_n1": {
+    "label": "S19?",
+    "note": "Sounds like half of S19",
+    "t": "2026-07-06T14:28:00.126Z"
+  },
+  "orcasound_lab_20250922T025842Z_n4": {
+    "label": "S06?",
+    "note": "",
+    "t": "2026-07-06T14:28:54.469Z"
+  },
+  "orcasound_lab_20250922T030914Z_n1": {
+    "label": "",
+    "note": "Cannot tell, it sounds like a quick version of S16, but",
+    "t": "2026-07-06T14:40:47.670Z"
+  },
+  "orcasound_lab_20250922T031026Z_n1": {
+    "label": "S01",
+    "note": "Confident despite low SNR",
+    "t": "2026-07-06T14:41:53.716Z"
+  },
+  "orcasound_lab_20250922T032359Z_n2": {
+    "label": "S01",
+    "note": "confident despite low SNR",
+    "t": "2026-07-06T14:42:00.706Z"
+  },
+  "orcasound_lab_20250922T035752Z_n2": {
+    "label": "S01",
+    "note": "Signal too weak but sounds like S01?",
+    "t": "2026-07-06T14:42:27.573Z"
+  },
+  "orcasound_lab_20250924T060440Z_n3": {
+    "label": "S12?",
+    "note": "not confident. If not S12, fall back choice would be S01",
+    "t": "2026-07-06T14:43:18.106Z"
+  },
+  "orcasound_lab_20250924T061616Z_n1": {
+    "label": "S05",
+    "note": "Between S04 and S05 but I lean towards S05.",
+    "t": "2026-07-06T14:44:11.417Z"
+  },
+  "orcasound_lab_20250714T225233Z_n6": {
+    "label": "S01 around 2s and S08i around 4s",
+    "note": "Fairly confidnet",
+    "t": "2026-07-12T21:52:00.096Z"
+  },
+  "orcasound_lab_20250714T225349Z_n4": {
+    "label": "S01",
+    "note": "Confident",
+    "t": "2026-07-12T21:52:23.344Z"
+  },
+  "orcasound_lab_20250714T225411Z_n5": {
+    "label": "S01",
+    "note": "Confident",
+    "t": "2026-07-12T21:52:36.002Z"
+  },
+  "orcasound_lab_20250714T230955Z_n4": {
+    "label": "S03",
+    "note": "Confident",
+    "t": "2026-07-12T21:53:13.309Z"
+  },
+  "orcasound_lab_20250716T033646Z_n1": {
+    "label": "",
+    "note": "Signal too faint to tell",
+    "t": "2026-07-12T21:53:38.433Z"
+  },
+  "orcasound_lab_20250724T174455Z_n1": {
+    "label": "",
+    "note": "I can't find a type that matches this, the closest is probbly S07 but the tone contour is not right",
+    "t": "2026-07-12T21:59:24.774Z"
+  },
+  "orcasound_lab_20250827T152522Z_n10": {
+    "label": "",
+    "note": "Can't tell",
+    "t": "2026-07-12T21:56:40.793Z"
+  },
+  "orcasound_lab_20250827T152612Z_n1": {
+    "label": "S22?",
+    "note": "",
+    "t": "2026-07-12T22:00:30.085Z"
+  },
+  "orcasound_lab_20250904T234012Z_n1": {
+    "label": "",
+    "note": "Can hear echolocation very clearly but the call is too faint",
+    "t": "2026-07-12T22:01:10.661Z"
+  },
+  "orcasound_lab_20250910T004627Z_n16": {
+    "label": "S36",
+    "note": "",
+    "t": "2026-07-12T22:01:53.710Z"
+  },
+  "orcasound_lab_20250910T004855Z_n5": {
+    "label": "S02i or S02ii",
+    "note": "",
+    "t": "2026-07-12T22:03:26.281Z"
+  },
+  "orcasound_lab_20250910T005301Z_n9": {
+    "label": "S01",
+    "note": "",
+    "t": "2026-07-12T22:04:01.901Z"
+  },
+  "orcasound_lab_20250910T010315Z_n3": {
+    "label": "",
+    "note": "Can't tell",
+    "t": "2026-07-12T22:04:36.401Z"
+  },
+  "orcasound_lab_20250910T011755Z_n2": {
+    "label": "S01",
+    "note": "",
+    "t": "2026-07-12T22:05:28.927Z"
+  },
+  "orcasound_lab_20250922T024900Z_n2": {
+    "label": "S01",
+    "note": "",
+    "t": "2026-07-12T22:05:37.589Z"
+  },
+  "orcasound_lab_20250922T025530Z_n2": {
+    "label": "S17?",
+    "note": "",
+    "t": "2026-07-12T22:07:30.648Z"
+  },
+  "orcasound_lab_20250922T025904Z_n6": {
+    "label": "S01",
+    "note": "",
+    "t": "2026-07-12T22:07:41.069Z"
+  },
+  "orcasound_lab_20250922T030036Z_n3": {
+    "label": "S01",
+    "note": "",
+    "t": "2026-07-12T22:07:47.651Z"
+  },
+  "orcasound_lab_20250922T030550Z_n6": {
+    "label": "S01",
+    "note": "",
+    "t": "2026-07-12T22:07:53.187Z"
+  },
+  "orcasound_lab_20250924T061058Z_n14": {
+    "label": "S01",
+    "note": "",
+    "t": "2026-07-12T22:08:02.114Z"
+  }
+}

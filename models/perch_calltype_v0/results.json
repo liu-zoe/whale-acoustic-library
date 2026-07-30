@@ -1,0 +1,37 @@
+{
+  "n_clips": 50,
+  "n_certain": 31,
+  "n_uncertain": 8,
+  "n_unk": 11,
+  "schemes": {
+    "A_S01_vs_not": {
+      "acc": 0.7857142857142857,
+      "n": 42,
+      "class_counts": {
+        "S01": 18,
+        "not-S01": 24
+      }
+    },
+    "B_head_vs_other": {
+      "acc": 0.7096774193548387,
+      "n": 31,
+      "class_counts": {
+        "S01": 18,
+        "S44": 3,
+        "other-known": 8,
+        "S17": 2
+      }
+    },
+    "C_head_vs_tail_vs_unk": {
+      "acc": 0.5714285714285714,
+      "n": 42,
+      "class_counts": {
+        "S01": 18,
+        "S44": 3,
+        "known-tail": 8,
+        "S17": 2,
+        "unk": 11
+      }
+    }
+  }
+}
