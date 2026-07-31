@@ -1043,8 +1043,16 @@ labels) require user confirmation before being acted on.
   Code session end. Per-day failures already skip forward in
   `run_batch.py`; the shell script's per-batch loop doesn't `set -e`
   so a batch-level failure doesn't stop the chain.
-- Estimated wall time: ~10-15 days total (prior Q3 Lab runs suggest
-  1.5-2 days per 92-day batch). Runs quietly in background.
+- Estimated wall time (INITIAL, WRONG): ~10-15 days total, from an
+  extrapolation of prior Q3 Lab runs. Corrected 2026-07-31 after
+  observing actual Q4 Lab pace: **~5 hours of compute per audio-day**,
+  so ~19-20 days per 92-day batch, so **~3-4 months for the full
+  7-batch chain**. Original error: read D-023's "94.2 h" as compute
+  time when it was audio-hours-processed. The chain is CPU-bound on
+  the per-day Perch + Multispecies + OrcaHello inference per 60 s
+  chunk (~1439 chunks/day at Orcasound), and the smoke test's
+  8-chunks-in-3-min ratio scales linearly. No fix; the chain is
+  autonomous and cheap-per-day, it just takes longer than expected.
 - Disposition:
   - **Ship code changes and the runner script now** as part of the
     b) + c) commit sequence (v0.2 tag).

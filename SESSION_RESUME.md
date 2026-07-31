@@ -167,7 +167,9 @@ survives Claude Code session end.
   5. `pt_q4`   — Port Townsend, Q4
   6. `sb_q3`   — Sunset Bay, Q3     (southern Salish Sea)
   7. `sb_q4`   — Sunset Bay, Q4
-- Total estimated wall time: 10-15 days.
+- Total estimated wall time: **~3-4 months** (revised 2026-07-31 after
+  observing Q4 Lab's actual ~5-hour-per-audio-day pace; my initial
+  "10-15 days" estimate was wrong by ~10×).
 - Non-Lab clips run in shadow mode (`cross_node_unvalidated=1` in DB) —
   S01 classifier still fires and predictions are stored, but hidden from
   the site until per-node validation labels exist.
