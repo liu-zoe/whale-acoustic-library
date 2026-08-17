@@ -1082,3 +1082,21 @@ labels) require user confirmation before being acted on.
   `clip_id` now starts with the node label. Bug is exactly the class of
   regression the smoke-test-before-full-run pattern is designed to
   catch.
+
+- **BP Q3 OOM crash (2026-08-17)** — the bp_q3 batch was SIGKILL'd
+  (exit 137) at 02:20 while processing 2025-07-22 at Bush Point. That
+  day was extraordinary: OrcaHello scored **1142 positive segments →
+  481 detection events**, an order of magnitude more than any prior
+  day in the corpus. The Multispecies + Perch annotation stage held
+  all 481 events in memory alongside their per-clip windows, and the
+  machine ran out of memory. The chain's per-batch fault-tolerance
+  design (no `set -e` in `bin/run_expansion.sh`) worked correctly —
+  bp_q3 died, bp_q4 kicked off 16 min later and is running normally.
+  **Damage: 71 days lost** (07-22..09-30 at Bush Point, including
+  peak SRKW season). Recovery: `bin/bp_q3_fillin.sh` written to
+  reprocess those 71 days; run after the main chain completes.
+  Also uncovered: current pipeline assumes per-day event counts
+  stay bounded — a chunkable clip-materialization phase would prevent
+  this failure mode on future high-volume days. Not fixing now (adds
+  complexity, only bites at extreme-outlier volume), but documented
+  as a known risk.
