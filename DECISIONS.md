@@ -1091,12 +1091,27 @@ labels) require user confirmation before being acted on.
   all 481 events in memory alongside their per-clip windows, and the
   machine ran out of memory. The chain's per-batch fault-tolerance
   design (no `set -e` in `bin/run_expansion.sh`) worked correctly —
-  bp_q3 died, bp_q4 kicked off 16 min later and is running normally.
-  **Damage: 71 days lost** (07-22..09-30 at Bush Point, including
-  peak SRKW season). Recovery: `bin/bp_q3_fillin.sh` written to
-  reprocess those 71 days; run after the main chain completes.
-  Also uncovered: current pipeline assumes per-day event counts
-  stay bounded — a chunkable clip-materialization phase would prevent
-  this failure mode on future high-volume days. Not fixing now (adds
-  complexity, only bites at extreme-outlier volume), but documented
-  as a known risk.
+  bp_q3 died, bp_q4 kicked off 16 min later and ran until it too
+  crashed (see next bullet). **Damage: 71 days lost** (07-22..09-30
+  at Bush Point, peak SRKW season). Recovery: `bin/bp_q3_fillin.sh`.
+- **BP Q4 OOM crash (2026-08-18)** — same failure mode, this time on
+  2025-10-12 (day 12 of 92): **386 positive segments → 257 detection
+  events**. Killed at 22:06; pt_q3 kicked off 14 min later per chain
+  design. **Damage: 80 days lost** (10-12..12-31 at Bush Point).
+  Recovery: `bin/bp_q4_fillin.sh`.
+- **Pattern is now clear.** Bush Point produces >250 detection
+  events on burst days with markedly higher frequency than Orcasound
+  Lab. Both BP batches died on the first such day they hit (BP Q3's
+  first was day 22 with 481 events; BP Q4's first was day 12 with
+  257 events). Orcasound Lab produced no >250-event days across
+  184 audio-days processed, so this is a Bush-Point-specific issue
+  driven by higher local activity (K/L pod corridor + vessel traffic).
+  Port Townsend and Sunset Bay will likely also hit this — they sit
+  on similar corridors. Expect fill-ins for those nodes too if their
+  batches die.
+- **Real fix deferred:** the pipeline needs chunked clip-materialization
+  + annotation (process events in batches of ~50 clips, flushing to DB
+  and freeing memory between chunks). Not implementing now because the
+  chain plus fill-ins is achieving the goal (all data eventually gets
+  processed via retries). But a v0.3 or v0.4 iteration should include
+  it.

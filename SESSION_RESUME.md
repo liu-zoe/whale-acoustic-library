@@ -184,25 +184,38 @@ tail -f logs/expansion.out            # follow the chain's own log
 pgrep -af "run_batch|run_expansion"   # confirm the chain is still alive
 ```
 
-### KNOWN INCIDENT: BP Q3 fill-in owed (2026-08-17)
-The bp_q3 batch was OOM-killed on day 22 (2025-07-22) — that day had
-1142 OrcaHello positive segments (10× normal) → 481 detection events
-that overflowed memory during clip materialization. Chain correctly
-skipped to bp_q4 (no `set -e`). **71 days need to be re-processed.**
+### KNOWN INCIDENTS: two BP fill-ins owed (2026-08-17 and 2026-08-18)
+Both Bush Point batches OOM-crashed on the first high-volume day they
+hit. See D-045 for full analysis. **Total 151 days need reprocessing.**
 
-When the current chain finishes (after sb_q4 completes):
+- **BP Q3** killed on 2025-07-22 (481 events). **71 days lost** (07-22..09-30).
+- **BP Q4** killed on 2025-10-12 (257 events). **80 days lost** (10-12..12-31).
+
+Fill-in scripts written; launch in sequence after main chain (memory
+constraint — one pipeline at a time):
 ```
-# Verify no run_batch.py is running (must be free of concurrent load):
+# Verify no run_batch.py is running:
 pgrep -af run_batch.py || echo "safe to launch"
 
-# Launch the fill-in (~15 days of compute at BP's pace):
+# BP Q3 fill-in first (~15 days of compute at BP pace):
 nohup bash bin/bp_q3_fillin.sh > logs/bp_q3_fillin.out 2>&1 &
+disown
+# WAIT for it to finish before launching next:
+wait
+
+# Then BP Q4 fill-in (~17 days at BP pace):
+nohup bash bin/bp_q4_fillin.sh > logs/bp_q4_fillin.out 2>&1 &
 disown
 ```
 
-The fill-in reprocesses 2025-07-22..2025-09-30 at Bush Point. INSERT OR
-REPLACE means any partial 07-22 rows get cleanly overwritten. See D-045
-"BP Q3 OOM crash" entry for details.
+**These fill-ins can OOM AGAIN** on the same big-activity days. If
+exit=137: check last "day complete" line in the fill-in log, then
+relaunch with `--start` bumped to the DAY AFTER the crash.
+
+Watch for **similar OOM on PT Q3, PT Q4, SB Q3, SB Q4** — Port
+Townsend and Sunset Bay sit on comparable K/L pod corridors and may
+hit the same failure mode. If they do, fill-in scripts follow the
+same pattern (write more via `bin/*_fillin.sh` templates).
 
 ### If the chain died (machine reboot, OOM kill, etc.) — how to resume
 ```
